@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="float numbers ranges">
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/numbers/FloatingPointRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/primitive_data_types/FloatingPointRanges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/numbers/IntegerRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/primitive_data_types/IntegerRanges.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="refactoring package name">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/primitive_data_types/ConditionalExpressions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +36,23 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FloatingPointRanges">
+  <component name="RunManager" selected="Application.ConditionalExpressions">
     <configuration name="Calculator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.Calculator1" />
       <module name="Calculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConditionalExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.primitive_data_types.ConditionalExpressions" />
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.primitive_data_types.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConditionalExpressions" />
         <item itemvalue="Application.FloatingPointRanges" />
         <item itemvalue="Application.IntegerRanges" />
         <item itemvalue="Application.Calculator1" />
@@ -215,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678302374940</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="refactoring package name">
+      <created>1678302521849</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678302521849</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +268,8 @@
     <MESSAGE value="ranges of int numbers explained - basic rules" />
     <MESSAGE value="ranges of float numbers explained" />
     <MESSAGE value="float numbers ranges" />
-    <option name="LAST_COMMIT_MESSAGE" value="float numbers ranges" />
+    <MESSAGE value="refactoring package name" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring package name" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Calculator$Calculator1.ic" NAME="Calculator1 Coverage Results" MODIFIED="1678128764586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
