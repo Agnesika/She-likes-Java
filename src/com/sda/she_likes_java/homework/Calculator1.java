@@ -20,6 +20,7 @@ public class Calculator1 {
         System.out.println("You provided number: " + secondNumber);
         int sum = firstNumber + secondNumber;
         System.out.println("Sum is: " + sum);
+        System.out.println("....................");
 
 
         System.out.println("calculating subtraction of two numbers");
@@ -34,6 +35,8 @@ public class Calculator1 {
         System.out.println("You provided number: " + fourthNumber);
         int result = thirdNumber - fourthNumber;
         System.out.println("Subtraction is: " + result);
+
+
 
 
 
