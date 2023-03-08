@@ -51,7 +51,7 @@ public class Calculator1 {
         System.out.println("division is: " + multiplication);
 
 
-        System.out.println("calculating division of two numbers");
+        System.out.println("\ncalculating division of two numbers");
         System.out.println("provide first number");
 
 
