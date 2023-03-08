@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="ranges of int numbers explained">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/numbers/IntegerRanges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/Calculator1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/Calculator1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678298226074</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ranges of int numbers explained">
+      <created>1678300633172</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678300633172</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
