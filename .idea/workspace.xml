@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="refactoring package name">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/primitive_data_types/ConditionalExpressions.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="conditional statement - first example">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/primitive_data_types/ConditionalExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/primitive_data_types/ConditionalExpressions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678302521849</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="conditional statement - first example">
+      <created>1678303079601</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678303079601</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +277,8 @@
     <MESSAGE value="ranges of float numbers explained" />
     <MESSAGE value="float numbers ranges" />
     <MESSAGE value="refactoring package name" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring package name" />
+    <MESSAGE value="conditional statement - first example" />
+    <option name="LAST_COMMIT_MESSAGE" value="conditional statement - first example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Calculator$Calculator1.ic" NAME="Calculator1 Coverage Results" MODIFIED="1678128764586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
