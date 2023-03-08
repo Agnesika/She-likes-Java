@@ -17,5 +17,21 @@ public class Calculator1 {
         System.out.println("You provided number: " + secondNumber);
         int sum = firstNumber + secondNumber;
         System.out.println("Sum is: " + sum);
+
+        System.out.println("calculating subtraction of two numbers");
+        System.out.println("provide first number");
+        int thirdNumber;
+        int fourthNumber;
+
+        thirdNumber = inputReader.nextInt();
+        System.out.println("You provided number: " + thirdNumber);
+        System.out.println("Provide second number: ");
+        fourthNumber = inputReader.nextInt();
+        System.out.println("You provided number: " + fourthNumber);
+        int result = thirdNumber - fourthNumber;
+        System.out.println("Subtraction is: " + result);
+
+
+
     }
 }

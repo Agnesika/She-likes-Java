@@ -11,10 +11,10 @@ public class Main {
         int product = 5 * 8;
         System.out.println("Product of 5 and 8 is: " + product);
 
-        double quotient = 5.0/8.5;
-        System.out.println("Quotient of 5.0 and 8.5 is: " + quotient);
+        double division = 5.0/8.5;
+        System.out.println("Division of 5.0 and 8.5 is: " + division);
 
-        System.out.println("Reminder");
+        System.out.println("Remainder");
         int result = 9/4;
         System.out.println("result is: " + result);
 
