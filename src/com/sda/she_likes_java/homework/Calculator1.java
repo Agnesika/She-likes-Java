@@ -1,3 +1,6 @@
+// packages use reverse domain names
+package com.sda.she_likes_java.homework;
+
 import java.util.Scanner;
 
 public class Calculator1 {
@@ -17,6 +20,7 @@ public class Calculator1 {
         System.out.println("You provided number: " + secondNumber);
         int sum = firstNumber + secondNumber;
         System.out.println("Sum is: " + sum);
+
 
         System.out.println("calculating subtraction of two numbers");
         System.out.println("provide first number");
