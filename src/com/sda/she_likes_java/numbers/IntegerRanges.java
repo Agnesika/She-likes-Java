@@ -1,5 +1,7 @@
 package com.sda.she_likes_java.numbers;
 
+// names of the class should start with the capital letter - always
+// names of the variable should start with lower case letter :)
 public class IntegerRanges {
     public static void main(String[] args) {
         System.out.println("Let's see how integers ranges looks like");
