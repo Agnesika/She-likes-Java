@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="packages introduced">
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="added separator">
       <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/Calculator1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/Calculator1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678296269320</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added separator">
+      <created>1678297103792</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678297103792</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +169,8 @@
     <MESSAGE value="calculator - sum implemented" />
     <MESSAGE value="calculator - subtraction implemented" />
     <MESSAGE value="packages introduced" />
-    <option name="LAST_COMMIT_MESSAGE" value="packages introduced" />
+    <MESSAGE value="added separator" />
+    <option name="LAST_COMMIT_MESSAGE" value="added separator" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Calculator$Calculator1.ic" NAME="Calculator1 Coverage Results" MODIFIED="1678128764586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
