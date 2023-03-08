@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="ranges of float numbers explained">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/numbers/FloatingPointRanges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="float numbers ranges">
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/numbers/FloatingPointRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/primitive_data_types/FloatingPointRanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/numbers/IntegerRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/primitive_data_types/IntegerRanges.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +46,11 @@
       </method>
     </configuration>
     <configuration name="FloatingPointRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.numbers.FloatingPointRanges" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.primitive_data_types.FloatingPointRanges" />
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.numbers.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.primitive_data_types.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,11 +59,11 @@
       </method>
     </configuration>
     <configuration name="IntegerRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.numbers.IntegerRanges" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.primitive_data_types.IntegerRanges" />
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.numbers.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.primitive_data_types.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678301919334</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ranges of float numbers explained">
+      <created>1678302093654</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678302093654</updated>
+    </task>
+    <task id="LOCAL-00017" summary="float numbers ranges">
+      <created>1678302374940</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678302374940</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +247,8 @@
     <MESSAGE value="ranges of int numbers explained - small changes" />
     <MESSAGE value="ranges of int numbers explained - basic rules" />
     <MESSAGE value="ranges of float numbers explained" />
-    <option name="LAST_COMMIT_MESSAGE" value="ranges of float numbers explained" />
+    <MESSAGE value="float numbers ranges" />
+    <option name="LAST_COMMIT_MESSAGE" value="float numbers ranges" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Calculator$Calculator1.ic" NAME="Calculator1 Coverage Results" MODIFIED="1678128764586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
