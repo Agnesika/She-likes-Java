@@ -37,7 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ConditionalExpressions">
+  <component name="RunManager" selected="Application.Calculator1">
     <configuration name="Calculator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.Calculator1" />
       <module name="Calculator" />
@@ -93,10 +93,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator1" />
         <item itemvalue="Application.ConditionalExpressions" />
         <item itemvalue="Application.FloatingPointRanges" />
         <item itemvalue="Application.IntegerRanges" />
-        <item itemvalue="Application.Calculator1" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

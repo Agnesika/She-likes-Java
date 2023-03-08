@@ -37,6 +37,7 @@ public class Calculator1 {
         System.out.println("Subtraction is: " + result);
         System.out.println();
 
+
         System.out.println("calculating multiplication of two numbers");
         System.out.println("provide first number");
         int fifthNumber;
@@ -51,9 +52,8 @@ public class Calculator1 {
         System.out.println("division is: " + multiplication);
 
 
-        System.out.println("calculating division of two numbers");
+        System.out.println("\ncalculating division of two numbers");
         System.out.println("provide first number");
-
 
         fifthNumber = inputReader.nextInt();
         System.out.println("You provided number: " + fifthNumber);
