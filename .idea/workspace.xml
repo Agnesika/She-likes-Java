@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="code reformatted">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerV2.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="The name issue corrected">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +299,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678467292249</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Homework improved, correct sequence">
+      <created>1678471477598</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1678471477598</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Disco bouncer version 2">
+      <created>1678471513686</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1678471513686</updated>
+    </task>
+    <task id="LOCAL-00029" summary="The name issue corrected">
+      <created>1678472292675</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1678472292675</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,9 +335,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created calculator" />
-    <MESSAGE value="Adding remainder" />
-    <MESSAGE value="Git ignore file update" />
     <MESSAGE value="Little update to gitignore file" />
     <MESSAGE value="Little update to gitignore file back to previous version" />
     <MESSAGE value="adding new file" />
@@ -340,7 +357,10 @@
     <MESSAGE value="Made Calculator project tidier" />
     <MESSAGE value="Created the disco bouncer" />
     <MESSAGE value="code reformatted" />
-    <option name="LAST_COMMIT_MESSAGE" value="code reformatted" />
+    <MESSAGE value="Homework improved, correct sequence" />
+    <MESSAGE value="Disco bouncer version 2" />
+    <MESSAGE value="The name issue corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="The name issue corrected" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Calculator$Calculator1.ic" NAME="Calculator1 Coverage Results" MODIFIED="1678128764586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
