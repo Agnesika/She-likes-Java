@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Made Calculator project tidier">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncer.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="code reformatted">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.DiscoBouncer">
@@ -71,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloatingPointRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.primitive_data_types.FloatingPointRanges" />
+    <configuration name="DiscoBouncerV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.DiscoBouncerV2" />
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.primitive_data_types.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.primitive_data_types.IntegerRanges" />
+    <configuration name="FloatingPointRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.primitive_data_types.FloatingPointRanges" />
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
@@ -100,10 +102,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DiscoBouncer" />
+        <item itemvalue="Application.DiscoBouncerV2" />
         <item itemvalue="Application.ConditionalExpressions" />
         <item itemvalue="Application.Calculator1" />
         <item itemvalue="Application.FloatingPointRanges" />
-        <item itemvalue="Application.IntegerRanges" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +286,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678460911990</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Created the disco bouncer">
+      <created>1678467029382</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678467029396</updated>
+    </task>
+    <task id="LOCAL-00026" summary="code reformatted">
+      <created>1678467292249</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678467292249</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,7 +338,9 @@
     <MESSAGE value="conditional statement - example with dynamic boolean expression" />
     <MESSAGE value="added various separators" />
     <MESSAGE value="Made Calculator project tidier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made Calculator project tidier" />
+    <MESSAGE value="Created the disco bouncer" />
+    <MESSAGE value="code reformatted" />
+    <option name="LAST_COMMIT_MESSAGE" value="code reformatted" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Calculator$Calculator1.ic" NAME="Calculator1 Coverage Results" MODIFIED="1678128764586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
