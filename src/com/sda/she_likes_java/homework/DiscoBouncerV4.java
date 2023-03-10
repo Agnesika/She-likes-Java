@@ -2,8 +2,7 @@ package com.sda.she_likes_java.homework;
 
 import java.util.Scanner;
 
-public class DiscoBouncerV4 {
-
+public class BouncerInDiscoVersion4 {
     public static void main(String[] args) {
         System.out.println("Party time???");
 
@@ -18,10 +17,9 @@ public class DiscoBouncerV4 {
         boolean isAllowedToParty = age >= 18 && height >= 200;
 
         if (!isAllowedToParty) {
-            System.out.println("Have a great time at party!!!");
-        } else {
             System.out.println(declineMessage);
+        } else {
+            System.out.println("Have a great time at party!!!");
         }
     }
 }
-
