@@ -29,5 +29,25 @@ public class Operators {
         secondValue = false;
         evaluationResult = firstValue && secondValue;
         System.out.println("false && false: " + evaluationResult);
+
+        System.out.println();
+        System.out.println("Let's test negation operator");
+        firstValue = false;
+        secondValue = !firstValue;
+        System.out.println("!false is: " + secondValue);
+
+        firstValue = true;
+        secondValue = !firstValue;
+        System.out.println("!true is: " + secondValue);
+
+        boolean polite = false;
+        if (!polite) {
+            System.out.println("You're not polite, or just naughty");
+        }
+
+        boolean naughty = true;
+        if (naughty) {
+            System.out.println("You're not polite, or just naughty");
+        }
     }
 }
