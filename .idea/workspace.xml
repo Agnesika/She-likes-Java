@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="conditional statement - first example">
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Made Calculator project tidier">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/primitive_data_types/ConditionalExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/primitive_data_types/ConditionalExpressions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Calculator1">
+  <component name="RunManager" selected="Application.DiscoBouncer">
     <configuration name="Calculator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.Calculator1" />
       <module name="Calculator" />
@@ -51,6 +51,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sda.she_likes_java.primitive_data_types.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoBouncer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.DiscoBouncer" />
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,20 +97,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.Main" />
-      <module name="Calculator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Calculator1" />
+        <item itemvalue="Application.DiscoBouncer" />
         <item itemvalue="Application.ConditionalExpressions" />
+        <item itemvalue="Application.Calculator1" />
         <item itemvalue="Application.FloatingPointRanges" />
         <item itemvalue="Application.IntegerRanges" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +249,42 @@
       <option name="project" value="LOCAL" />
       <updated>1678303079601</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="conditional statement - example with dynamic boolean expression">
+      <created>1678303978991</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678303978991</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added various separators">
+      <created>1678304152722</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1678304152722</updated>
+    </task>
+    <task id="LOCAL-00022" summary="added various separators">
+      <created>1678304183101</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678304183101</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added various separators">
+      <created>1678304195821</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1678304195821</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Made Calculator project tidier">
+      <created>1678460911990</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678460911990</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,7 +319,10 @@
     <MESSAGE value="float numbers ranges" />
     <MESSAGE value="refactoring package name" />
     <MESSAGE value="conditional statement - first example" />
-    <option name="LAST_COMMIT_MESSAGE" value="conditional statement - first example" />
+    <MESSAGE value="conditional statement - example with dynamic boolean expression" />
+    <MESSAGE value="added various separators" />
+    <MESSAGE value="Made Calculator project tidier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made Calculator project tidier" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Calculator$Calculator1.ic" NAME="Calculator1 Coverage Results" MODIFIED="1678128764586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
