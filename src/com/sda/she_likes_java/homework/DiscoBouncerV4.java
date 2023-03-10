@@ -2,7 +2,7 @@ package com.sda.she_likes_java.homework;
 
 import java.util.Scanner;
 
-public class BouncerInDiscoVersion4 {
+public class DiscoBouncerV4 {
     public static void main(String[] args) {
         System.out.println("Party time???");
 
