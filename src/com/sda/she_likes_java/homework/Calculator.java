@@ -3,7 +3,7 @@ package com.sda.she_likes_java.homework;
 
 import java.util.Scanner;
 
-public class Calculator1 {
+public class Calculator {
     // psvm - not so magic shortcut
     public static void main(String[] args) {
         System.out.println("calculator....");
