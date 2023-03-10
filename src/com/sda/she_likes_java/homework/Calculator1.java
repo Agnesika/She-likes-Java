@@ -25,46 +25,36 @@ public class Calculator1 {
 
         System.out.println("calculating subtraction of two numbers");
         System.out.println("provide first number");
-        int thirdNumber;
-        int fourthNumber;
-
-        thirdNumber = inputReader.nextInt();
-        System.out.println("You provided number: " + thirdNumber);
+        firstNumber = inputReader.nextInt();
+        System.out.println("You provided number: " + firstNumber);
         System.out.println("Provide second number: ");
-        fourthNumber = inputReader.nextInt();
-        System.out.println("You provided number: " + fourthNumber);
-        int result = thirdNumber - fourthNumber;
+        secondNumber = inputReader.nextInt();
+        System.out.println("You provided number: " + secondNumber);
+        int result = firstNumber - secondNumber;
         System.out.println("Subtraction is: " + result);
         System.out.println();
 
 
         System.out.println("calculating multiplication of two numbers");
         System.out.println("provide first number");
-        int fifthNumber;
-        int sixthNumber;
-
-        fifthNumber = inputReader.nextInt();
-        System.out.println("You provided number: " + fifthNumber);
+        firstNumber = inputReader.nextInt();
+        System.out.println("You provided number: " + firstNumber);
         System.out.println("Provide second number: ");
-        sixthNumber = inputReader.nextInt();
-        System.out.println("You provided number: " + sixthNumber);
-        int multiplication = fifthNumber * sixthNumber;
+        secondNumber = inputReader.nextInt();
+        System.out.println("You provided number: " + secondNumber);
+        int multiplication = firstNumber * secondNumber;
         System.out.println("division is: " + multiplication);
 
 
         System.out.println("\ncalculating division of two numbers");
         System.out.println("provide first number");
-
-        fifthNumber = inputReader.nextInt();
-        System.out.println("You provided number: " + fifthNumber);
+        firstNumber = inputReader.nextInt();
+        System.out.println("You provided number: " + firstNumber);
         System.out.println("Provide second number: ");
-        sixthNumber = inputReader.nextInt();
-        System.out.println("You provided number: " + sixthNumber);
-        double resultDivision = fifthNumber / sixthNumber;
+        secondNumber = inputReader.nextInt();
+        System.out.println("You provided number: " + secondNumber);
+        double resultDivision = firstNumber / secondNumber;
         System.out.println("division is: " + resultDivision);
-
-
-
 
     }
 }
