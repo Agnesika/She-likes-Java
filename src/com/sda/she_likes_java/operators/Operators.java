@@ -45,6 +45,7 @@ public class Operators {
             System.out.println("You're not polite, or just naughty");
         }
 
+
         boolean naughty = true;
         if (naughty) {
             System.out.println("You're not polite, or just naughty");
