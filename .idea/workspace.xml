@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Corrected mistakes">
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Adding various loops">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/loops/WhileLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +43,7 @@
       <recent name="com.sda.she_likes_java.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiscoBouncerUpgraded">
+  <component name="RunManager" selected="Application.WhileLoop">
     <configuration name="ConditionalExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.primitive_data_types.ConditionalExpressions" />
       <module name="JavaCourse" />
@@ -95,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.operators.Operators" />
+    <configuration name="WhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.loops.WhileLoop" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.operators.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WhileLoop" />
         <item itemvalue="Application.DiscoBouncerUpgraded" />
         <item itemvalue="Application.DiscoBouncerUpgradeNew" />
         <item itemvalue="Application.ConditionalExpressions" />
         <item itemvalue="Application.DiscoBouncerV3" />
-        <item itemvalue="Application.Operators" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678727484408</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="2 new packages created">
+      <created>1678727958629</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1678727958629</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -471,8 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made Calculator project tidier" />
-    <MESSAGE value="Created the disco bouncer" />
     <MESSAGE value="code reformatted" />
     <MESSAGE value="Homework improved, correct sequence" />
     <MESSAGE value="Disco bouncer version 2" />
@@ -496,7 +502,9 @@
     <MESSAGE value="Added new file for Disco Bouncer upgraded" />
     <MESSAGE value="Created new file for upgraded Disco Bouncer" />
     <MESSAGE value="Corrected mistakes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected mistakes" />
+    <MESSAGE value="2 new packages created" />
+    <MESSAGE value="Adding various loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding various loops" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
