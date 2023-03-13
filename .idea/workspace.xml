@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Created new file for upgraded Disco Bouncer">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/BouncersInDiscoStory.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Corrected mistakes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerUpgraded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerUpgraded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerV5Doubles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerV5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -452,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678725000948</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Corrected mistakes">
+      <created>1678727484408</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1678727484408</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,7 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added various separators" />
     <MESSAGE value="Made Calculator project tidier" />
     <MESSAGE value="Created the disco bouncer" />
     <MESSAGE value="code reformatted" />
@@ -492,7 +495,8 @@
     <MESSAGE value="Decimal numbers and regional settings explained" />
     <MESSAGE value="Added new file for Disco Bouncer upgraded" />
     <MESSAGE value="Created new file for upgraded Disco Bouncer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created new file for upgraded Disco Bouncer" />
+    <MESSAGE value="Corrected mistakes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected mistakes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
