@@ -9,44 +9,23 @@ public class DiscoBouncerUpgraded {
         System.out.println("Tell me how old are You");
         String declineMessage = "Sorry, you don't comply with the rules for youngsters :)";
 
-        int personAge = inputReader.nextInt();
+        int age = inputReader.nextInt();
         System.out.println("We need to know your height too!");
         System.out.println("Tell me how tall are You?");
 
-        double personHeight = inputReader.nextDouble();
+        double height = inputReader.nextInt();
 
+        System.out.println();
 
-                System.out.println();
+        boolean isAllowedToParty = age >= 18 && age <= 30 && height <= 1.5;
 
-        if (personHeight <= 1.5) {
+        if (isAllowedToParty) {
             System.out.println("Yeah. Welcome to the club of singing liliputs!");
-        } else {
-            System.out.println("Sorry, this time we will miss you :(");
-        }
-
-
-        if (personAge >=16 && personAge <=30 && personHeight <= 1.5) {
-
-            boolean isAllowedParty = true;
-            if (isAllowedParty) {
-                System.out.println("We are happy to see and hear you today");
-            } else {
-                System.out.println(declineMessage);
-            }
-
+            System.out.println("We are happy to see and hear you today");
         } else {
             System.out.println("declineMessage");
         }
 
-        String singingSkills = inputReader.next();
-
-        System.out.println("Let's see weather you can sing or not");
-        System.out.println("Can you sing an opera?");
-        boolean canSing = true;
-        boolean onlyLullaby = false;
-        boolean singer = canSing || onlyLullaby;
-        System.out.println("true || false is: " + singer);
-
-
     }
 }
+
