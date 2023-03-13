@@ -11,6 +11,6 @@ public class FlorinasWhileIGrow {
 //          ageOfTheKid= ageOfTheKid + 1;
             ageOfTheKid++;
         }
-        System.out.println("I am " + ageOfTheKid + " years old, Mama: yes, go!");
+        System.out.println("I am " + ageOfTheKid + " years old. Mama: yes, go!");
     }
 }
