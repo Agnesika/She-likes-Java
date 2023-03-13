@@ -15,19 +15,5 @@ public class WhileIGrow {
 
         System.out.println("Go to party!!!");
 
-
-
-        // another version of the code By Florina
-            int ageOfTheKid = 1;
-
-            while (ageOfTheKid<18){
-                System.out.println("Can I go to disco, I am " + ageOfTheKid + " year old");
-                System.out.println("-No");
-
-//          ageOfTheKid= ageOfTheKid + 1;
-                ageOfTheKid++;
-            }
-            System.out.println("I am " + ageOfTheKid + " years old, Mama: yes, go!");
         }
     }
-}
