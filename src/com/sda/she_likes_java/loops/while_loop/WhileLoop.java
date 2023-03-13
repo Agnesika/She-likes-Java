@@ -22,10 +22,12 @@ public class WhileLoop {
             numberOfTrials = (numberOfTrials - 1);
             if (numberOfTrials % 2 == 0) { // with 0 at the end prints even numbers, with 1 = odd numbers
                 System.out.println("Current value of numberOfTrials: " + numberOfTrials);
+                // And for the lady that asked about modulo:  the number of trials % 2 == 1 means if you divide the current (updated) number of trials to 2 and you have a remainder (for example 5/2 = 2 remainder 1) it will display the current (updated) number of trials
+                // which will be uneven
             }
         }
 
-        System.out.println ("The End.");
+        System.out.println("The End.");
     }
 
 }
