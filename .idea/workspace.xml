@@ -96,11 +96,11 @@
       </method>
     </configuration>
     <configuration name="WhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.loops.WhileLoop" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.loops.while_loop.WhileLoop" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.loops.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.loops.while_loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
