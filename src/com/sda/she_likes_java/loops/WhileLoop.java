@@ -20,12 +20,12 @@ public class WhileLoop {
             System.out.println("I'm working");
             // first right part of the expression is evaluated and is assigned to variable
             numberOfTrials = (numberOfTrials - 1);
-            if (numberOfTrials % 2 == 1) {
+            if (numberOfTrials % 2 == 0) { // with 0 at the end prints even numbers, with 1 = odd numbers
                 System.out.println("Current value of numberOfTrials: " + numberOfTrials);
             }
         }
 
-        System.out.println("The End.");
+        System.out.println ("The End.");
     }
 
 }
