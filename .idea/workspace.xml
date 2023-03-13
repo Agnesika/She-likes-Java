@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Adding various loops">
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/loops/WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/loops/WhileLoop.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Adding some more comments">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/loops/while_loop/WhileIGrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
       <recent name="com.sda.she_likes_java.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WhileLoop">
+  <component name="RunManager" selected="Application.WhileIGrow">
     <configuration name="ConditionalExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.primitive_data_types.ConditionalExpressions" />
       <module name="JavaCourse" />
@@ -82,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscoBouncerV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.DiscoBouncerV3" />
+    <configuration name="WhileIGrow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.loops.while_loop.WhileIGrow" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.loops.while_loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WhileIGrow" />
         <item itemvalue="Application.WhileLoop" />
         <item itemvalue="Application.DiscoBouncerUpgraded" />
         <item itemvalue="Application.DiscoBouncerUpgradeNew" />
         <item itemvalue="Application.ConditionalExpressions" />
-        <item itemvalue="Application.DiscoBouncerV3" />
       </list>
     </recent_temporary>
   </component>
@@ -126,27 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Created calculator">
-      <created>1678122242137</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1678122242137</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Adding remainder">
-      <created>1678122275252</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1678122275252</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Git ignore file update">
-      <created>1678122867111</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1678122867111</updated>
     </task>
     <task id="LOCAL-00004" summary="Little update to gitignore file">
       <created>1678123444432</created>
@@ -470,7 +450,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678729588209</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Adding some comments">
+      <created>1678730612771</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1678730612772</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Changing class location">
+      <created>1678730695954</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1678730695954</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Adding some more comments">
+      <created>1678731002742</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1678731002742</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -485,9 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="code reformatted" />
-    <MESSAGE value="Homework improved, correct sequence" />
-    <MESSAGE value="Disco bouncer version 2" />
     <MESSAGE value="The name issue corrected" />
     <MESSAGE value="DiscoBouncerV3 created" />
     <MESSAGE value="Added evaluationResult opertor" />
@@ -510,7 +508,10 @@
     <MESSAGE value="Corrected mistakes" />
     <MESSAGE value="2 new packages created" />
     <MESSAGE value="Adding various loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding various loops" />
+    <MESSAGE value="Adding some comments" />
+    <MESSAGE value="Changing class location" />
+    <MESSAGE value="Adding some more comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some more comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
