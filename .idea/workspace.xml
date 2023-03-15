@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Guess the number game with do/while">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/loops/while_loop/GuessTheNumberGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Game set into while loop">
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/loops/while_loop/GuessTheNumberGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/loops/while_loop/GuessTheNumberGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Made Calculator project tidier">
-      <created>1678460911990</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1678460911990</updated>
     </task>
     <task id="LOCAL-00025" summary="Created the disco bouncer">
       <created>1678467029382</created>
@@ -472,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678906631592</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Game set into while loop">
+      <created>1678907613258</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1678907613258</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -487,7 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Corrected mistakes" />
     <MESSAGE value="2 new packages created" />
     <MESSAGE value="Adding various loops" />
     <MESSAGE value="Adding some comments" />
@@ -512,7 +510,8 @@
     <MESSAGE value="Added more detailed if about below 0" />
     <MESSAGE value="Topped up conditionals - if/else branching and changed the name" />
     <MESSAGE value="Guess the number game with do/while" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guess the number game with do/while" />
+    <MESSAGE value="Game set into while loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game set into while loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
