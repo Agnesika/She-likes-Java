@@ -28,35 +28,35 @@ public class DiscoBouncerWithFunctions {
             System.out.println("Sorry, you are not allowed");
         }
         System.out.println("But I really want to party");
-
-
-    }
-
-    public static void checkedByOldBouncer;
-System.out.println("I gonna go to the second bouncer");
+        System.out.println("I gonna go to the second bouncer");
         System.out.println("We need some information from you");
-    Scanner inputReader = new Scanner(System.in);
+
         System.out.println("Tell me how old are You");
-    int age = inputReader.nextInt();
+        age = inputReader.nextInt();
 
         System.out.println("And what is your height?");
-    double height = inputReader.nextDouble();
+        height = inputReader.nextDouble();
 
         System.out.println("Can You sing well? ");
-    int isAbleToSingWell = inputReader.nextBoolean();
+        isAbleToSingWell = inputReader.nextBoolean();
 
-    boolean canEnterTheParty = (age >= 18 && age <= 30) && height <= 1.5 && isAbleToSingWell;
+        boolean canEnterTheParty = (age >= 18 && age <= 30) && height <= 1.5 && isAbleToSingWell;
 
         if(canEnterTheParty)
 
-    {
-        System.out.println("Welcome to the club of singing liliputs!");
-        System.out.println("We are happy to see and listen at you today");
-    } else
+        {
+            System.out.println("Welcome to the club of singing liliputs!");
+            System.out.println("We are happy to see and listen at you today");
+        } else
 
-    {
-        System.out.println(declineMessage);
+        {
+            System.out.println(declineMessage);
+        }
+
     }
+
+
+
 }
 
 
