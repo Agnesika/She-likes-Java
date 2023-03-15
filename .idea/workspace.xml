@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Game set into while loop">
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/loops/while_loop/GuessTheNumberGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/loops/while_loop/GuessTheNumberGame.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Game set into while loop, little change">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/loops/while_loop/ForeverInLoveLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +44,26 @@
       <recent name="com.sda.she_likes_java.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.sda.she_likes_java.loops.while_loop.GuessTheNumberGame">
+  <component name="RunManager" selected="Application.ForeverInLoveLoop">
     <configuration name="BouncersInDiscoStoryWithFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.BouncersInDiscoStoryWithFunctions" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sda.she_likes_java.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForeverInLoveLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.loops.while_loop.ForeverInLoveLoop" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.loops.while_loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KarolinasBouncerFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.KarolinasBouncerFunction" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.sda.she_likes_java.loops.while_loop.GuessTheNumberGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.loops.while_loop.GuessTheNumberGame" />
       <module name="JavaCourse" />
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForeverInLoveLoop" />
         <item itemvalue="Application.com.sda.she_likes_java.loops.while_loop.GuessTheNumberGame" />
         <item itemvalue="Application.GuessTheNumberGame" />
         <item itemvalue="Application.IfElseWithBranchesExample" />
         <item itemvalue="Application.BouncersInDiscoStoryWithFunctions" />
-        <item itemvalue="Application.KarolinasBouncerFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +128,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Created the disco bouncer">
-      <created>1678467029382</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1678467029396</updated>
     </task>
     <task id="LOCAL-00026" summary="code reformatted">
       <created>1678467292249</created>
@@ -471,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678907613258</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Game set into while loop, little change">
+      <created>1678907744228</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1678907744228</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,7 +487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2 new packages created" />
     <MESSAGE value="Adding various loops" />
     <MESSAGE value="Adding some comments" />
     <MESSAGE value="Changing class location" />
@@ -511,7 +511,8 @@
     <MESSAGE value="Topped up conditionals - if/else branching and changed the name" />
     <MESSAGE value="Guess the number game with do/while" />
     <MESSAGE value="Game set into while loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Game set into while loop" />
+    <MESSAGE value="Game set into while loop, little change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game set into while loop, little change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
