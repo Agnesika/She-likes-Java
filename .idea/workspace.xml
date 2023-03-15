@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Gitkeep file deleted">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/controls/NestedIfElseExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/primitive_data_types/ConditionalExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/controls/ConditionalExpressions.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Added file  of nested ifs">
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/controls/NestedIfElseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/controls/NestedIfElseExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,20 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00019" summary="conditional statement - first example">
-      <created>1678303079601</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1678303079601</updated>
-    </task>
-    <task id="LOCAL-00020" summary="conditional statement - example with dynamic boolean expression">
-      <created>1678303978991</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1678303978991</updated>
     </task>
     <task id="LOCAL-00021" summary="added various separators">
       <created>1678304152722</created>
@@ -472,7 +456,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678902583941</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Expressions moved to Controls folder">
+      <created>1678903526140</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1678903526140</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Added file  of nested ifs">
+      <created>1678903544657</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1678903544657</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -487,8 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testing decimals in disco" />
-    <MESSAGE value="Changed the name of class Calculator" />
     <MESSAGE value="Decimal numbers and regional settings explained" />
     <MESSAGE value="Added new file for Disco Bouncer upgraded" />
     <MESSAGE value="Created new file for upgraded Disco Bouncer" />
@@ -512,7 +508,9 @@
     <MESSAGE value="Added Mariusz example of function bouncer" />
     <MESSAGE value="Trying some more" />
     <MESSAGE value="Gitkeep file deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gitkeep file deleted" />
+    <MESSAGE value="Expressions moved to Controls folder" />
+    <MESSAGE value="Added file  of nested ifs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added file  of nested ifs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

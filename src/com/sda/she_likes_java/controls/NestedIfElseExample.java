@@ -15,12 +15,16 @@ public class NestedIfElseExample {
         System.out.println("Hey, let me know Your age: ");
         age = inputReader.nextInt();
 
-        if (age > 0 && age <= 10) {
+        if (age <0) {
+            System.out.println("Don't cheat!");
+        } else if (age > 0 && age <= 10) {
             System.out.println("Hi, You're between 0 and 10");
-        }
-
-        if (age > 10 && age <= 20) {
+        } else if (age > 10 && age <= 20) {
             System.out.println("Hi, You're between 11 and 20");
+        } else if (age > 20 && age <= 30) {
+            System.out.println("Hi, You're between 21 and 30");
+        } else {
+            System.out.println("You're older than 30");
         }
     }
 }
