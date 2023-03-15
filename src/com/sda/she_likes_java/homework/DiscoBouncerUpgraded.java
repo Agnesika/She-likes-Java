@@ -13,18 +13,43 @@ public class DiscoBouncerUpgraded {
         System.out.println("We need to know your height too!");
         System.out.println("Tell me how tall are You?");
 
-        double height = inputReader.nextInt();
+        double height = inputReader.nextDouble();
+        System.out.println("Can You sing well? ");
+        boolean isAbleToSingWell = inputReader.nextBoolean();
 
         System.out.println();
 
-        boolean isAllowedToParty = age >= 18 && age <= 30 && height <= 1.5;
+        boolean isAllowedToParty = (age >= 18 && age <= 30) && height <= 1.5 && isAbleToSingWell == true;
 
         if (isAllowedToParty) {
-            System.out.println("Yeah. Welcome to the club of singing liliputs!");
+            System.out.println("Yeah! Welcome to the club of singing liliputs!");
             System.out.println("We are happy to see and hear you today");
         } else {
-            System.out.println("declineMessage");
+            System.out.println("Sorry, you are not allowed");
         }
+        System.out.println("But I really want to party");
+        System.out.println("I gonna go to the second bouncer");
+        System.out.println("We need some information from you");
+
+        System.out.println("Tell me how old are You");
+        age = inputReader.nextInt();
+
+        System.out.println("And what is your height?");
+         height = inputReader.nextDouble();
+
+        System.out.println("Can You sing well? ");
+         isAbleToSingWell = inputReader.nextBoolean();
+
+        boolean canEnterTheParty = (age >= 18 && age <= 30) && height <= 1.5 && isAbleToSingWell;
+
+        if (canEnterTheParty) {
+            System.out.println("Welcome to the club of singing liliputs!");
+            System.out.println("We are happy to see and listen at you today");
+        } else {
+            System.out.println(declineMessage);
+        }
+
+
 
     }
 }
