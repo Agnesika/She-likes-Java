@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Created the file for disco bouncer with functions thatdoesn't work">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/BouncersInDiscoStoryWithFunctions.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Gitkeep file deleted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/functions/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerWithFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerWithFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,20 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00016" summary="ranges of float numbers explained">
-      <created>1678302093654</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1678302093654</updated>
-    </task>
-    <task id="LOCAL-00017" summary="float numbers ranges">
-      <created>1678302374940</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1678302374940</updated>
     </task>
     <task id="LOCAL-00018" summary="refactoring package name">
       <created>1678302521849</created>
@@ -473,7 +457,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678896478737</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Added Mariusz example of function bouncer">
+      <created>1678900665190</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1678900665194</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Trying some more">
+      <created>1678901060270</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1678901060270</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -488,9 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed the name of class calculator" />
-    <MESSAGE value="Adding types of Literals" />
-    <MESSAGE value="Corrected the name" />
     <MESSAGE value="Testing decimals in disco" />
     <MESSAGE value="Changed the name of class Calculator" />
     <MESSAGE value="Decimal numbers and regional settings explained" />
@@ -513,7 +508,10 @@
     <MESSAGE value="mini uzlabojums." />
     <MESSAGE value="Completed corrections to exercise 10 with disco bouncers" />
     <MESSAGE value="Created the file for disco bouncer with functions thatdoesn't work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the file for disco bouncer with functions thatdoesn't work" />
+    <MESSAGE value="Added Mariusz example of function bouncer" />
+    <MESSAGE value="Trying some more" />
+    <MESSAGE value="Gitkeep file deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gitkeep file deleted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
