@@ -2,7 +2,7 @@ package com.sda.she_likes_java.controls;
 
 import java.util.Scanner;
 
-public class NestedIfElseExample {
+public class IfElseWithBranchesExample {
 
     public static void main(String[] args) {
         // get user age

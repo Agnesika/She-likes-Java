@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Added file  of nested ifs">
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/controls/NestedIfElseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/controls/NestedIfElseExample.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Added more detailed if about below 0">
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/controls/NestedIfElseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/controls/IfElseWithBranchesExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
       <recent name="com.sda.she_likes_java.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NestedIfElseExample">
+  <component name="RunManager" selected="Application.IfElseWithBranchesExample">
     <configuration name="BouncersInDiscoStory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.BouncersInDiscoStory" />
       <module name="JavaCourse" />
@@ -82,6 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IfElseWithBranchesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.controls.IfElseWithBranchesExample" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.controls.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KarolinasBouncerFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.KarolinasBouncerFunction" />
       <module name="JavaCourse" />
@@ -95,22 +108,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedIfElseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.controls.NestedIfElseExample" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.controls.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NestedIfElseExample" />
+        <item itemvalue="Application.IfElseWithBranchesExample" />
         <item itemvalue="Application.BouncersInDiscoStoryWithFunctions" />
         <item itemvalue="Application.KarolinasBouncerFunction" />
         <item itemvalue="Application.DiscoBouncerWithFunctions" />
@@ -126,13 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00021" summary="added various separators">
-      <created>1678304152722</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1678304152722</updated>
     </task>
     <task id="LOCAL-00022" summary="added various separators">
       <created>1678304183101</created>
@@ -470,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678903544657</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Added more detailed if about below 0">
+      <created>1678903936900</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1678903936900</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -485,7 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Decimal numbers and regional settings explained" />
     <MESSAGE value="Added new file for Disco Bouncer upgraded" />
     <MESSAGE value="Created new file for upgraded Disco Bouncer" />
     <MESSAGE value="Corrected mistakes" />
@@ -510,7 +509,8 @@
     <MESSAGE value="Gitkeep file deleted" />
     <MESSAGE value="Expressions moved to Controls folder" />
     <MESSAGE value="Added file  of nested ifs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added file  of nested ifs" />
+    <MESSAGE value="Added more detailed if about below 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more detailed if about below 0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
