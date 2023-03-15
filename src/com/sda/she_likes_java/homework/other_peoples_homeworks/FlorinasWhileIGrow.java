@@ -1,6 +1,7 @@
-package com.sda.she_likes_java.loops.while_loop;
+package com.sda.she_likes_java.homework.other_peoples_homeworks;
 
 public class FlorinasWhileIGrow {
+//    Florinas while I grow
     public static void main(String[] args) {
         int ageOfTheKid = 1;
 
