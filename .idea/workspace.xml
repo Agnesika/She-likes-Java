@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Do while loop added with a break">
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Adding samples done by other girls">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerWithFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerWithFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
       <recent name="com.sda.she_likes_java.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BouncerFunctionStory">
+  <component name="RunManager" selected="Application.DiscoBouncerWithFunctions">
     <configuration name="BouncerFunctionStory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework11.BouncerFunctionStory" />
       <module name="JavaCourse" />
@@ -58,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForeverInLoveLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.loops.while_loop.ForeverInLoveLoop" />
+    <configuration name="DiscoBouncerWithFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.DiscoBouncerWithFunctions" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.loops.while_loop.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessTheNumberGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.loops.do_while.GuessTheNumberGame" />
+    <configuration name="ForeverInLoveLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.loops.while_loop.ForeverInLoveLoop" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.loops.do_while.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.other_peoples_homeworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,7 +103,7 @@
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.loops.while_loop.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.other_peoples_homeworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiscoBouncerWithFunctions" />
         <item itemvalue="Application.BouncerFunctionStory" />
         <item itemvalue="Application.GuessTheNumberGameWithBreak" />
         <item itemvalue="Application.ForeverInLoveLoop" />
         <item itemvalue="Application.com.sda.she_likes_java.loops.while_loop.GuessTheNumberGame" />
-        <item itemvalue="Application.GuessTheNumberGame" />
       </list>
     </recent_temporary>
   </component>
@@ -128,13 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Disco bouncer version 2">
-      <created>1678471513686</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1678471513686</updated>
     </task>
     <task id="LOCAL-00029" summary="The name issue corrected">
       <created>1678472292675</created>
@@ -472,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678908789415</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Adding samples done by other girls">
+      <created>1678918538503</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1678918538503</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -487,7 +488,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changing class location" />
     <MESSAGE value="Adding some more comments" />
     <MESSAGE value="Added another example of code for IGrow" />
     <MESSAGE value="Added Florina's example of code for IGrow" />
@@ -512,7 +512,8 @@
     <MESSAGE value="Game set into while loop, little change" />
     <MESSAGE value="Forever in Love loop added" />
     <MESSAGE value="Do while loop added with a break" />
-    <option name="LAST_COMMIT_MESSAGE" value="Do while loop added with a break" />
+    <MESSAGE value="Adding samples done by other girls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding samples done by other girls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
