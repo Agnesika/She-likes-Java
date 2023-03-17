@@ -9,17 +9,22 @@ public class GuessTheNumberGameWithBreak {
         Random numberGenerator = new Random();
         int someRandomNumber = numberGenerator.nextInt(20);
         int numberOfTrials = 8;
-//        System.out.println("random number provided by java is: " + someRandomNumber);
+        System.out.println("random number provided by java is: " + someRandomNumber);
         Scanner inputReader = new Scanner(System.in);
         int userAnswer;
         System.out.println("Play game with me:)");
         do {
-            if (numberOfTrials <=0){
-                break;
-            }
+
             System.out.println("Guess a number between 1 and 20");
             userAnswer = inputReader.nextInt();
             numberOfTrials--;
+            if (numberOfTrials <=0){
+                break;
+            } else if (userAnswer == someRandomNumber){
+                break;
+            } else
+                System.out.println("Sorry, you lose");
+
         } while (userAnswer != someRandomNumber);
 
         System.out.println("Great, You win!!!");
