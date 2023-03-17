@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Weekday workshop added">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/controls/WeekdaysWithSwitch.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Weekday workshop added with switch">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/controls/NumberOfDaysInMonths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <recent name="com.sda.she_likes_java.loops.while_loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeekdaysWithSwitch">
+  <component name="RunManager" selected="Application.NumberOfDaysInMonths">
     <configuration name="HGuessTheNumberGameWithBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.loops.do_while.HGuessTheNumberGameWithBreak" />
       <module name="JavaCourse" />
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InesesGuessTheNumberGameWithBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.other_peoples_homeworks.InesesGuessTheNumberGameWithBreak" />
+    <configuration name="NumberOfDaysInMonths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.controls.NumberOfDaysInMonths" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.other_peoples_homeworks.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.controls.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfDaysInMonths" />
         <item itemvalue="Application.WeekdaysWithSwitch" />
         <item itemvalue="Application.IncDecVersion2" />
         <item itemvalue="Application.IncrementationDecrementationExamples" />
         <item itemvalue="Application.HGuessTheNumberGameWithBreak" />
-        <item itemvalue="Application.InesesGuessTheNumberGameWithBreak" />
       </list>
     </recent_temporary>
   </component>
@@ -134,20 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Added OR operator">
-      <created>1678475479290</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1678475479290</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Adding types of Literals">
-      <created>1678475982001</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1678475982001</updated>
     </task>
     <task id="LOCAL-00040" summary="Corrected the name">
       <created>1678476335871</created>
@@ -478,7 +464,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679077134362</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Weekday workshop added with switch">
+      <created>1679077632876</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1679077632876</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Weekday workshop added with switch">
+      <created>1679077715997</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1679077715997</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,7 +493,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mini uzlabojums." />
     <MESSAGE value="Completed corrections to exercise 10 with disco bouncers" />
     <MESSAGE value="Created the file for disco bouncer with functions thatdoesn't work" />
     <MESSAGE value="Added Mariusz example of function bouncer" />
@@ -518,7 +517,8 @@
     <MESSAGE value="Incrementation - decrementation introduced" />
     <MESSAGE value="Other incrementation - decrementation examples" />
     <MESSAGE value="Weekday workshop added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Weekday workshop added" />
+    <MESSAGE value="Weekday workshop added with switch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Weekday workshop added with switch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
