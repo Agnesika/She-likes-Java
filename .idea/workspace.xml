@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Incrementation - decrementation introduced">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/operators/IncDecVersion2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Weekday workshop added">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/controls/WeekdaysWithSwitch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,25 +44,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sda.she_likes_java.controls" />
       <recent name="com.sda.she_likes_java.homework" />
       <recent name="com.sda.she_likes_java.loops.do_while" />
       <recent name="com.sda.she_likes_java.loops.while_loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IncDecVersion2">
-    <configuration name="GuessTheNumberGameWithBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.loops.do_while.GuessTheNumberGameWithBreak" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.loops.do_while.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WeekdaysWithSwitch">
     <configuration name="HGuessTheNumberGameWithBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.loops.do_while.HGuessTheNumberGameWithBreak" />
       <module name="JavaCourse" />
@@ -116,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeekdaysWithSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.controls.WeekdaysWithSwitch" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.controls.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeekdaysWithSwitch" />
         <item itemvalue="Application.IncDecVersion2" />
         <item itemvalue="Application.IncrementationDecrementationExamples" />
         <item itemvalue="Application.HGuessTheNumberGameWithBreak" />
         <item itemvalue="Application.InesesGuessTheNumberGameWithBreak" />
-        <item itemvalue="Application.GuessTheNumberGameWithBreak" />
       </list>
     </recent_temporary>
   </component>
@@ -134,20 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Updated Bouncer version4">
-      <created>1678474910164</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1678474910164</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Explained negate values more">
-      <created>1678474970620</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1678474970620</updated>
     </task>
     <task id="LOCAL-00038" summary="Added OR operator">
       <created>1678475479290</created>
@@ -478,7 +464,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679075576236</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Other incrementation - decrementation examples">
+      <created>1679076534761</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1679076534761</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Weekday workshop added">
+      <created>1679077134362</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1679077134362</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,8 +493,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Function - first example" />
-    <MESSAGE value="Function - calculator started" />
     <MESSAGE value="mini uzlabojums." />
     <MESSAGE value="Completed corrections to exercise 10 with disco bouncers" />
     <MESSAGE value="Created the file for disco bouncer with functions thatdoesn't work" />
@@ -518,7 +516,9 @@
     <MESSAGE value="Adding H" />
     <MESSAGE value="Commented out the number written" />
     <MESSAGE value="Incrementation - decrementation introduced" />
-    <option name="LAST_COMMIT_MESSAGE" value="Incrementation - decrementation introduced" />
+    <MESSAGE value="Other incrementation - decrementation examples" />
+    <MESSAGE value="Weekday workshop added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Weekday workshop added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
