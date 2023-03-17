@@ -3,7 +3,7 @@ package com.sda.she_likes_java.loops.do_while;
 import java.util.Random;
 import java.util.Scanner;
 
-public class GuessTheNumberGameWithBreak {
+public class HGuessTheNumberGameWithBreak {
 
     public static void main(String[] args) {
         Random numberGenerator = new Random();
@@ -18,13 +18,13 @@ public class GuessTheNumberGameWithBreak {
             System.out.println("Guess a number between 1 and 20");
             userAnswer = inputReader.nextInt();
             numberOfTrials--;
-            if (numberOfTrials <=0){
+            if (numberOfTrials <= 0) {
                 break;
             }
 
         } while (userAnswer != someRandomNumber);
 
-        if (userAnswer == someRandomNumber){
+        if (userAnswer == someRandomNumber) {
             System.out.println("Great, You win!!!");
         } else
             System.out.println("Sorry, you lose");
