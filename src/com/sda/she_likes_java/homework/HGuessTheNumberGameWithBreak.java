@@ -9,7 +9,7 @@ public class HGuessTheNumberGameWithBreak {
         Random numberGenerator = new Random();
         int someRandomNumber = numberGenerator.nextInt(20);
         int numberOfTrials = 8;
-        System.out.println("random number provided by java is: " + someRandomNumber);
+//        System.out.println("random number provided by java is: " + someRandomNumber);
         Scanner inputReader = new Scanner(System.in);
         int userAnswer;
         System.out.println("Play game with me:)");
