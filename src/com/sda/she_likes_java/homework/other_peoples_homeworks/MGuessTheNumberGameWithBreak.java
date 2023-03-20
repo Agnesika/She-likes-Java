@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.loops.do_while;
+package com.sda.she_likes_java.homework.other_peoples_homeworks;
 
 import java.util.Random;
 import java.util.Scanner;
