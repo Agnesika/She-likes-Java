@@ -12,7 +12,12 @@ public class ForLoopExample {
             System.out.println("Number value is: " + number);
         }
 
-
+// the same loop but with while
+        int number = 0;
+        while (number < 100) {
+            System.out.println("Number value is: " + number);
+            number++;
+        }
 
     }
 }
