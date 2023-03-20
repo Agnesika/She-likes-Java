@@ -3,6 +3,7 @@ package com.sda.she_likes_java.controls;
 import java.util.Scanner;
 
 public class NumberOfDaysInMonths {
+
     public static void main(String[] args) {
         System.out.println("Hey, tell me the number of the month: ");
         Scanner inputReader = new Scanner(System.in);
