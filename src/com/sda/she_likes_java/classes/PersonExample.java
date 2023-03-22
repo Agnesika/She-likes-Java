@@ -18,8 +18,9 @@ public class PersonExample {
         System.out.println("My name currently is " + me.name);
         System.out.println("Your name currently is " + you.name);
 
-        System.out.println("My name currently is " + me.surname);
+        System.out.println("My surname currently is " + me.surname);
 
-        System.out.println("My name currently is " + me.age);
+        System.out.println("My age currently is " + me.age);
+        System.out.println("My address currently is " + me.address);
     }
 }
