@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Added Mariusz solution">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/Array100.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Added array 100 class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/ArrayInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/ArrayInit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,20 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00048" summary="2 new packages created">
-      <created>1678727958629</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1678727958629</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Adding various loops">
-      <created>1678729588209</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1678729588209</updated>
     </task>
     <task id="LOCAL-00050" summary="Adding some comments">
       <created>1678730612771</created>
@@ -481,7 +465,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679506222311</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Added Mariusz solution">
+      <created>1679506721996</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1679506721996</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Added array 100 class">
+      <created>1679506816391</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1679506816391</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Topped up conditionals - if/else branching and changed the name" />
     <MESSAGE value="Guess the number game with do/while" />
     <MESSAGE value="Game set into while loop" />
     <MESSAGE value="Game set into while loop, little change" />
@@ -521,7 +518,8 @@
     <MESSAGE value="For loop added and compared to while" />
     <MESSAGE value="Another for loop example with grades" />
     <MESSAGE value="Added Mariusz solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Mariusz solution" />
+    <MESSAGE value="Added array 100 class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added array 100 class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

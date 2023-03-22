@@ -23,7 +23,7 @@ public class ArrayInit {
             // numbers[i -1]
         }
 
-        // read data
+        // read data from last element till first one
         for (int i = numbers.length - 1; i > -1; i--) {
             System.out.println("number[" + i + "] = " + numbers[i]);
         }
