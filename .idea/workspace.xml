@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Added various String examples">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/strings/StringsExample.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Florinas example of days in months with february">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/PersonExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature/array-intro" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +53,7 @@
       <recent name="com.sda.she_likes_java.loops.while_loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringsExample">
+  <component name="RunManager" selected="Application.PersonExample">
     <configuration name="Array100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.Array100" />
       <module name="JavaCourse" />
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnglishSchoolGrades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.arrays.EnglishSchoolGrades" />
+    <configuration name="PersonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.classes.PersonExample" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.arrays.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonExample" />
         <item itemvalue="Application.StringsExample" />
         <item itemvalue="Application.ArrayInit" />
         <item itemvalue="Application.Array100" />
         <item itemvalue="Application.ArrayDemo" />
-        <item itemvalue="Application.EnglishSchoolGrades" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +529,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncer.java</url>
           <line>5</line>
-          <properties class="com.sda.she_likes_java.homework.DiscoBouncer">
+          <properties class="com.sda.she_likes_java.homework.DiscoBouncer" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
