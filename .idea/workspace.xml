@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Florinas example of days in months with february">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/PersonExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Classes - introduction">
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/PersonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/PersonExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Changing class location">
-      <created>1678730695954</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1678730695954</updated>
     </task>
     <task id="LOCAL-00052" summary="Adding some more comments">
       <created>1678731002742</created>
@@ -481,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679507452157</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Classes - introduction">
+      <created>1679513633421</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1679513633421</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Game set into while loop, little change" />
     <MESSAGE value="Forever in Love loop added" />
     <MESSAGE value="Do while loop added with a break" />
     <MESSAGE value="Adding samples done by other girls" />
@@ -521,7 +518,8 @@
     <MESSAGE value="Added array 100 class" />
     <MESSAGE value="Added comment" />
     <MESSAGE value="Added various String examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added various String examples" />
+    <MESSAGE value="Classes - introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes - introduction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
