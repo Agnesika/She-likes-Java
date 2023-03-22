@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Added array 100 class">
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Added various String examples">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/strings/StringsExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
       <recent name="com.sda.she_likes_java.loops.while_loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayInit">
+  <component name="RunManager" selected="Application.StringsExample">
     <configuration name="Array100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.Array100" />
       <module name="JavaCourse" />
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoopExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.loops.for_loop.ForLoopExample" />
+    <configuration name="StringsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.strings.StringsExample" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.loops.for_loop.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringsExample" />
         <item itemvalue="Application.ArrayInit" />
         <item itemvalue="Application.Array100" />
         <item itemvalue="Application.ArrayDemo" />
         <item itemvalue="Application.EnglishSchoolGrades" />
-        <item itemvalue="Application.ForLoopExample" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Adding some comments">
-      <created>1678730612771</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1678730612772</updated>
     </task>
     <task id="LOCAL-00051" summary="Changing class location">
       <created>1678730695954</created>
@@ -479,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679506816391</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Added comment">
+      <created>1679507452157</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1679507452157</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,8 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guess the number game with do/while" />
-    <MESSAGE value="Game set into while loop" />
     <MESSAGE value="Game set into while loop, little change" />
     <MESSAGE value="Forever in Love loop added" />
     <MESSAGE value="Do while loop added with a break" />
@@ -519,7 +518,9 @@
     <MESSAGE value="Another for loop example with grades" />
     <MESSAGE value="Added Mariusz solution" />
     <MESSAGE value="Added array 100 class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added array 100 class" />
+    <MESSAGE value="Added comment" />
+    <MESSAGE value="Added various String examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added various String examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
