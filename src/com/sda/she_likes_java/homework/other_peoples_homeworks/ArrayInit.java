@@ -1,4 +1,4 @@
-com.sda.she_likes_java.homework.other_peoples_homeworks;
+package com.sda.she_likes_java.homework.other_peoples_homeworks;
 
     /*
         Create an int array with 100 elements and name it numbers
