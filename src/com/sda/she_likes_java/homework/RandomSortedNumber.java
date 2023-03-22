@@ -5,8 +5,6 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-import static java.util.UUID.Holder.numberGenerator;
-
 public class RandomSortedNumber {
 
 

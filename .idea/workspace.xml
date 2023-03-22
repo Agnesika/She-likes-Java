@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="For loop added and compared to while">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/arrays/EnglishSchoolGrades.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Another for loop example with grades">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/RandomSortedNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/RandomSortedNumber.java" afterDir="false" />
     </list>
@@ -137,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Created new file for upgraded Disco Bouncer">
-      <created>1678725000948</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1678725000948</updated>
     </task>
     <task id="LOCAL-00047" summary="Corrected mistakes">
       <created>1678727484408</created>
@@ -481,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679340338387</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Another for loop example with grades">
+      <created>1679341835029</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1679341835029</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added file  of nested ifs" />
     <MESSAGE value="Added more detailed if about below 0" />
     <MESSAGE value="Topped up conditionals - if/else branching and changed the name" />
     <MESSAGE value="Guess the number game with do/while" />
@@ -521,7 +519,8 @@
     <MESSAGE value="Array demo provided" />
     <MESSAGE value="For loop added" />
     <MESSAGE value="For loop added and compared to while" />
-    <option name="LAST_COMMIT_MESSAGE" value="For loop added and compared to while" />
+    <MESSAGE value="Another for loop example with grades" />
+    <option name="LAST_COMMIT_MESSAGE" value="Another for loop example with grades" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
