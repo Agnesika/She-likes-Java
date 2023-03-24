@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Added homework descriptions">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/Parents.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Reformatted code for all directory">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/parents_class_homework/Parents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/parents_class_homework/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +40,14 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sda.she_likes_java.homework" />
@@ -55,13 +57,13 @@
       <recent name="com.sda.she_likes_java.loops.while_loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddressI">
+  <component name="RunManager" selected="Application.Parents">
     <configuration name="Address" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.Address" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.parents_class_homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.classes.PersonExample" />
+    <configuration name="Parents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.parents_class_homework.Parents" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.classes.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.parents_class_homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Parents" />
         <item itemvalue="Application.AddressI" />
         <item itemvalue="Application.AddressExample1" />
         <item itemvalue="Application.Address" />
         <item itemvalue="Application.AddressM" />
-        <item itemvalue="Application.PersonExample" />
       </list>
     </recent_temporary>
   </component>
@@ -139,13 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Completed corrections to exercise 10 with disco bouncers">
-      <created>1678890229309</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1678890229309</updated>
     </task>
     <task id="LOCAL-00063" summary="Completed corrections to exercise 10 with disco bouncers">
       <created>1678890357538</created>
@@ -483,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679689412414</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Reformatted code for all directory">
+      <created>1679690030442</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1679690030442</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commented out the number written" />
     <MESSAGE value="Incrementation - decrementation introduced" />
     <MESSAGE value="Other incrementation - decrementation examples" />
     <MESSAGE value="Weekday workshop added" />
@@ -523,7 +524,8 @@
     <MESSAGE value="Added Olga's address example" />
     <MESSAGE value="Added Ilga's address example" />
     <MESSAGE value="Added homework descriptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added homework descriptions" />
+    <MESSAGE value="Reformatted code for all directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformatted code for all directory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
