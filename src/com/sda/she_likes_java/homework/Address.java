@@ -13,7 +13,24 @@ Use proper data types.
 Try to create two different addresses objects and init them with some values.
      */
 
-
+    @Override
+    public String toString() {
+        return "Address{" +
+                "galactics='" + galactics + '\'' +
+                ", planet='" + planet + '\'' +
+                ", continent='" + continent + '\'' +
+                ", region='" + region + '\'' +
+                ", country='" + country + '\'' +
+                ", city='" + city + '\'' +
+                ", street='" + street + '\'' +
+                ", postCode='" + postCode + '\'' +
+                ", object='" + object + '\'' +
+                ", planetTwo='" + planetTwo + '\'' +
+                ", otherDepartment='" + otherDepartment + '\'' +
+                ", steps=" + steps +
+                ", name='" + name + '\'' +
+                '}';
+    }
 
     String galactics = "Milky way";
     String planet = "Earth";
@@ -50,6 +67,8 @@ Try to create two different addresses objects and init them with some values.
         System.out.println("Oh yes, and the post code is: " + me.postCode);
         System.out.println("Thank you very much. We will deliver your tasty parcel to " + me.planet);
 
+        System.out.println("Using toString for myFirstAddress: " + me);
+        System.out.println(me);
     }
 
     }
