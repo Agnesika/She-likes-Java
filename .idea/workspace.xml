@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Reformatted code for all directory">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/parents_class_homework/Parents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/parents_class_homework/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Created homework for parents in package 2 classes">
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/parents_class_homework/Parents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/parents_class_homework/Parents.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Completed corrections to exercise 10 with disco bouncers">
-      <created>1678890357538</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1678890357538</updated>
     </task>
     <task id="LOCAL-00064" summary="Created the file for disco bouncer with functions thatdoesn't work">
       <created>1678896478737</created>
@@ -485,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679690030442</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Created homework for parents in package 2 classes">
+      <created>1679695217517</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1679695217517</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Incrementation - decrementation introduced" />
     <MESSAGE value="Other incrementation - decrementation examples" />
     <MESSAGE value="Weekday workshop added" />
     <MESSAGE value="Weekday workshop added with switch" />
@@ -525,7 +522,8 @@
     <MESSAGE value="Added Ilga's address example" />
     <MESSAGE value="Added homework descriptions" />
     <MESSAGE value="Reformatted code for all directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformatted code for all directory" />
+    <MESSAGE value="Created homework for parents in package 2 classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created homework for parents in package 2 classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
