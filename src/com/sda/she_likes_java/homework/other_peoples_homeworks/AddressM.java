@@ -1,7 +1,8 @@
 package com.sda.she_likes_java.homework.other_peoples_homeworks;
 
 
-public class Address {
+public class AddressM {
+    // Mariusx piemērs
     String country;
     String city;
     String street;
@@ -18,11 +19,11 @@ public class Address {
     }
 
     public static void main(String[] args) {
-        Address myFirstAddress = new Address();
+        AddressM myFirstAddress = new AddressM();
         myFirstAddress.country = "Poland";
         myFirstAddress.city = "Warsaw";
 
-        Address mySecondAddress = new Address();
+        AddressM mySecondAddress = new AddressM();
         mySecondAddress.country = "Poland";
         mySecondAddress.city = "Rzeszow";
 

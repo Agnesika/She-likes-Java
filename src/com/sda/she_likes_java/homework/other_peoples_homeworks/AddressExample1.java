@@ -13,7 +13,7 @@ public class AddressExample1 {
      */
     public static void main(String[] args) {
         System.out.println("Creating first address object");
-        Address one = new Address();
+        AddressM one = new AddressM();
         one.country = "Lithuania";
         one.city = "Vilnius";
         one.street = "Konarskio 21";
@@ -25,7 +25,7 @@ public class AddressExample1 {
         System.out.println("_____");
 
         System.out.println("Creating second address object");
-        Address two = new Address();
+        AddressM two = new AddressM();
         two.country = "Spain";
         two.city = "San Augustin, Tenerife";
         two.street = "Beach front line";
