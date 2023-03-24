@@ -6,6 +6,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class RandomSortedNumber {
+    /*
+    Exercise 12
+Draw three numbers using the Random.nextInt() function.
+Sort them and output them from smallest to largest.
+     */
 
 
     public static void main(String[] args) {

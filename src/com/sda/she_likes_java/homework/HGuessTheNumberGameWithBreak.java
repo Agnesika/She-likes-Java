@@ -4,6 +4,10 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class HGuessTheNumberGameWithBreak {
+    /*
+    Čau :) man tūliņ izlādēsies tel, bet mēģināšu paskaidrot :grin: tātad pēdējam šērotajam kodam.. spēlei jāizdomā beigas.
+    Šobrīd kods ir tāds, kas pasaka, ka skaitlis ir uzminēts pēdējā minēšanas reizē. Bet tā nav.
+     */
 
     public static void main(String[] args) {
         Random numberGenerator = new Random();

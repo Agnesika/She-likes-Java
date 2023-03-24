@@ -4,6 +4,10 @@ package com.sda.she_likes_java.homework;
 import java.util.Scanner;
 
 public class Calculator {
+    /*
+    Exercise 8.
+Create calculator with 4 supported operations, which is able to read input from user.
+     */
     // psvm - not so magic shortcut
     public static void main(String[] args) {
         System.out.println("calculator....");
@@ -43,7 +47,7 @@ public class Calculator {
         secondNumber = inputReader.nextInt();
         System.out.println("You provided number: " + secondNumber);
         int multiplication = firstNumber * secondNumber;
-        System.out.println("division is: " + multiplication);
+        System.out.println("multiplication is: " + multiplication);
 
 
         System.out.println("\ncalculating division of two numbers");

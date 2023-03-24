@@ -1,6 +1,13 @@
 package com.sda.she_likes_java.homework;
 
 public class Array100 {
+    /*
+        Create an int array with 100 elements and name it numbers
+        Initialise each element with a value 3 times greater than the current index
+        e.g.
+        numbers[0] = 3 * 0
+        numbers[10] = 3 * 10.
+     */
     public static void main(String[] args) {
         int[] numbers = new int[100];
 

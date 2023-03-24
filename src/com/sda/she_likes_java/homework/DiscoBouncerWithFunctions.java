@@ -3,6 +3,18 @@ package com.sda.she_likes_java.homework;
 import java.util.Scanner;
 
 public class DiscoBouncerWithFunctions {
+    /*
+    Exercise 11.
+Try to rewrite previous exercises using functions:
+
+    first function with shape: boolean checkedByYoundBouncer(int age, int height, boolean isAbleToSingWell)
+    second function with shape: boolean checkedByOldBouncer(int age, int height, boolean isAbleToSingWell)
+    rest of requirements stays the same
+    have fun :slightly_smiling_face:
+    this could be a little challenge…
+Small tip: try to use value returned from function like this:
+boolean canEnter = checkedByYoundBouncer(1, 1, false);
+     */
     public static void main(String[] args) {
         int age;
         double height;
