@@ -12,11 +12,11 @@ public class Array100 {
         int[] numbers = new int[100];
 
         System.out.println("Trying to init array");
-        numbers[0] = 3*0;
-        numbers[1] = 3*1;
-        numbers[2] = 3*2;
-        numbers[3] = 3*3;
-        numbers[4] = 3*4;
+        numbers[0] = 3 * 0;
+        numbers[1] = 3 * 1;
+        numbers[2] = 3 * 2;
+        numbers[3] = 3 * 3;
+        numbers[4] = 3 * 4;
 
         System.out.println("number[4] is: " + numbers[4]);
 

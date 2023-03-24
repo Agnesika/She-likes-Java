@@ -13,25 +13,6 @@ Use proper data types.
 Try to create two different addresses objects and init them with some values.
      */
 
-    @Override
-    public String toString() {
-        return "Address{" +
-                "galactics='" + galactics + '\'' +
-                ", planet='" + planet + '\'' +
-                ", continent='" + continent + '\'' +
-                ", region='" + region + '\'' +
-                ", country='" + country + '\'' +
-                ", city='" + city + '\'' +
-                ", street='" + street + '\'' +
-                ", postCode='" + postCode + '\'' +
-                ", object='" + object + '\'' +
-                ", planetTwo='" + planetTwo + '\'' +
-                ", otherDepartment='" + otherDepartment + '\'' +
-                ", steps=" + steps +
-                ", name='" + name + '\'' +
-                '}';
-    }
-
     String galactics = "Milky way";
     String planet = "Earth";
     String continent = "America";
@@ -41,13 +22,10 @@ Try to create two different addresses objects and init them with some values.
     String street = "3/4 Pirate lane";
     String postCode = "Parrot 4281";
     String object = "parcel";
-
-
     String planetTwo = "Moon";
     String otherDepartment = "heaven";
     int steps = 777;
     String name = "Bens";
-
 
     public static void main(String[] args) {
         Address me = new Address();
@@ -71,5 +49,24 @@ Try to create two different addresses objects and init them with some values.
         System.out.println(me);
     }
 
+    @Override
+    public String toString() {
+        return "Address{" +
+                "galactics='" + galactics + '\'' +
+                ", planet='" + planet + '\'' +
+                ", continent='" + continent + '\'' +
+                ", region='" + region + '\'' +
+                ", country='" + country + '\'' +
+                ", city='" + city + '\'' +
+                ", street='" + street + '\'' +
+                ", postCode='" + postCode + '\'' +
+                ", object='" + object + '\'' +
+                ", planetTwo='" + planetTwo + '\'' +
+                ", otherDepartment='" + otherDepartment + '\'' +
+                ", steps=" + steps +
+                ", name='" + name + '\'' +
+                '}';
     }
+
+}
 

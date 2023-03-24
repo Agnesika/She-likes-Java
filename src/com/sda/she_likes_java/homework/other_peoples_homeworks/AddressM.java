@@ -8,16 +8,6 @@ public class AddressM {
     String street;
     String postalCode;
 
-    @Override
-    public String toString() {
-        return "Address{" +
-                "country='" + country + '\'' +
-                ", city='" + city + '\'' +
-                ", street='" + street + '\'' +
-                ", postalCode='" + postalCode + '\'' +
-                '}';
-    }
-
     public static void main(String[] args) {
         AddressM myFirstAddress = new AddressM();
         myFirstAddress.country = "Poland";
@@ -32,5 +22,15 @@ public class AddressM {
 
         System.out.println("Using toString for myFirstAddress: " + myFirstAddress);
         System.out.println(mySecondAddress);
+    }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "country='" + country + '\'' +
+                ", city='" + city + '\'' +
+                ", street='" + street + '\'' +
+                ", postalCode='" + postalCode + '\'' +
+                '}';
     }
 }

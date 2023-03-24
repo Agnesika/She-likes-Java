@@ -24,18 +24,18 @@ public class AddressI {
         anna.country = "Lithuania";
         anna.city = "Vilnius";
         anna.street = "Ukmergės street";
-     //   anna.streetNumber = 244;
+        //   anna.streetNumber = 244;
         anna.postalCode = "LT-07160";
 
         AddressM ilga = new AddressM();
         ilga.country = "Latvia";
         ilga.city = "Riga";
         ilga.street = "Salnas";
-    //    ilga.streetNumber = 21;
+        //    ilga.streetNumber = 21;
         ilga.postalCode = "LV-1021";
 
-      //  System.out.println("Anna's address: "+anna.country+", "+anna.city+", "+anna.street+" "+anna.streetNumber+", "+anna.postalCode);
-     //   System.out.println("Ilga's address: "+ilga.country+", "+ilga.city+", "+ilga.street+" "+ilga.streetNumber+", "+ilga.postalCode);
+        //  System.out.println("Anna's address: "+anna.country+", "+anna.city+", "+anna.street+" "+anna.streetNumber+", "+anna.postalCode);
+        //   System.out.println("Ilga's address: "+ilga.country+", "+ilga.city+", "+ilga.street+" "+ilga.streetNumber+", "+ilga.postalCode);
 
     }
 }

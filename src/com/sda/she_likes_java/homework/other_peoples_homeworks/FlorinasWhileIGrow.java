@@ -1,11 +1,11 @@
 package com.sda.she_likes_java.homework.other_peoples_homeworks;
 
 public class FlorinasWhileIGrow {
-//    Florinas while I grow
+    //    Florinas while I grow
     public static void main(String[] args) {
         int ageOfTheKid = 1;
 
-        while (ageOfTheKid<18){
+        while (ageOfTheKid < 18) {
             System.out.println("Can I go to disco, I am " + ageOfTheKid + " year old");
             System.out.println("-No");
 

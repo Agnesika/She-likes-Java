@@ -58,17 +58,15 @@ boolean canEnter = checkedByYoundBouncer(1, 1, false);
 
         boolean canEnterTheParty = checkedByOldBouncer(age, height, isAbleToSingWell);
 
-        if(canEnterTheParty)
-        {
+        if (canEnterTheParty) {
             System.out.println("Welcome to the club of singing liliputs!");
             System.out.println("We are happy to see and listen at you today");
-        } else
-
-        {
+        } else {
             System.out.println(declineMessage);
         }
 
     }
+
     public static boolean checkedByYoungBouncer(int age, double height, boolean isAbleToSingWell) {
         return (age >= 18 && age <= 30) && height <= 1.5 && isAbleToSingWell == true;
     }

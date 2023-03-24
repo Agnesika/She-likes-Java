@@ -13,10 +13,10 @@ public class StringsExample {
         System.out.println(info);
 
 
-       // or some idea from Anete's personal mentor a.k.a. husband😄 >>>
+        // or some idea from Anete's personal mentor a.k.a. husband😄 >>>
         // %s means String wildcard
         // %d means number wildcard
-        String.format(" Hi, I'm %s %s. I am %s years old.",name, surname, age);
+        String.format(" Hi, I'm %s %s. I am %s years old.", name, surname, age);
 
         System.out.println("Hi, I am %s %s. I am %d young.".formatted(name, surname, age));
     }

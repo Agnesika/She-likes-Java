@@ -6,7 +6,7 @@ public class IncDecVersion2 {
         System.out.println("Firstly postincrementation");
         int age = 17;
 
-        boolean isAdult = age >=18;
+        boolean isAdult = age >= 18;
         System.out.println("isAdult value: " + isAdult);
 
         isAdult = age++ >= 18; // this line was computed like: isAdult = age >= 18; age++;
@@ -16,7 +16,7 @@ public class IncDecVersion2 {
         System.out.println("Now preincrementation");
         age = 17;
 
-        isAdult = age >=18;
+        isAdult = age >= 18;
         System.out.println("isAdult value: " + isAdult);
 
         isAdult = ++age >= 18; // this line was computed like: age++; isAdult = age >= 18;

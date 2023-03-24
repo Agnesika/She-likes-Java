@@ -15,5 +15,5 @@ public class WhileIGrow {
 
         System.out.println("Go to party!!!");
 
-        }
     }
+}

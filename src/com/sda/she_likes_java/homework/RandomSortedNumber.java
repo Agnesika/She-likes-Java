@@ -26,9 +26,6 @@ Sort them and output them from smallest to largest.
         System.out.println("Random number provided by java is: " + thirdNumber);
 
 
-
-
-
     }
 
 }

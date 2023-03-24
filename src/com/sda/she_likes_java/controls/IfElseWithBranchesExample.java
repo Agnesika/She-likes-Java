@@ -15,7 +15,7 @@ public class IfElseWithBranchesExample {
         System.out.println("Hey, let me know Your age: ");
         age = inputReader.nextInt();
 
-        if (age <0) {
+        if (age < 0) {
             System.out.println("Don't cheat!");
         } else if (age > 0 && age <= 10) {
             System.out.println("Hi, You're between 0 and 10");

@@ -60,7 +60,7 @@ public class Operators {
 
         hasGun = true;
         hasGrenade = false;
-        isTerrorist =  hasGun || hasGrenade;
+        isTerrorist = hasGun || hasGrenade;
         System.out.println("true || false is: " + isTerrorist);
 
         hasGun = false;

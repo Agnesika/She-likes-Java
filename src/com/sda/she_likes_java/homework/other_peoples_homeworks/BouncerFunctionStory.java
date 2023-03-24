@@ -1,14 +1,16 @@
 package com.sda.she_likes_java.homework11;
+
 import java.util.Scanner;
+
 public class BouncerFunctionStory {
-// Florinas Bouncer story
+    // Florinas Bouncer story
     public static void main(String[] args) {
         System.out.println("Let's try to get into the party. Ask the young bouncer first. If he declines, old one might let you in!");
 
         int age, height;
         boolean singsWell;
 
-        Scanner inputReader  = new Scanner(System.in);
+        Scanner inputReader = new Scanner(System.in);
 
         System.out.println("\nHow old are you?");
         age = inputReader.nextInt();
@@ -29,12 +31,13 @@ public class BouncerFunctionStory {
             } else {
                 System.out.println("Old bouncer: Sorry you can't go in. :<");
             }
-        }else{
+        } else {
             System.out.println("You're officially invited to partyyyy!!!!");
         }
 
 
     }
+
     public static boolean checkedByYoungBouncer(int age, int height, boolean singsWell) {
         return age >= 18 && height > 180 && singsWell == true;
     }

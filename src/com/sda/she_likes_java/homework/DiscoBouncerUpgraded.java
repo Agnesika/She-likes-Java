@@ -45,10 +45,10 @@ Prepare a new class BouncersInDiscoStory and in it
         age = inputReader.nextInt();
 
         System.out.println("And what is your height?");
-         height = inputReader.nextDouble();
+        height = inputReader.nextDouble();
 
         System.out.println("Can You sing well? ");
-         isAbleToSingWell = inputReader.nextBoolean();
+        isAbleToSingWell = inputReader.nextBoolean();
 
         boolean canEnterTheParty = (age >= 18 && age <= 30) && height <= 1.5 && isAbleToSingWell;
 
@@ -58,7 +58,6 @@ Prepare a new class BouncersInDiscoStory and in it
         } else {
             System.out.println(declineMessage);
         }
-
 
 
     }

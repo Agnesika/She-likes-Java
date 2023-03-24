@@ -19,8 +19,8 @@ public class AddressExample1 {
         one.street = "Konarskio 21";
         one.postalCode = "03109";
 
-        System.out.println("My current address is: %s, %s, %s, %s. ".formatted (one.street, one.city,
-                one.postalCode, one.country ));
+        System.out.println("My current address is: %s, %s, %s, %s. ".formatted(one.street, one.city,
+                one.postalCode, one.country));
 
         System.out.println("_____");
 
@@ -31,8 +31,8 @@ public class AddressExample1 {
         two.street = "Beach front line";
         two.postalCode = "2009";
 
-        System.out.println("My dream address is: %s, %s, %s, %s. ".formatted (two.street, two.city,
-                two.postalCode, two.country ));
+        System.out.println("My dream address is: %s, %s, %s, %s. ".formatted(two.street, two.city,
+                two.postalCode, two.country));
 
 
     }

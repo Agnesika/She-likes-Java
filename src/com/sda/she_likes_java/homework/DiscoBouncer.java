@@ -42,9 +42,5 @@ Prepare a new class BouncerInDisco and in it
         }
 
 
-
-
-
-
     }
 }
