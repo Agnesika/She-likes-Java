@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Some experiments with class constructor">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/constructor/FullPerson.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Created Full Person example with constructor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/constructor/FullPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/constructor/FullPerson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,13 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00069" summary="Added file  of nested ifs">
-      <created>1678903544657</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1678903544657</updated>
     </task>
     <task id="LOCAL-00070" summary="Added more detailed if about below 0">
       <created>1678903936900</created>
@@ -484,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679938772537</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Created Full Person example with constructor">
+      <created>1679939591961</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1679939591961</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Florinas example of days in months with february" />
     <MESSAGE value="fixed package name" />
     <MESSAGE value="Array demo provided" />
     <MESSAGE value="For loop added" />
@@ -524,7 +523,8 @@
     <MESSAGE value="Added dog class" />
     <MESSAGE value="Some toString added" />
     <MESSAGE value="Some experiments with class constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some experiments with class constructor" />
+    <MESSAGE value="Created Full Person example with constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Full Person example with constructor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
