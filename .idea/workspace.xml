@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Added dog class">
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Some toString added">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/constructor/FullAddress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/parents_class_homework/Parents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/parents_class_homework/Parents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +57,7 @@
       <recent name="com.sda.she_likes_java.loops.while_loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Parents">
-    <configuration name="Address" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.Address" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.parents_class_homework.Person" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FullAddress">
     <configuration name="AddressExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.other_peoples_homeworks.AddressExample1" />
       <module name="JavaCourse" />
@@ -109,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FullAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.classes.constructor.FullAddress" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.classes.constructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Parents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.parents_class_homework.Parents" />
       <module name="JavaCourse" />
@@ -124,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FullAddress" />
         <item itemvalue="Application.Parents" />
         <item itemvalue="Application.Dog" />
         <item itemvalue="Application.AddressI" />
         <item itemvalue="Application.AddressExample1" />
-        <item itemvalue="Application.Address" />
       </list>
     </recent_temporary>
   </component>
@@ -140,13 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Gitkeep file deleted">
-      <created>1678902583941</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1678902583941</updated>
     </task>
     <task id="LOCAL-00068" summary="Expressions moved to Controls folder">
       <created>1678903526140</created>
@@ -484,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679934099438</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="Some toString added">
+      <created>1679936434488</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1679936434488</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Weekday workshop added with switch" />
     <MESSAGE value="Switch - month example added" />
     <MESSAGE value="Florinas example of days in months with february" />
     <MESSAGE value="fixed package name" />
@@ -524,7 +524,8 @@
     <MESSAGE value="Created homework for parents in package 2 classes" />
     <MESSAGE value="an interesting result of address, but it works" />
     <MESSAGE value="Added dog class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dog class" />
+    <MESSAGE value="Some toString added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some toString added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

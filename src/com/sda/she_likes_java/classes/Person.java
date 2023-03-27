@@ -5,4 +5,5 @@ public class Person {
     String surname = "Fomrate";
     int age = 40;
     String address = "planet Earth";
+
 }
