@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Created homework for parents in package 2 classes">
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/parents_class_homework/Parents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/parents_class_homework/Parents.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="an interesting result of address, but it works">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +39,14 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sda.she_likes_java.homework" />
@@ -55,13 +56,13 @@
       <recent name="com.sda.she_likes_java.loops.while_loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Parents">
+  <component name="RunManager" selected="Application.Dog">
     <configuration name="Address" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.Address" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.parents_class_homework.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.parents_class_homework.Person" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddressM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.other_peoples_homeworks.AddressM" />
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.objects.Dog" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.other_peoples_homeworks.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,7 +114,7 @@
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.parents_class_homework.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.parents_class_homework.Person" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dog" />
         <item itemvalue="Application.Parents" />
         <item itemvalue="Application.AddressI" />
         <item itemvalue="Application.AddressExample1" />
         <item itemvalue="Application.Address" />
-        <item itemvalue="Application.AddressM" />
       </list>
     </recent_temporary>
   </component>
@@ -139,20 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Created the file for disco bouncer with functions thatdoesn't work">
-      <created>1678896478737</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1678896478737</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Added Mariusz example of function bouncer">
-      <created>1678900665190</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1678900665194</updated>
     </task>
     <task id="LOCAL-00066" summary="Trying some more">
       <created>1678901060270</created>
@@ -483,7 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679695217517</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="an interesting result of address, but it works">
+      <created>1679696022377</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1679696022377</updated>
+    </task>
+    <task id="LOCAL-00114" summary="an interesting result of address, but it works">
+      <created>1679696595551</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1679696595551</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Other incrementation - decrementation examples" />
     <MESSAGE value="Weekday workshop added" />
     <MESSAGE value="Weekday workshop added with switch" />
     <MESSAGE value="Switch - month example added" />
@@ -523,7 +523,8 @@
     <MESSAGE value="Added homework descriptions" />
     <MESSAGE value="Reformatted code for all directory" />
     <MESSAGE value="Created homework for parents in package 2 classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created homework for parents in package 2 classes" />
+    <MESSAGE value="an interesting result of address, but it works" />
+    <option name="LAST_COMMIT_MESSAGE" value="an interesting result of address, but it works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
