@@ -34,7 +34,7 @@ public class Parents {
         System.out.println("Hello. I would like to introduce you to the first contestants! ");
         System.out.println("This is family of 4 - mother " + myMother.name + ", father " + myFather.name + ".");
         System.out.println("These are their kids - " + firstKid.oneName + " and " + secondKid.twoName + ".");
-        System.out.println("And all together they are " + parent.surname + "s living in the " + otherDepartment);
+        System.out.println("And all together they are " + parent.surname + "s living in the " + otherDepartment.toString());
 
 
 
