@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Static method first touch">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/private_access/UsingFullPersonExample.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Reduced amount of toStrings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/constructor/FullPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/constructor/FullPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/Address.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +56,13 @@
       <recent name="com.sda.she_likes_java.loops.while_loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UsingFullPersonExample">
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.objects.Dog" />
+  <component name="RunManager" selected="Application.Parents">
+    <configuration name="Address" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.Address" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.objects.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FullAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.classes.constructor.FullAddress" />
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.objects.Dog" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.classes.constructor.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Parents" />
+        <item itemvalue="Application.Address" />
+        <item itemvalue="Application.Dog" />
         <item itemvalue="Application.UsingFullPersonExample" />
         <item itemvalue="Application.FullPerson" />
-        <item itemvalue="Application.FullAddress" />
-        <item itemvalue="Application.Parents" />
-        <item itemvalue="Application.Dog" />
       </list>
     </recent_temporary>
   </component>
@@ -141,20 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Topped up conditionals - if/else branching and changed the name">
-      <created>1678904334004</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1678904334004</updated>
-    </task>
-    <task id="LOCAL-00072" summary="Guess the number game with do/while">
-      <created>1678906631592</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1678906631592</updated>
     </task>
     <task id="LOCAL-00073" summary="Game set into while loop">
       <created>1678907613258</created>
@@ -485,7 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679940740114</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="Private methods explained">
+      <created>1679942362382</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1679942362382</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Reduced amount of toStrings">
+      <created>1680206480363</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1680206480364</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,8 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array demo provided" />
-    <MESSAGE value="For loop added" />
     <MESSAGE value="For loop added and compared to while" />
     <MESSAGE value="Another for loop example with grades" />
     <MESSAGE value="Added Mariusz solution" />
@@ -525,7 +522,9 @@
     <MESSAGE value="Some experiments with class constructor" />
     <MESSAGE value="Created Full Person example with constructor" />
     <MESSAGE value="Static method first touch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Static method first touch" />
+    <MESSAGE value="Private methods explained" />
+    <MESSAGE value="Reduced amount of toStrings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reduced amount of toStrings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

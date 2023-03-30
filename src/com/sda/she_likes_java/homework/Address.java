@@ -52,21 +52,10 @@ Try to create two different addresses objects and init them with some values.
     @Override
     public String toString() {
         return "Address{" +
-                "galactics='" + galactics + '\'' +
-                ", planet='" + planet + '\'' +
-                ", continent='" + continent + '\'' +
-                ", region='" + region + '\'' +
-                ", country='" + country + '\'' +
-                ", city='" + city + '\'' +
-                ", street='" + street + '\'' +
-                ", postCode='" + postCode + '\'' +
-                ", object='" + object + '\'' +
-                ", planetTwo='" + planetTwo + '\'' +
-                ", otherDepartment='" + otherDepartment + '\'' +
-                ", steps=" + steps +
-                ", name='" + name + '\'' +
+                "'" + otherDepartment + '\'' +
                 '}';
     }
-
 }
+
+
 
