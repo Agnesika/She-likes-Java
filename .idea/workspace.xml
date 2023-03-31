@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Dunno what was changed there :D">
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Little change">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects/HouseExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercise_16/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercise_16/Homework.java" afterDir="false" />
     </list>
@@ -57,19 +59,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Homework">
-    <configuration name="Address" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.Address" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FullAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.classes.constructor.FullAddress" />
       <module name="JavaCourse" />
@@ -109,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HouseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.objects.HouseExample" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Parents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.parents_class_homework.Parents" />
       <module name="JavaCourse" />
@@ -125,10 +127,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Homework" />
+        <item itemvalue="Application.HouseExample" />
         <item itemvalue="Application.FullPerson" />
         <item itemvalue="Application.FullAddress" />
         <item itemvalue="Application.Parents" />
-        <item itemvalue="Application.Address" />
       </list>
     </recent_temporary>
   </component>
@@ -140,13 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Adding samples done by other girls">
-      <created>1678918538503</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1678918538503</updated>
     </task>
     <task id="LOCAL-00078" summary="Fixed the disco bouncer with functions">
       <created>1678959054894</created>
@@ -484,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680269332972</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Little change">
+      <created>1680279645845</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1680279645845</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Mariusz solution" />
     <MESSAGE value="Added array 100 class" />
     <MESSAGE value="Added comment" />
     <MESSAGE value="Added various String examples" />
@@ -524,7 +525,8 @@
     <MESSAGE value="Reduced amount of toStrings" />
     <MESSAGE value="Created exercise 16 with 3 classes about owner and animal" />
     <MESSAGE value="Dunno what was changed there :D" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dunno what was changed there :D" />
+    <MESSAGE value="Little change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
