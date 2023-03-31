@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Reduced amount of toStrings">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercise_16/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercise_16/Homework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercise_16/Owner.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Dunno what was changed there :D">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/constructor/FullPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/classes/constructor/FullPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercise_16/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercise_16/Homework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,27 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Game set into while loop, little change">
-      <created>1678907744228</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1678907744228</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Forever in Love loop added">
-      <created>1678908187776</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1678908187776</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Do while loop added with a break">
-      <created>1678908789415</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1678908789415</updated>
     </task>
     <task id="LOCAL-00077" summary="Adding samples done by other girls">
       <created>1678918538503</created>
@@ -487,7 +463,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680206749172</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Created exercise 16 with 3 classes about owner and animal">
+      <created>1680269251991</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1680269251992</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Created exercise 16 with 3 classes about owner and animal">
+      <created>1680269299590</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1680269299590</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Dunno what was changed there :D">
+      <created>1680269332972</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1680269332972</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -502,8 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="For loop added and compared to while" />
-    <MESSAGE value="Another for loop example with grades" />
     <MESSAGE value="Added Mariusz solution" />
     <MESSAGE value="Added array 100 class" />
     <MESSAGE value="Added comment" />
@@ -527,7 +522,9 @@
     <MESSAGE value="Static method first touch" />
     <MESSAGE value="Private methods explained" />
     <MESSAGE value="Reduced amount of toStrings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reduced amount of toStrings" />
+    <MESSAGE value="Created exercise 16 with 3 classes about owner and animal" />
+    <MESSAGE value="Dunno what was changed there :D" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dunno what was changed there :D" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
