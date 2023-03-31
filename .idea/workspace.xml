@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Little changes again">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects/HouseOwner.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Little changes again with shared house object">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects/House.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects/HouseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects/HouseExample.java" afterDir="false" />
     </list>
@@ -141,13 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00080" summary="Code fixed fully">
-      <created>1679069985026</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1679069985026</updated>
     </task>
     <task id="LOCAL-00081" summary="Added Mariusz version">
       <created>1679070062556</created>
@@ -485,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680281608280</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Little changes again with shared house object">
+      <created>1680282899662</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1680282899662</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added various String examples" />
     <MESSAGE value="Classes - introduction" />
     <MESSAGE value="Person example filled in" />
     <MESSAGE value="Added address class with smth wrong" />
@@ -525,7 +524,8 @@
     <MESSAGE value="Little change" />
     <MESSAGE value="House example" />
     <MESSAGE value="Little changes again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Little changes again" />
+    <MESSAGE value="Little changes again with shared house object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little changes again with shared house object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
