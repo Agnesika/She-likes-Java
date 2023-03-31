@@ -66,6 +66,7 @@ public class FullPerson {
     }
 public void describeYourself() {
         System.out.println("Hi, I am " + name);
+    System.out.println("My surname is " + surname);
     }
     public static void genericDescription() {
         System.out.println("Generic description");
