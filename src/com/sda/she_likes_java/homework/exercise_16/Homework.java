@@ -24,10 +24,10 @@ Create a main method and a sample class hierarchy. (edited)
     public static void main(String[] args) {
 
 
-        Owner maybeMe = new Owner("Agnese", "The Driver", "The Cat");
+        Owner Agnese = new Owner("Agnese", "The Driver", "Chiepa");
         Animal Chiepa = new Animal("Chiepa", 5, "Tricolor hunter");
-        System.out.println("Some info about me " + maybeMe);
-        System.out.println("And some about my dear friend " + Chiepa);
+        System.out.println("Some info about me " + Agnese);
+        System.out.println("And some about my dear 4 legged friend " + Chiepa);
 
     }
 }
