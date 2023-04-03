@@ -25,9 +25,12 @@ Create a main method and a sample class hierarchy. (edited)
 
 
         Owner Agnese = new Owner("Agnese", "The Driver", "Chiepa");
+        Owner Grizzly = new Owner("Grizzly", "the Bear", "Chiepa");
         Animal Chiepa = new Animal("Chiepa", 5, "Tricolor hunter");
         System.out.println("Some info about me " + Agnese);
         System.out.println("And some about my dear 4 legged friend " + Chiepa);
+        System.out.println("Chiepa doesn't want the owner " + Grizzly);
+
 
     }
 }
