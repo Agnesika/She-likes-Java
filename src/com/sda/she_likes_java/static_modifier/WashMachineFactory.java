@@ -10,13 +10,15 @@ public class WashMachineFactory {
         System.out.println("Serial Nr now is " + samsung.getSerialNumber());
 // do not use instance references for to access static members (fields/methods)
 //        samsung.setNumberOfCreatedMachines(1000);
-        samsung.increaseSerialNumber();
+
         samsung.increaseSerialNumber();
         System.out.println("Serial number now is " + samsung.getSerialNumber());
 
         WashMachine samsung2 = new WashMachine("Samsung", "1x2");
         System.out.println("Current population number is: " + WashMachine.getNumberOfCreatedMachines());
         System.out.println("samsung2 serial number is: " + samsung2.getSerialNumber());
+        samsung.increaseSerialNumber();
+        System.out.println("Serial number now is " + samsung.getSerialNumber());
 
         for (int i = 0; i < 10; i++) {
             makeSomeWashMachines();
