@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="static example with washMachine class">
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="static example with washMachine class updated with increase serial number">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/controls/NumberOfDaysInMonths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/controls/NumberOfDaysInMonths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/static_modifier/WashMachineFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/static_modifier/WashMachineFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,13 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00085" summary="Other incrementation - decrementation examples">
-      <created>1679076534761</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1679076534761</updated>
     </task>
     <task id="LOCAL-00086" summary="Weekday workshop added">
       <created>1679077134362</created>
@@ -485,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680546023579</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="static example with washMachine class updated with increase serial number">
+      <created>1680547084292</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1680547084293</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Mariusz address class" />
     <MESSAGE value="Added toString descriptions" />
     <MESSAGE value="Added Olga's address example" />
     <MESSAGE value="Added Ilga's address example" />
@@ -525,7 +523,8 @@
     <MESSAGE value="Added homework parameters" />
     <MESSAGE value="Topped up my ownership of the Cat" />
     <MESSAGE value="static example with washMachine class" />
-    <option name="LAST_COMMIT_MESSAGE" value="static example with washMachine class" />
+    <MESSAGE value="static example with washMachine class updated with increase serial number" />
+    <option name="LAST_COMMIT_MESSAGE" value="static example with washMachine class updated with increase serial number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
