@@ -1,4 +1,7 @@
 package com.sda.she_likes_java.homework.book_lending;
+
+import com.sda.she_likes_java.static_modifier.WashMachine;
+
 /*
 Exercise 17
 Create a Book Lending application
@@ -13,6 +16,7 @@ At the very end, write out the number of books created -
 use a variable of type “static”.
  */
 public class Book {
+    private static int numberOfLentBooks;
     private String author;
     private String title;
     private int year;
@@ -21,9 +25,15 @@ public class Book {
         this.author = author;
         this.title = title;
         this.year = year;
+        numberOfLentBooks++;
+
     }
-
-
+    public static int getNumberOfLentBooks() {
+        return numberOfLentBooks;
+    }
+    public static void setNumberOfLentBooks(int numberOfLentBooks) {
+        Book.numberOfLentBooks = numberOfLentBooks;
+    }
 
     public String getAuthor() {
         return author;

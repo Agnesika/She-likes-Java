@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="something changed there">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/book_lending/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/book_lending/Random.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Added 3 books for lending and counted">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/Florinas_homework/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/Florinas_homework/Random.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/book_lending/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/book_lending/Random.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,20 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Weekday workshop added with switch">
-      <created>1679077632876</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1679077632876</updated>
-    </task>
-    <task id="LOCAL-00088" summary="Weekday workshop added with switch">
-      <created>1679077715997</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1679077715997</updated>
     </task>
     <task id="LOCAL-00089" summary="Switch - month example added">
       <created>1679079652129</created>
@@ -485,7 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681311792555</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="Created Exercise 17 with book lending">
+      <created>1681317247940</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1681317247940</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Added 3 books for lending and counted">
+      <created>1681318311196</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1681318311196</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,8 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Olga's address example" />
-    <MESSAGE value="Added Ilga's address example" />
     <MESSAGE value="Added homework descriptions" />
     <MESSAGE value="Reformatted code for all directory" />
     <MESSAGE value="Created homework for parents in package 2 classes" />
@@ -525,7 +524,9 @@
     <MESSAGE value="static example with washMachine class" />
     <MESSAGE value="static example with washMachine class updated with increase serial number" />
     <MESSAGE value="something changed there" />
-    <option name="LAST_COMMIT_MESSAGE" value="something changed there" />
+    <MESSAGE value="Created Exercise 17 with book lending" />
+    <MESSAGE value="Added 3 books for lending and counted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 3 books for lending and counted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
