@@ -14,7 +14,7 @@ public class BookApp {
 
         Random bookGenerator = new Random();
         int howMany = bookGenerator.nextInt(50);
-        System.out.println("TMore of the books are coming in: " + howMany);
+        System.out.println("More of the books are coming in: " + howMany);
         for (int i = 0; i <howMany; i++) {
             multiplyThoseBooks();
 
