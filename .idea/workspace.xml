@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Added 3 books for lending and counted">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/Florinas_homework/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/Florinas_homework/Random.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Florinas book homework added">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/florinas_md/Florinas_homework/BookLendingApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/book_lending/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/book_lending/Random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/book_lending/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/book_lending/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/book_lending/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/book_lending/BookApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/FNumberOfDaysInMonths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/florinas_md/FNumberOfDaysInMonths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/FlorinasWhileIGrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/florinas_md/FlorinasWhileIGrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/Florinas_homework/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/florinas_md/Florinas_homework/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/Florinas_homework/Random.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,13 +65,13 @@
       <recent name="com.sda.she_likes_java.loops.while_loop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Random">
-    <configuration name="FNumberOfDaysInMonths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.controls.FNumberOfDaysInMonths" />
+  <component name="RunManager" selected="Application.BookApp">
+    <configuration name="BookApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.book_lending.BookApp" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.controls.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.book_lending.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.exercise_16.Homework" />
+    <configuration name="BookLendingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.other_peoples_homeworks.florinas_md.Florinas_homework.BookLendingApp" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.exercise_16.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.other_peoples_homeworks.florinas_md.Florinas_homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,20 +97,7 @@
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.controls.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.book_lending.Random" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.book_lending.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.other_peoples_homeworks.florinas_md.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,13 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.sda.she_likes_java.homework.other_peoples_homeworks.Florinas_homework.Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.other_peoples_homeworks.Florinas_homework.Random" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.other_peoples_homeworks.florinas_md.Florinas_homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Random" />
+        <item itemvalue="Application.BookApp" />
         <item itemvalue="Application.WashMachineFactory" />
+        <item itemvalue="Application.BookLendingApp" />
+        <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.Florinas_homework.Random" />
         <item itemvalue="Application.NumberOfDaysInMonths" />
-        <item itemvalue="Application.FNumberOfDaysInMonths" />
-        <item itemvalue="Application.Homework" />
       </list>
     </recent_temporary>
   </component>
@@ -142,20 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00089" summary="Switch - month example added">
-      <created>1679079652129</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1679079652129</updated>
-    </task>
-    <task id="LOCAL-00090" summary="Florinas example of days in months with february">
-      <created>1679090890308</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1679090890309</updated>
     </task>
     <task id="LOCAL-00091" summary="fixed package name">
       <created>1679336364142</created>
@@ -486,7 +479,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681318311196</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="Added 3 books for lending and counted">
+      <created>1681328523240</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1681328523240</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Florinas book homework added">
+      <created>1681331112551</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1681331112552</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,7 +508,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added homework descriptions" />
     <MESSAGE value="Reformatted code for all directory" />
     <MESSAGE value="Created homework for parents in package 2 classes" />
     <MESSAGE value="an interesting result of address, but it works" />
@@ -526,7 +532,8 @@
     <MESSAGE value="something changed there" />
     <MESSAGE value="Created Exercise 17 with book lending" />
     <MESSAGE value="Added 3 books for lending and counted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 3 books for lending and counted" />
+    <MESSAGE value="Florinas book homework added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Florinas book homework added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

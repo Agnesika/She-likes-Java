@@ -1,20 +1,20 @@
 package com.sda.she_likes_java.homework.book_lending;
 
-import com.sda.she_likes_java.static_modifier.WashMachine;
-
 /*
 Exercise 17
 Create a Book Lending application
 This contains a book class with the following fields
 - author
 - title
-- year of publicationCreate 3 different books at the beginning
-and then a random number of them.
-To create a random number of objects, use the “Random” class and a loop
+- year of publication
+Create 3 different books at the beginning
+and then a random number of them. To create a random number of objects,
+use the “Random” class and a loop
 that will execute as many times as the nextInt() method returns.
 At the very end, write out the number of books created -
 use a variable of type “static”.
  */
+
 public class Book {
     private static int numberOfLentBooks;
     private String author;
