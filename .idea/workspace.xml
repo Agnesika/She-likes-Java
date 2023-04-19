@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Book app homework finalized">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/name_clash/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/name_clash/NamesClashes.java" afterDir="false" />
+    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Date class - how to import 3 different classes">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/name_clash/NamesClashes2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/name_clash/NamesClashes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/name_clash/NamesClashes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +53,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sda.she_likes_java.name_clash" />
       <recent name="com.sda.she_likes_java.homework" />
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
       <recent name="com.sda.she_likes_java.controls" />
       <recent name="com.sda.she_likes_java.loops.do_while" />
-      <recent name="com.sda.she_likes_java.loops.while_loop" />
     </key>
   </component>
   <component name="RunManager" selected="Application.HouseExample">
@@ -144,13 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00094" summary="For loop added and compared to while">
-      <created>1679340338386</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1679340338387</updated>
     </task>
     <task id="LOCAL-00095" summary="Another for loop example with grades">
       <created>1679341835029</created>
@@ -488,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681773157407</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="Date class - how to import 3 different classes">
+      <created>1681921021718</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1681921021718</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added dog class" />
     <MESSAGE value="Some toString added" />
     <MESSAGE value="Some experiments with class constructor" />
     <MESSAGE value="Created Full Person example with constructor" />
@@ -528,7 +527,8 @@
     <MESSAGE value="Packages sorted a little bit" />
     <MESSAGE value="Homework finalized" />
     <MESSAGE value="Book app homework finalized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Book app homework finalized" />
+    <MESSAGE value="Date class - how to import 3 different classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date class - how to import 3 different classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
