@@ -5,7 +5,8 @@ public class main {
         Car funnyCar = new Car();
         // brand is private, so - not visible to outside the class
 //        funnyCar.brand
-                funnyCar.model = "Corolla";
-                funnyCar.color = "pink";
+        funnyCar.setBrand("Toyota");
+        funnyCar.model = "Corolla";
+        funnyCar.color = "pink";
     }
 }
