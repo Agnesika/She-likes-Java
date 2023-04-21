@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Little corrections in Robot to merge and push">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/airplane/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/airplane/Runway.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Corrected verti comas">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/Mariusz_examples/BookLendingApp/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/Mariusz_examples/BookLendingApp/BookLendingLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/visibility/examples/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/visibility/examples/Robot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HouseExample">
+  <component name="RunManager" selected="Application.BookLendingLibrary">
     <configuration name="BookApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.book_lending.BookApp" />
       <module name="JavaCourse" />
@@ -81,6 +80,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sda.she_likes_java.homework.other_peoples_homeworks.florinas_md.Florinas_homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookLendingLibrary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.other_peoples_homeworks.Mariusz_examples.BookLendingApp.BookLendingLibrary" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.other_peoples_homeworks.Mariusz_examples.BookLendingApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.sda.she_likes_java.homework.other_peoples_homeworks.Florinas_homework.Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.other_peoples_homeworks.Florinas_homework.Random" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.other_peoples_homeworks.florinas_md.Florinas_homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookLendingLibrary" />
         <item itemvalue="Application.HouseExample" />
         <item itemvalue="Application.BookApp" />
         <item itemvalue="Application.WashMachineFactory" />
         <item itemvalue="Application.BookLendingApp" />
-        <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.Florinas_homework.Random" />
       </list>
     </recent_temporary>
   </component>
@@ -145,20 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00100" summary="Classes - introduction">
-      <created>1679513633421</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1679513633421</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Person example filled in">
-      <created>1679514357885</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1679514357885</updated>
     </task>
     <task id="LOCAL-00102" summary="Person example filled in">
       <created>1679514410906</created>
@@ -489,7 +474,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681926857252</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="Little corrections in Robot to merge and push">
+      <created>1682092129222</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1682092129222</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Created airplane package">
+      <created>1682092157111</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1682092157111</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,9 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created exercise 16 with 3 classes about owner and animal" />
-    <MESSAGE value="Dunno what was changed there :D" />
-    <MESSAGE value="Little change" />
     <MESSAGE value="House example" />
     <MESSAGE value="Little changes again" />
     <MESSAGE value="Little changes again with shared house object" />
@@ -529,7 +525,10 @@
     <MESSAGE value="private  modifier example" />
     <MESSAGE value="modifiers on methods" />
     <MESSAGE value="Little corrections in Robot to merge and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Little corrections in Robot to merge and push" />
+    <MESSAGE value="Created airplane package" />
+    <MESSAGE value="Added Mariusz example of book library with copies for books" />
+    <MESSAGE value="Corrected verti comas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected verti comas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
