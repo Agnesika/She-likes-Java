@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="Robot class implementation" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Little corrections in Robot to merge and push">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/airplane/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/airplane/Runway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/visibility/examples/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/visibility/examples/Robot.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,6 +145,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Classes - introduction">
+      <created>1679513633421</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1679513633421</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Person example filled in">
+      <created>1679514357885</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1679514357885</updated>
     </task>
     <task id="LOCAL-00102" summary="Person example filled in">
       <created>1679514410906</created>
@@ -470,21 +489,7 @@
       <option name="project" value="LOCAL" />
       <updated>1681926857252</updated>
     </task>
-    <task id="LOCAL-00149" summary="BetterCar example with visibility modifiers">
-      <created>1681927926878</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1681927926878</updated>
-    </task>
-    <task id="LOCAL-00150" summary="Robot class implementation">
-      <created>1681929122205</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1681929122205</updated>
-    </task>
-    <option name="localTasksCounter" value="151" />
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,6 +504,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created exercise 16 with 3 classes about owner and animal" />
     <MESSAGE value="Dunno what was changed there :D" />
     <MESSAGE value="Little change" />
     <MESSAGE value="House example" />
@@ -522,9 +528,8 @@
     <MESSAGE value="default modifier (no modifier)" />
     <MESSAGE value="private  modifier example" />
     <MESSAGE value="modifiers on methods" />
-    <MESSAGE value="BetterCar example with visibility modifiers" />
-    <MESSAGE value="Robot class implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Robot class implementation" />
+    <MESSAGE value="Little corrections in Robot to merge and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little corrections in Robot to merge and push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

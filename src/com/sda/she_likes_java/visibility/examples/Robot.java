@@ -1,10 +1,8 @@
 package com.sda.she_likes_java.visibility.examples;
 
 public class Robot {
-
     private String model;
     private String generation;
-
     private int xPosition;
     private int yPosition;
 
@@ -26,14 +24,17 @@ public class Robot {
                 """;
 
     }
-private void doInternalTwix() {
-    System.out.println("Very important stuff");
-}
+
+    private void doInternalTwix() {
+        System.out.println("Very important stuff");
+    }
+
     public void moveForward() {
         xPosition++;
         System.out.println("I am moving forward ");
         doInternalTwix();
     }
+
 
     public void moveBackward() {
         yPosition--;
@@ -48,6 +49,7 @@ private void doInternalTwix() {
         System.out.println("I am turning right");
     }
 
+
     @Override
     public String toString() {
         return "Robot{" +
@@ -57,5 +59,4 @@ private void doInternalTwix() {
                 ", yPosition=" + yPosition +
                 '}';
     }
-
 }
