@@ -9,14 +9,18 @@ public class HumanLife {
     }
 
     public static void tryToCastHumanToMan(Human maybeWomanOrMan) {
+        if (maybeWomanOrMan instanceof Man) {
+            // casting / down casting
+            // works for the references
+            (
+                    (Man) maybeWomanOrMan
+            ).learnToCleanHouse();
 
-        // casting / down-casting
-        // casting works for references
-        (
-                (Man) maybeWomanOrMan
-        ).learnToCleanHouse();
+            ((Man) maybeWomanOrMan).learnToCleanHouse();
+        }
 
-        ((Man) maybeWomanOrMan).learnToCleanHouse();
-        ((Woman)maybeWomanOrMan).learnJava();
+        if (maybeWomanOrMan instanceof Woman) {
+            ((Woman) maybeWomanOrMan).learnJava();
+        }
     }
 }

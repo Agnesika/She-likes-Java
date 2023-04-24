@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Man and woman classes created">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/virtual_methods/HumanLife.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/virtual_methods/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/virtual_methods/Main.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Casting explaine more">
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/virtual_methods/HumanLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/virtual_methods/HumanLife.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,13 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00110" summary="Added homework descriptions">
-      <created>1679689412414</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1679689412414</updated>
     </task>
     <task id="LOCAL-00111" summary="Reformatted code for all directory">
       <created>1679690030442</created>
@@ -488,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682353592392</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="Casting explaine more">
+      <created>1682359848518</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1682359848518</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="static example with washMachine class updated with increase serial number" />
     <MESSAGE value="something changed there" />
     <MESSAGE value="Created Exercise 17 with book lending" />
     <MESSAGE value="Added 3 books for lending and counted" />
@@ -528,7 +525,8 @@
     <MESSAGE value="Added Mariusz airplane" />
     <MESSAGE value="Human and mammal classes created" />
     <MESSAGE value="Man and woman classes created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Man and woman classes created" />
+    <MESSAGE value="Casting explaine more" />
+    <option name="LAST_COMMIT_MESSAGE" value="Casting explaine more" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
