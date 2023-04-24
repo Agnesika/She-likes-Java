@@ -25,8 +25,8 @@ public class Main {
         Man manForSure = new Man();
         Human anotherMan = manForSure;
 
-//        HumanLife.tryToCastHumanToMan(anotherMan);
-//        HumanLife.tryToCastHumanToMan(new Man());
+        HumanLife.tryToCastHumanToMan(anotherMan);
+        HumanLife.tryToCastHumanToMan(new Man());
         humanLife.tryToCastHumanToMan(new Woman());
     }
 

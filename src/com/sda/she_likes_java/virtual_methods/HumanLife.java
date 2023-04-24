@@ -9,7 +9,12 @@ public class HumanLife {
     }
 
     public static void tryToCastHumanToMan(Human maybeWomanOrMan) {
+        // instanceof operator tests if argument is of give type
+        // tests if maybeWomanOrMan is of type Man
+        // instanceof gives us boolean result
+
         if (maybeWomanOrMan instanceof Man) {
+            System.out.println("It's a monster");
             // casting / down casting
             // works for the references
             (
@@ -20,6 +25,7 @@ public class HumanLife {
         }
 
         if (maybeWomanOrMan instanceof Woman) {
+            System.out.println("It's a woman");
             ((Woman) maybeWomanOrMan).learnJava();
         }
     }
