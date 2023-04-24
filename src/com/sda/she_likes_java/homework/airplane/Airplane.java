@@ -14,9 +14,8 @@ Create an Airplane class that provides the following operations:
 - have fun
  */
 public class Airplane {
-    private String brand;
-    private String model;
-    private int seats;
-    private int speed;
+    private int xCoords;
+    private int yCoords;
+
 
 }

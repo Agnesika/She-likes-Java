@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Immutable strings">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/polymorphism/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/polymorphism/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/polymorphism/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/polymorphism/Elephant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/polymorphism/Main.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added homeworks task's description for Airplane">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/strings/ImmutableString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/strings/ImmutableString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/airplane/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/airplane/Airplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/airplane/Runway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/airplane/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,25 +139,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2b874aaf-284e-4d79-8f91-b90788f814c7" name="Changes" comment="" />
+      <changelist id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added homeworks task's description for Airplane" />
       <created>1678114667647</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00104" summary="Created address class as homework">
-      <created>1679668029192</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1679668029192</updated>
-    </task>
-    <task id="LOCAL-00105" summary="Added Mariusz address class">
-      <created>1679671037521</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1679671037522</updated>
     </task>
     <task id="LOCAL-00106" summary="Added toString descriptions">
       <created>1679685861990</created>
@@ -492,7 +474,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682099248526</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="Immutable strings explained AND Animal polymorphism created">
+      <created>1682102724952</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1682102724952</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Added homeworks task's description for Airplane">
+      <created>1682102918943</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1682102918943</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,8 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Little changes again" />
-    <MESSAGE value="Little changes again with shared house object" />
     <MESSAGE value="Wife moving too much between houses" />
     <MESSAGE value="Added homework parameters" />
     <MESSAGE value="Topped up my ownership of the Cat" />
@@ -532,7 +526,9 @@
     <MESSAGE value="Added Mariusz example of book library with copies for books" />
     <MESSAGE value="Corrected verti comas" />
     <MESSAGE value="Immutable strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Immutable strings" />
+    <MESSAGE value="Immutable strings explained AND Animal polymorphism created" />
+    <MESSAGE value="Added homeworks task's description for Airplane" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added homeworks task's description for Airplane" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
