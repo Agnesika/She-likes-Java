@@ -1,41 +1,35 @@
-package com.sda.she_likes_java.homework;
+package com.sda.she_likes_java.homework.exercises_4_14;
 
 import java.util.Scanner;
 
-public class DiscoBouncerWithFunctions {
+public class DiscoBouncerUpgraded {
     /*
-    Exercise 11.
-Try to rewrite previous exercises using functions:
-
-    first function with shape: boolean checkedByYoundBouncer(int age, int height, boolean isAbleToSingWell)
-    second function with shape: boolean checkedByOldBouncer(int age, int height, boolean isAbleToSingWell)
-    rest of requirements stays the same
-    have fun :slightly_smiling_face:
-    this could be a little challenge…
-Small tip: try to use value returned from function like this:
-boolean canEnter = checkedByYoundBouncer(1, 1, false);
+    Exercise 10.
+A story about bouncers in a disco
+Prepare a new class BouncersInDiscoStory and in it
+- get the user’s age, ability to sing well and height from the console
+- there are two bouncers in the disco: young and old
+- Young checks if the person is adult, tall (or short :)) and can sing well
+- Old has some kind of sight problem - so if any of the conditions are met, the person can enter the disco
+- people try to cheat, so if someone is rejected by the young bouncer they try again with the old one:)
      */
     public static void main(String[] args) {
-        int age;
-        double height;
-        boolean isAbleToSingWell;
-
         System.out.println("Party time!");
         Scanner inputReader = new Scanner(System.in);
         System.out.println("Tell me how old are You");
         String declineMessage = "Sorry, you don't comply with the rules for youngsters :)";
 
-        age = inputReader.nextInt();
+        int age = inputReader.nextInt();
         System.out.println("We need to know your height too!");
         System.out.println("Tell me how tall are You?");
 
-        height = inputReader.nextDouble();
+        double height = inputReader.nextDouble();
         System.out.println("Can You sing well? ");
-        isAbleToSingWell = inputReader.nextBoolean();
+        boolean isAbleToSingWell = inputReader.nextBoolean();
 
         System.out.println();
 
-        boolean isAllowedToParty = checkedByYoungBouncer(age, height, isAbleToSingWell);
+        boolean isAllowedToParty = (age >= 18 && age <= 30) && height <= 1.5 && isAbleToSingWell == true;
 
         if (isAllowedToParty) {
             System.out.println("Yeah! Welcome to the club of singing liliputs!");
@@ -56,7 +50,7 @@ boolean canEnter = checkedByYoundBouncer(1, 1, false);
         System.out.println("Can You sing well? ");
         isAbleToSingWell = inputReader.nextBoolean();
 
-        boolean canEnterTheParty = checkedByOldBouncer(age, height, isAbleToSingWell);
+        boolean canEnterTheParty = (age >= 18 && age <= 30) && height <= 1.5 && isAbleToSingWell;
 
         if (canEnterTheParty) {
             System.out.println("Welcome to the club of singing liliputs!");
@@ -65,17 +59,7 @@ boolean canEnter = checkedByYoundBouncer(1, 1, false);
             System.out.println(declineMessage);
         }
 
+
     }
-
-    public static boolean checkedByYoungBouncer(int age, double height, boolean isAbleToSingWell) {
-        return (age >= 18 && age <= 30) && height <= 1.5 && isAbleToSingWell == true;
-    }
-
-    public static boolean checkedByOldBouncer(int age, double height, boolean isAbleToSingWell) {
-        return (age >= 18 && age <= 30) && height <= 1.5 && isAbleToSingWell == true;
-    }
-
-
 }
-
 

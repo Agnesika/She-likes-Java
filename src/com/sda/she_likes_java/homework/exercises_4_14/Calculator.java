@@ -1,5 +1,5 @@
 // packages use reverse domain names
-package com.sda.she_likes_java.homework;
+package com.sda.she_likes_java.homework.exercises_4_14;
 
 import java.util.Scanner;
 

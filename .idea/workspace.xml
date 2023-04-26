@@ -4,12 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Little administration of classes">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Main.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Tried to patch deleted branch name">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e20_car_brands/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e20_car_brands/CarUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e20_car_brands/Ferrari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e20_car_brands/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e20_car_brands/Mazda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e20_car_brands/Toyota.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/Array100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/Array100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/BouncersInDiscoStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/BouncersInDiscoStory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/DiscoBouncer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerUpgraded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/DiscoBouncerUpgraded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/DiscoBouncerV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/DiscoBouncerV3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/DiscoBouncerV4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerV5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/DiscoBouncerV5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncerWithFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/DiscoBouncerWithFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/HGuessTheNumberGameWithBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/HGuessTheNumberGameWithBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/RandomSortedNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/RandomSortedNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/parents_class_homework/Parents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e15_parents_class_homework/Parents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/parents_class_homework/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e15_parents_class_homework/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +80,7 @@
       <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e19_vehicle.Main">
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.virtual_methods.Main">
     <configuration name="LibraryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.other_peoples_homeworks.karolinas_md.karolinas_library.LibraryApp" />
       <module name="JavaCourse" />
@@ -130,10 +148,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.sda.she_likes_java.virtual_methods.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e19_vehicle.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LibraryApp" />
-        <item itemvalue="Application.com.sda.she_likes_java.virtual_methods.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.mariusz_airplane.Main" />
       </list>
     </recent_temporary>
@@ -146,20 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00114" summary="an interesting result of address, but it works">
-      <created>1679696595551</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1679696595551</updated>
-    </task>
-    <task id="LOCAL-00115" summary="Added dog class">
-      <created>1679934099437</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1679934099438</updated>
     </task>
     <task id="LOCAL-00116" summary="Some toString added">
       <created>1679936434488</created>
@@ -490,7 +494,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682510056527</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="Created Vehicle for exercise 19">
+      <created>1682518028347</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1682518028347</updated>
+    </task>
+    <task id="LOCAL-00164" summary="Tried to patch deleted branch name">
+      <created>1682518070232</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1682518070232</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,8 +523,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Florinas book homework added" />
-    <MESSAGE value="Packages sorted a little bit" />
     <MESSAGE value="Homework finalized" />
     <MESSAGE value="Book app homework finalized" />
     <MESSAGE value="Date class - how to import 3 different classes" />
@@ -530,13 +546,15 @@
     <MESSAGE value="maybeWoman fixed" />
     <MESSAGE value="Safe casting with instanceof operator" />
     <MESSAGE value="Little administration of classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Little administration of classes" />
+    <MESSAGE value="Created Vehicle for exercise 19" />
+    <MESSAGE value="Tried to patch deleted branch name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tried to patch deleted branch name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/sda/she_likes_java/homework/DiscoBouncer.java</url>
+          <url>file://$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercises_4_14/DiscoBouncer.java</url>
           <line>13</line>
           <properties class="com.sda.she_likes_java.homework.DiscoBouncer" method="main">
             <option name="EMULATED" value="true" />

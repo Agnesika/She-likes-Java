@@ -1,6 +1,6 @@
-package com.sda.she_likes_java.homework.parents_class_homework;
+package com.sda.she_likes_java.homework.e15_parents_class_homework;
 
-import com.sda.she_likes_java.homework.Address;
+import com.sda.she_likes_java.homework.exercises_4_14.Address;
 
 /*
 Exercise 15.
