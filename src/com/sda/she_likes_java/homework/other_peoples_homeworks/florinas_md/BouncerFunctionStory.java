@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework11;
+package com.sda.she_likes_java.homework.other_peoples_homeworks.florinas_md;
 
 import java.util.Scanner;
 

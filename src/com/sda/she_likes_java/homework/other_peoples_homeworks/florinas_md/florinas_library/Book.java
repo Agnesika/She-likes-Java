@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework.other_peoples_homeworks.florinas_md.Florinas_homework;
+package com.sda.she_likes_java.homework.other_peoples_homeworks.florinas_md.florinas_library;
 
 public class Book {
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Moveable interface introduced and main class updated" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Refactor the name of the package" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,13 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00120" summary="Private methods explained">
-      <created>1679942362382</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1679942362382</updated>
     </task>
     <task id="LOCAL-00121" summary="Reduced amount of toStrings">
       <created>1680206480363</created>
@@ -485,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682533757239</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="Refactor the name of the package">
+      <created>1682534226382</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1682534226382</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="default modifier (no modifier)" />
     <MESSAGE value="private  modifier example" />
     <MESSAGE value="modifiers on methods" />
     <MESSAGE value="Little corrections in Robot to merge and push" />
@@ -525,7 +524,8 @@
     <MESSAGE value="Created package for exercise 20 - car brands" />
     <MESSAGE value="Interfaces example" />
     <MESSAGE value="Moveable interface introduced and main class updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moveable interface introduced and main class updated" />
+    <MESSAGE value="Refactor the name of the package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor the name of the package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
