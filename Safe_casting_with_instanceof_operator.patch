@@ -1,0 +1,118 @@
+Subject: [PATCH] Safe casting with instanceof operator
+---
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 66cdae45bfd84ed97b6ff4003ffbf2f126e8f204)
++++ b/.idea/workspace.xml	(revision 30053fa6af0dc8d16bcc499c04b0870bb9de0265)
+@@ -4,8 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Casting explaine more">
++    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="maybeWoman fixed">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/virtual_methods/HumanLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/virtual_methods/HumanLife.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/virtual_methods/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/virtual_methods/Main.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -142,13 +144,6 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1678114667647</updated>
+-    </task>
+-    <task id="LOCAL-00111" summary="Reformatted code for all directory">
+-      <created>1679690030442</created>
+-      <option name="number" value="00111" />
+-      <option name="presentableId" value="LOCAL-00111" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1679690030442</updated>
+     </task>
+     <task id="LOCAL-00112" summary="Created homework for parents in package 2 classes">
+       <created>1679695217517</created>
+@@ -486,7 +481,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1682359848518</updated>
+     </task>
+-    <option name="localTasksCounter" value="160" />
++    <task id="LOCAL-00160" summary="maybeWoman fixed">
++      <created>1682359885246</created>
++      <option name="number" value="00160" />
++      <option name="presentableId" value="LOCAL-00160" />
++      <option name="project" value="LOCAL" />
++      <updated>1682359885247</updated>
++    </task>
++    <option name="localTasksCounter" value="161" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -501,7 +503,6 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+-    <MESSAGE value="something changed there" />
+     <MESSAGE value="Created Exercise 17 with book lending" />
+     <MESSAGE value="Added 3 books for lending and counted" />
+     <MESSAGE value="Florinas book homework added" />
+@@ -526,7 +527,8 @@
+     <MESSAGE value="Human and mammal classes created" />
+     <MESSAGE value="Man and woman classes created" />
+     <MESSAGE value="Casting explaine more" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Casting explaine more" />
++    <MESSAGE value="maybeWoman fixed" />
++    <option name="LAST_COMMIT_MESSAGE" value="maybeWoman fixed" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: src/com/sda/she_likes_java/virtual_methods/HumanLife.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/sda/she_likes_java/virtual_methods/HumanLife.java b/src/com/sda/she_likes_java/virtual_methods/HumanLife.java
+--- a/src/com/sda/she_likes_java/virtual_methods/HumanLife.java	(revision 66cdae45bfd84ed97b6ff4003ffbf2f126e8f204)
++++ b/src/com/sda/she_likes_java/virtual_methods/HumanLife.java	(revision 30053fa6af0dc8d16bcc499c04b0870bb9de0265)
+@@ -9,7 +9,12 @@
+     }
+ 
+     public static void tryToCastHumanToMan(Human maybeWomanOrMan) {
++        // instanceof operator tests if argument is of give type
++        // tests if maybeWomanOrMan is of type Man
++        // instanceof gives us boolean result
++
+         if (maybeWomanOrMan instanceof Man) {
++            System.out.println("It's a monster");
+             // casting / down casting
+             // works for the references
+             (
+@@ -20,6 +25,7 @@
+         }
+ 
+         if (maybeWomanOrMan instanceof Woman) {
++            System.out.println("It's a woman");
+             ((Woman) maybeWomanOrMan).learnJava();
+         }
+     }
+Index: src/com/sda/she_likes_java/virtual_methods/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/sda/she_likes_java/virtual_methods/Main.java b/src/com/sda/she_likes_java/virtual_methods/Main.java
+--- a/src/com/sda/she_likes_java/virtual_methods/Main.java	(revision 66cdae45bfd84ed97b6ff4003ffbf2f126e8f204)
++++ b/src/com/sda/she_likes_java/virtual_methods/Main.java	(revision 30053fa6af0dc8d16bcc499c04b0870bb9de0265)
+@@ -25,8 +25,8 @@
+         Man manForSure = new Man();
+         Human anotherMan = manForSure;
+ 
+-//        HumanLife.tryToCastHumanToMan(anotherMan);
+-//        HumanLife.tryToCastHumanToMan(new Man());
++        HumanLife.tryToCastHumanToMan(anotherMan);
++        HumanLife.tryToCastHumanToMan(new Man());
+         humanLife.tryToCastHumanToMan(new Woman());
+     }
+ 
