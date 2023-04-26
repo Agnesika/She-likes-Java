@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework.exercise_16;
+package com.sda.she_likes_java.homework.e16_animal_owner;
 
 public class Animal {
     private String name;

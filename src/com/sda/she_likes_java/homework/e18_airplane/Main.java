@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework.airplane;
+package com.sda.she_likes_java.homework.e18_airplane;
 
 public class Main {
     private int xCoords;

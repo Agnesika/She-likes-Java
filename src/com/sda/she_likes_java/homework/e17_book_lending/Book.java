@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework.book_lending;
+package com.sda.she_likes_java.homework.e17_book_lending;
 
 /*
 Exercise 17
