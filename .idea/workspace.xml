@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Created package for exercise 20 - car brands">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Ostrich.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Parrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Superman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Swimmable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Tiger.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Interfaces example">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Moveable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Superman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/common_behaviour/wrong_approach/Superman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,13 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00118" summary="Created Full Person example with constructor">
-      <created>1679939591961</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1679939591961</updated>
     </task>
     <task id="LOCAL-00119" summary="Static method first touch">
       <created>1679940740114</created>
@@ -497,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682526227571</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="Interfaces example">
+      <created>1682531851906</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1682531851906</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -512,7 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Date class - solution how to refer to different classes with the same simple name" />
     <MESSAGE value="Basic introduction of visibility modifier" />
     <MESSAGE value="default modifier (no modifier)" />
     <MESSAGE value="private  modifier example" />
@@ -537,7 +530,8 @@
     <MESSAGE value="Arranged files in packages" />
     <MESSAGE value="Created package dor exercise 20 - car brands" />
     <MESSAGE value="Created package for exercise 20 - car brands" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created package for exercise 20 - car brands" />
+    <MESSAGE value="Interfaces example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interfaces example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
