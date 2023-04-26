@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.book_lending_app;
+package com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e17_book_lending_app;
 
 import java.time.Year;
 

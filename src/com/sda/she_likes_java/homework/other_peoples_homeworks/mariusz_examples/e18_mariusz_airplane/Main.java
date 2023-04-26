@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.mariusz_airplane;
+package com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e18_mariusz_airplane;
 
 public class Main {
     public static void main(String[] args) {
