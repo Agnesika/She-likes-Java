@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Safe casting with instanceof operator">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/karolinas_md/.gitext" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Little administration of classes">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/airplane/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e18_airplane/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/airplane/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e18_airplane/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/book_lending/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e17_book_lending/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/book_lending/BookApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e17_book_lending/BookApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercise_16/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e16_animal_owner/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercise_16/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e16_animal_owner/Homework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/exercise_16/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e16_animal_owner/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/Mariusz_airplane/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/mariusz_airplane/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/Mariusz_airplane/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/mariusz_airplane/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/Mariusz_examples/BookLendingApp/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/book_lending_app/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/Mariusz_examples/BookLendingApp/BookLendingLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/book_lending_app/BookLendingLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,20 +62,7 @@
       <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LibraryApp">
-    <configuration name="ImmutableString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.strings.ImmutableString" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e19_vehicle.Main">
     <configuration name="LibraryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.other_peoples_homeworks.karolinas_md.karolinas_library.LibraryApp" />
       <module name="JavaCourse" />
@@ -103,6 +82,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sda.she_likes_java.polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.sda.she_likes_java.homework.e19_vehicle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e19_vehicle.Main" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.e19_vehicle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.sda.she_likes_java.homework.e19_vehicle.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LibraryApp" />
         <item itemvalue="Application.com.sda.she_likes_java.virtual_methods.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.mariusz_airplane.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ImmutableString" />
       </list>
     </recent_temporary>
   </component>
@@ -154,13 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00113" summary="an interesting result of address, but it works">
-      <created>1679696022377</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1679696022377</updated>
     </task>
     <task id="LOCAL-00114" summary="an interesting result of address, but it works">
       <created>1679696595551</created>
@@ -498,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682362082330</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="Little administration of classes">
+      <created>1682510056527</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1682510056527</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -513,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added 3 books for lending and counted" />
     <MESSAGE value="Florinas book homework added" />
     <MESSAGE value="Packages sorted a little bit" />
     <MESSAGE value="Homework finalized" />
@@ -538,7 +529,8 @@
     <MESSAGE value="Casting explaine more" />
     <MESSAGE value="maybeWoman fixed" />
     <MESSAGE value="Safe casting with instanceof operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Safe casting with instanceof operator" />
+    <MESSAGE value="Little administration of classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little administration of classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

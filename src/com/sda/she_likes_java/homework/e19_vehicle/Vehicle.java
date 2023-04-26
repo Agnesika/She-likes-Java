@@ -8,4 +8,7 @@ Add a class inheriting from “Vehicle” called “Ship”.
 Add another class inheriting from “Vehicle” called “Plane”.
 Implement a “move()” method in each class.
      */
+    public void makeMove() {
+        System.out.println("Drift");
+    }
 }
