@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Changed vehicle class assignment">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects_equality/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects_equality/ListMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects_equality/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects_equality/Person.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="List example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects_equality/ListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/objects_equality/ListMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,13 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00125" summary="Dunno what was changed there :D">
-      <created>1680269332972</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1680269332972</updated>
     </task>
     <task id="LOCAL-00126" summary="Little change">
       <created>1680279645845</created>
@@ -491,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682697395244</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="List example">
+      <created>1682706959374</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1682706959374</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -506,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Mariusz example of book library with copies for books" />
     <MESSAGE value="Corrected verti comas" />
     <MESSAGE value="Immutable strings" />
     <MESSAGE value="Immutable strings explained AND Animal polymorphism created" />
@@ -531,7 +527,8 @@
     <MESSAGE value="Added Mariusz version of car utils" />
     <MESSAGE value="Upgraded Vehicle class with exercise 21 with implementations" />
     <MESSAGE value="Changed vehicle class assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed vehicle class assignment" />
+    <MESSAGE value="List example" />
+    <option name="LAST_COMMIT_MESSAGE" value="List example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
