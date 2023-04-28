@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Reorganizing my packages for easier access">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/e20_car_utils/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/e20_car_utils/CarUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/e20_car_utils/Ferrari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/e20_car_utils/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/e20_car_utils/Mazda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/e20_car_utils/Toyota.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added Mariusz version of car utils">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_21_vehicle/Floating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_21_vehicle/Flying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_21_vehicle/Submarine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_21_vehicle/Submerging.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/book_lending_app/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/e17_book_lending_app/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/book_lending_app/BookLendingLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/e17_book_lending_app/BookLendingLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_21_vehicle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_21_vehicle/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_21_vehicle/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e19_21_vehicle/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -67,7 +67,7 @@
       <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e20_car_utils.Main">
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e19_21_vehicle.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.polymorphism.Main" />
       <module name="JavaCourse" />
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.sda.she_likes_java.homework.e19_vehicle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e19_vehicle.Main" />
+    <configuration name="com.sda.she_likes_java.homework.e19_21_vehicle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e19_21_vehicle.Main" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.e19_vehicle.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.e19_21_vehicle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,10 +135,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.sda.she_likes_java.homework.e19_21_vehicle.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e20_car_utils.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.common_behaviour.wrong_approach.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.virtual_methods.Main" />
-        <item itemvalue="Application.com.sda.she_likes_java.homework.e19_vehicle.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -151,13 +151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00122" summary="Reduced amount of toStrings">
-      <created>1680206749171</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1680206749172</updated>
     </task>
     <task id="LOCAL-00123" summary="Created exercise 16 with 3 classes about owner and animal">
       <created>1680269251991</created>
@@ -495,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682535536724</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="Added Mariusz version of car utils">
+      <created>1682536359039</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1682536359039</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,7 +510,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modifiers on methods" />
     <MESSAGE value="Little corrections in Robot to merge and push" />
     <MESSAGE value="Created airplane package" />
     <MESSAGE value="Added Mariusz example of book library with copies for books" />
@@ -535,7 +534,8 @@
     <MESSAGE value="Moveable interface introduced and main class updated" />
     <MESSAGE value="Refactor the name of the package" />
     <MESSAGE value="Reorganizing my packages for easier access" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganizing my packages for easier access" />
+    <MESSAGE value="Added Mariusz version of car utils" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Mariusz version of car utils" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
