@@ -13,9 +13,8 @@ Create the class Main which contains the main method and check the operation of 
 When do you need to cast between types?
      */
     public void makeMove() {
-        System.out.println("Lets float around");
-        System.out.println("Lets fly around");
-        System.out.println("Lets submerge below");
+        System.out.println("Vehicles move around various ways");
+
 
     }
 }
