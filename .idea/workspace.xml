@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added Karolinas homework sample">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e22_shopping_cart/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e22_shopping_cart/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e22_shopping_cart/ShoppingCart.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Created classes for homework nr.22">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e22_shopping_cart/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e22_shopping_cart/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e22_shopping_cart/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e22_shopping_cart/ShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,13 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00128" summary="Little changes again">
-      <created>1680281608280</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1680281608280</updated>
     </task>
     <task id="LOCAL-00129" summary="Little changes again with shared house object">
       <created>1680282899662</created>
@@ -490,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682708805798</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="Created classes for homework nr.22">
+      <created>1683498555869</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1683498555869</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Immutable strings explained AND Animal polymorphism created" />
     <MESSAGE value="Added homeworks task's description for Airplane" />
     <MESSAGE value="&lt;Little changes in airplane&gt;" />
     <MESSAGE value="Added Mariusz airplane" />
@@ -530,7 +528,8 @@
     <MESSAGE value="List example" />
     <MESSAGE value="List example updated" />
     <MESSAGE value="Added Karolinas homework sample" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Karolinas homework sample" />
+    <MESSAGE value="Created classes for homework nr.22" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created classes for homework nr.22" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

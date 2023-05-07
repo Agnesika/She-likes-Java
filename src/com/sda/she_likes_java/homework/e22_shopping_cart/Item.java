@@ -5,17 +5,17 @@ public class Item extends ShoppingCart{
     private double price;
     private int amount;
 
-    public Item(String product, double price, int amount) {
-        this.name = product;
+    public Item(String name, double price, int amount) {
+        this.name = name;
         this.price = price;
         this.amount = amount;
     }
 
-    public String getProduct() {
+    public String getName() {
         return name;
     }
 
-    public void setProduct(String product) {
+    public void setName(String product) {
         this.name = product;
     }
 
@@ -38,7 +38,7 @@ public class Item extends ShoppingCart{
     @Override
     public String toString() {
         return "Items{" +
-                "product='" + name + '\'' +
+                "Name='" + name + '\'' +
                 ", price=" + price +
                 ", amount=" + amount +
                 '}';
