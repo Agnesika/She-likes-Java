@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Updated shopping cart">
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Providing generic structure to play with collections">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/Trousers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/lists/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +61,7 @@
       <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.collections.lists.Main">
     <configuration name="DiscoBouncerWithFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.exercises_4_14.DiscoBouncerWithFunctions" />
       <module name="JavaCourse" />
@@ -112,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.sda.she_likes_java.homework.e19_21_vehicle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e19_21_vehicle.Main" />
+    <configuration name="com.sda.she_likes_java.collections.lists.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.collections.lists.Main" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.e19_21_vehicle.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.collections.lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.sda.she_likes_java.collections.lists.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ShoppingCart" />
         <item itemvalue="Application.DiscoBouncerWithFunctions" />
         <item itemvalue="Application.MainKarolinas" />
-        <item itemvalue="Application.com.sda.she_likes_java.homework.e19_21_vehicle.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -143,13 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00131" summary="Added homework parameters">
-      <created>1680532649706</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1680532649706</updated>
     </task>
     <task id="LOCAL-00132" summary="Topped up my ownership of the Cat">
       <created>1680533714887</created>
@@ -487,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683560568850</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="Providing generic structure to play with collections">
+      <created>1683563948146</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1683563948146</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -502,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Mariusz airplane" />
     <MESSAGE value="Human and mammal classes created" />
     <MESSAGE value="Man and woman classes created" />
     <MESSAGE value="Casting explaine more" />
@@ -527,7 +528,8 @@
     <MESSAGE value="Created classes for homework nr.22" />
     <MESSAGE value="Created shopping cart with amounts and prices" />
     <MESSAGE value="Updated shopping cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated shopping cart" />
+    <MESSAGE value="Providing generic structure to play with collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Providing generic structure to play with collections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
