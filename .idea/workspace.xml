@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Providing generic structure to play with collections">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/Trousers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/lists/Main.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="list example:&#10;- ordered&#10;- can contain duplicates (according to equal() method)">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/sets/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.sda.she_likes_java.collections.lists.Main">
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.collections.sets.Main">
     <configuration name="DiscoBouncerWithFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.exercises_4_14.DiscoBouncerWithFunctions" />
       <module name="JavaCourse" />
@@ -81,19 +80,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sda.she_likes_java.homework.e22_shopping_cart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKarolinas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e19_21_vehicle.MainKarolinas" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.e19_21_vehicle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.sda.she_likes_java.collections.sets.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.collections.sets.Main" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.collections.sets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.sda.she_likes_java.collections.sets.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.collections.lists.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ShoppingCart" />
         <item itemvalue="Application.DiscoBouncerWithFunctions" />
-        <item itemvalue="Application.MainKarolinas" />
       </list>
     </recent_temporary>
   </component>
@@ -145,13 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00132" summary="Topped up my ownership of the Cat">
-      <created>1680533714887</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1680533714888</updated>
     </task>
     <task id="LOCAL-00133" summary="static example with washMachine class">
       <created>1680546023579</created>
@@ -489,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683563948146</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="list example:&#10;- ordered&#10;- can contain duplicates (according to equal() method)">
+      <created>1683566582919</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1683566582919</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Human and mammal classes created" />
     <MESSAGE value="Man and woman classes created" />
     <MESSAGE value="Casting explaine more" />
     <MESSAGE value="maybeWoman fixed" />
@@ -529,7 +527,8 @@
     <MESSAGE value="Created shopping cart with amounts and prices" />
     <MESSAGE value="Updated shopping cart" />
     <MESSAGE value="Providing generic structure to play with collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Providing generic structure to play with collections" />
+    <MESSAGE value="list example:&#10;- ordered&#10;- can contain duplicates (according to equal() method)" />
+    <option name="LAST_COMMIT_MESSAGE" value="list example:&#10;- ordered&#10;- can contain duplicates (according to equal() method)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
