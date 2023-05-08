@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Created classes for homework nr.22">
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Created shopping cart with amounts and prices">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e22_shopping_cart/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e22_shopping_cart/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e22_shopping_cart/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e22_shopping_cart/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e22_shopping_cart/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e22_shopping_cart/ShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShoppingCart">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DiscoBouncerWithFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.exercises_4_14.DiscoBouncerWithFunctions" />
       <module name="JavaCourse" />
@@ -75,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.objects_equality.ListMain" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e22_shopping_cart.Main" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.objects_equality.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.e22_shopping_cart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ShoppingCart" />
         <item itemvalue="Application.DiscoBouncerWithFunctions" />
         <item itemvalue="Application.MainKarolinas" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e19_21_vehicle.Main" />
-        <item itemvalue="Application.ListMain" />
       </list>
     </recent_temporary>
   </component>
@@ -145,13 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00129" summary="Little changes again with shared house object">
-      <created>1680282899662</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1680282899662</updated>
     </task>
     <task id="LOCAL-00130" summary="Wife moving too much between houses">
       <created>1680292012767</created>
@@ -489,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683498555869</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Created shopping cart with amounts and prices">
+      <created>1683500651502</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1683500651502</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added homeworks task's description for Airplane" />
     <MESSAGE value="&lt;Little changes in airplane&gt;" />
     <MESSAGE value="Added Mariusz airplane" />
     <MESSAGE value="Human and mammal classes created" />
@@ -529,7 +528,8 @@
     <MESSAGE value="List example updated" />
     <MESSAGE value="Added Karolinas homework sample" />
     <MESSAGE value="Created classes for homework nr.22" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created classes for homework nr.22" />
+    <MESSAGE value="Created shopping cart with amounts and prices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created shopping cart with amounts and prices" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
