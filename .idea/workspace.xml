@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Set example:&#10;- unordered&#10;- cannot contain duplicates (according to equal() method)">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/maps/Main.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Map example:&#10;- contains values under the keys (value is represented by key)&#10;- any type can be type of the key&#10;- any type can be type of the value">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/maps/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/maps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/maps/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,13 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00134" summary="static example with washMachine class updated with increase serial number">
-      <created>1680547084292</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1680547084293</updated>
     </task>
     <task id="LOCAL-00135" summary="something changed there">
       <created>1681311792554</created>
@@ -490,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683568144047</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="Map example:&#10;- contains values under the keys (value is represented by key)&#10;- any type can be type of the key&#10;- any type can be type of the value">
+      <created>1683569319228</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1683569319228</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Casting explaine more" />
     <MESSAGE value="maybeWoman fixed" />
     <MESSAGE value="Safe casting with instanceof operator" />
     <MESSAGE value="Little administration of classes" />
@@ -530,7 +527,8 @@
     <MESSAGE value="Providing generic structure to play with collections" />
     <MESSAGE value="list example:&#10;- ordered&#10;- can contain duplicates (according to equal() method)" />
     <MESSAGE value="Set example:&#10;- unordered&#10;- cannot contain duplicates (according to equal() method)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set example:&#10;- unordered&#10;- cannot contain duplicates (according to equal() method)" />
+    <MESSAGE value="Map example:&#10;- contains values under the keys (value is represented by key)&#10;- any type can be type of the key&#10;- any type can be type of the value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map example:&#10;- contains values under the keys (value is represented by key)&#10;- any type can be type of the key&#10;- any type can be type of the value" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
