@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Map example - iteration">
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added Mariusz's example of shopping cart">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,13 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00136" summary="Created Exercise 17 with book lending">
-      <created>1681317247940</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1681317247940</updated>
     </task>
     <task id="LOCAL-00137" summary="Added 3 books for lending and counted">
       <created>1681318311196</created>
@@ -487,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683570710547</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="Added Mariusz's example of shopping cart">
+      <created>1683578497127</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1683578497127</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -502,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Safe casting with instanceof operator" />
     <MESSAGE value="Little administration of classes" />
     <MESSAGE value="Created Vehicle for exercise 19" />
     <MESSAGE value="Tried to patch deleted branch name" />
@@ -527,7 +529,8 @@
     <MESSAGE value="Set example:&#10;- unordered&#10;- cannot contain duplicates (according to equal() method)" />
     <MESSAGE value="Map example:&#10;- contains values under the keys (value is represented by key)&#10;- any type can be type of the key&#10;- any type can be type of the value" />
     <MESSAGE value="Map example - iteration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Map example - iteration" />
+    <MESSAGE value="Added Mariusz's example of shopping cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Mariusz's example of shopping cart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
