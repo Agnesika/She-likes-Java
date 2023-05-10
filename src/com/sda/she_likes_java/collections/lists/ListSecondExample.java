@@ -15,6 +15,8 @@ public class ListSecondExample {
         printNames(names);
         System.out.println("---------");
         printOnlySomeNames(names);
+        System.out.println("---------");
+        printNamesWithSemicolon(names);
     }
 
     public static void printNames(List<String> names) {
@@ -26,7 +28,19 @@ public class ListSecondExample {
     public static void printOnlySomeNames(List<String> names) {
         // starting from position number 1 - second item
         for (int index = 1; index < names.size()-1; index++) {
-            System.out.println("name is: " + names.get(index));
+            System.out.println("Printed some names: " + names.get(index));
         }
     }
+
+    // name1, name2, name3
+    public static void printNamesWithSemicolon(List<String> names) {
+        String result = names.get(0);
+        for (int i = 1; i < names.size(); i++) {
+            result +="; " +  names.get(i);
+
+        }
+        System.out.println(result);
+    }
+
+    // Finding item inside the list
 }

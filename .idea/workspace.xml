@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Created homework with journal">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/lists/ListSecondExample.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Created another List example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/lists/ListSecondExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/lists/ListSecondExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,27 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00139" summary="Florinas book homework added">
-      <created>1681331112551</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1681331112552</updated>
-    </task>
-    <task id="LOCAL-00140" summary="Packages sorted a little bit">
-      <created>1681772987641</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1681772987641</updated>
-    </task>
-    <task id="LOCAL-00141" summary="Homework finalized">
-      <created>1681773088671</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1681773088671</updated>
     </task>
     <task id="LOCAL-00142" summary="Book app homework finalized">
       <created>1681773157406</created>
@@ -488,7 +467,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683736102849</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="Created another List example">
+      <created>1683737020359</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1683737020359</updated>
+    </task>
+    <task id="LOCAL-00189" summary="Created another List example">
+      <created>1683737030930</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1683737030930</updated>
+    </task>
+    <task id="LOCAL-00190" summary="Created another List example">
+      <created>1683737135370</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1683737135370</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tried to patch deleted branch name" />
     <MESSAGE value="Arranged files in packages" />
     <MESSAGE value="Created package dor exercise 20 - car brands" />
     <MESSAGE value="Created package for exercise 20 - car brands" />
@@ -528,7 +527,8 @@
     <MESSAGE value="Added Mariusz's example of shopping cart" />
     <MESSAGE value="Created classes for exercise 23" />
     <MESSAGE value="Created homework with journal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created homework with journal" />
+    <MESSAGE value="Created another List example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created another List example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
