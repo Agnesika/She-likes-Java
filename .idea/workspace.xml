@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added Mariusz's example of shopping cart">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Package-info.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Created classes for exercise 23">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/lists/ListSecondExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Journal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +63,13 @@
       <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e22_shopping_cart.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e22_shopping_cart.Main" />
+  <component name="RunManager" selected="Application.ListSecondExample">
+    <configuration name="ListSecondExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.collections.lists.ListSecondExample" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.e22_shopping_cart.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.collections.lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.sda.she_likes_java.collections.lists.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.collections.lists.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e23_lesson_journal.Main" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.collections.lists.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.e23_lesson_journal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e22_shopping_cart.Main" />
+        <item itemvalue="Application.ListSecondExample" />
+        <item itemvalue="Application.com.sda.she_likes_java.homework.e23_lesson_journal.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.collections.maps.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.collections.sets.Main" />
-        <item itemvalue="Application.com.sda.she_likes_java.collections.lists.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e22_shopping_cart.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -146,13 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00137" summary="Added 3 books for lending and counted">
-      <created>1681318311196</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1681318311196</updated>
     </task>
     <task id="LOCAL-00138" summary="Added 3 books for lending and counted">
       <created>1681328523240</created>
@@ -490,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683578497127</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="Created classes for exercise 23">
+      <created>1683667081811</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1683667081811</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,7 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Little administration of classes" />
     <MESSAGE value="Created Vehicle for exercise 19" />
     <MESSAGE value="Tried to patch deleted branch name" />
     <MESSAGE value="Arranged files in packages" />
@@ -530,7 +530,8 @@
     <MESSAGE value="Map example:&#10;- contains values under the keys (value is represented by key)&#10;- any type can be type of the key&#10;- any type can be type of the value" />
     <MESSAGE value="Map example - iteration" />
     <MESSAGE value="Added Mariusz's example of shopping cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Mariusz's example of shopping cart" />
+    <MESSAGE value="Created classes for exercise 23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created classes for exercise 23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
