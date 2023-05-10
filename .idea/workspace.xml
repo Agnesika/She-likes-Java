@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Created classes for exercise 23">
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Created homework with journal">
       <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/lists/ListSecondExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Journal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e23_lesson_journal/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,13 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00138" summary="Added 3 books for lending and counted">
-      <created>1681328523240</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1681328523240</updated>
     </task>
     <task id="LOCAL-00139" summary="Florinas book homework added">
       <created>1681331112551</created>
@@ -491,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683667081811</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="Created homework with journal">
+      <created>1683736102849</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1683736102849</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -506,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Vehicle for exercise 19" />
     <MESSAGE value="Tried to patch deleted branch name" />
     <MESSAGE value="Arranged files in packages" />
     <MESSAGE value="Created package dor exercise 20 - car brands" />
@@ -531,7 +527,8 @@
     <MESSAGE value="Map example - iteration" />
     <MESSAGE value="Added Mariusz's example of shopping cart" />
     <MESSAGE value="Created classes for exercise 23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created classes for exercise 23" />
+    <MESSAGE value="Created homework with journal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created homework with journal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
