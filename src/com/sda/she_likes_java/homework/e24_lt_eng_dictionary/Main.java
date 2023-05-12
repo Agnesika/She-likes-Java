@@ -1,23 +1,27 @@
 package com.sda.she_likes_java.homework.e24_lt_eng_dictionary;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Lets translate some words in 2 foreign, but familiar languages :) ");
 
 
-        Map<String, String> translations = new HashMap<>();
 
-        translations.put("Ačiu", "Thank You");
-        translations.put("Braliukas", "Brothers");
-        translations.put("Pelke", "Swamp");
-        translations.put("Žirgas", "Horse");
-        translations.put("Labas dienas", "Good afternoon");
-        translations.put("Galva", "Head");
+        Scanner inputReader = new Scanner(System.in);
 
-        System.out.println("My little LT-ENG dictionary is like : " + translations);
+
+
+//        if (wordLT >= 16) {
+            System.out.println("We need to know your height too!");
+            boolean condition = true;
+            if (condition) {
+                System.out.println("Thank you for showing the interest");
+            } else {
+                System.out.println("We need more information from you");
+            }
+            System.out.println("Tell me how tall are You?");
+//        System.out.println("My little LT-ENG dictionary is like : " + translations);
 
         System.out.println("Can you tell me how to say " + "Crown" + " in Lithuanian");
 

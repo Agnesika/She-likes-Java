@@ -12,15 +12,15 @@ Create a class Main and check the functionality of your class.
      */
 
     private String translation;
+    public static void DictionaryInputs() {
+//        Map<wordLT, String> translations = new HashMap<>();
 
-    public Dictionary(String translation) {
-        this.translation = translation;
-    }
-
-    @Override
-    public String toString() {
-        return "Dictionary{" +
-                "translation='" + translation + '\'' +
-                '}';
+//        translations.put("Ačiu", "Thank You");
+//        translations.put("Braliukas", "Brothers");
+//        translations.put("Pelke", "Swamp");
+//        translations.put("Žirgas", "Horse");
+//        translations.put("Labas dienas", "Good afternoon");
+//        translations.put("Galva", "Head");
+//        String translations = inputReader.nextInt();
     }
 }
