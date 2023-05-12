@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Find person by name example added">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/collections/maps/MapsExample.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Maps example with extracting valudes out of lists">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_eng_dictionary/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_eng_dictionary/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,26 +61,13 @@
       <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapsExample">
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e24_lt_eng_dictionary.Main">
     <configuration name="ListSecondExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.collections.lists.ListSecondExample" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sda.she_likes_java.collections.lists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e23_lesson_journal.Main" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.e23_lesson_journal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +114,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.sda.she_likes_java.homework.e24_lt_eng_dictionary.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e24_lt_eng_dictionary.Main" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.e24_lt_eng_dictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.sda.she_likes_java.homework.e24_lt_eng_dictionary.Main" />
         <item itemvalue="Application.MapsExample" />
         <item itemvalue="Application.ListSecondExample" />
-        <item itemvalue="Application.com.sda.she_likes_java.homework.e23_lesson_journal.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.collections.maps.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.collections.sets.Main" />
       </list>
@@ -144,13 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00145" summary="Basic introduction of visibility modifier">
-      <created>1681923174843</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1681923174843</updated>
     </task>
     <task id="LOCAL-00146" summary="default modifier (no modifier)">
       <created>1681924379127</created>
@@ -488,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683741806518</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="Maps example with extracting valudes out of lists">
+      <created>1683744003123</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1683744003123</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Interfaces example" />
     <MESSAGE value="Moveable interface introduced and main class updated" />
     <MESSAGE value="Refactor the name of the package" />
     <MESSAGE value="Reorganizing my packages for easier access" />
@@ -528,7 +528,8 @@
     <MESSAGE value="Added list with semicolons" />
     <MESSAGE value="Adding name to existing list. List examples expanding" />
     <MESSAGE value="Find person by name example added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find person by name example added" />
+    <MESSAGE value="Maps example with extracting valudes out of lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maps example with extracting valudes out of lists" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
