@@ -1,5 +1,9 @@
 package com.sda.she_likes_java.homework.e25_political_map;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
 public class Main {
     /*
     Exercise 25
@@ -21,9 +25,26 @@ have fun
 
 //        String capitals = Capitals.get(country);
 
-        Capitals politicalMap = new Capitals();
+        Capitals politicalMap = new Capitals(provideTestData());
         politicalMap.matchNames("Romania");
         politicalMap.matchNames("Malta");
         politicalMap.matchNames("Latvia");
+
+        Scanner inputReader = new Scanner(System.in);
+        System.out.println("Provide the country to connect with the capital: ");
+        String wordFromTheUser = inputReader.next();
+        politicalMap.matchNames(wordFromTheUser);
+    }
+
+    public static Map<String, String> provideTestData(){
+        final Map<String, String> capitals = new HashMap<>();
+        capitals.put("Malta", "Valetta");
+        capitals.put("Lao", "Vientiane");
+        capitals.put("Dominica", "Roseau");
+        capitals.put("India", "Deli");
+        capitals.put("Romania", "Bucharest");
+
+
+        return capitals;
     }
 }
