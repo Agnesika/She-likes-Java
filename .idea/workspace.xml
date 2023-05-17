@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Improved homework 25 by Mariusz">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/operators/ThreeWayOperator.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="ternary operator example">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/enumerable/DeveloperStatesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/enumerable/ProgrammersStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/enumerable/Seasons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/enumerable/SeasonsExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -60,13 +64,13 @@
       <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TernaryOperator">
-    <configuration name="DictionaryProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.collections.lists.DictionaryProgram" />
+  <component name="RunManager" selected="Application.DeveloperStatesExample">
+    <configuration name="DeveloperStatesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.enumerable.DeveloperStatesExample" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.collections.lists.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.enumerable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,6 +84,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sda.she_likes_java.homework.e24_lt_lv_dictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeasonsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.enumerable.SeasonsExample" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.enumerable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,26 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e24_dictionary.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e24_dictionary.Main" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e24_dictionary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeveloperStatesExample" />
+        <item itemvalue="Application.SeasonsExample" />
         <item itemvalue="Application.TernaryOperator" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e25_political_map.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e24_lt_eng_dictionary.Main" />
-        <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e24_dictionary.Main" />
-        <item itemvalue="Application.DictionaryProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -144,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00156" summary="Added Mariusz airplane">
-      <created>1682350034973</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1682350034973</updated>
     </task>
     <task id="LOCAL-00157" summary="Human and mammal classes created">
       <created>1682353311298</created>
@@ -488,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684341305982</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="ternary operator example">
+      <created>1684343345074</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1684343345074</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created shopping cart with amounts and prices" />
     <MESSAGE value="Updated shopping cart" />
     <MESSAGE value="Providing generic structure to play with collections" />
     <MESSAGE value="list example:&#10;- ordered&#10;- can contain duplicates (according to equal() method)" />
@@ -528,7 +531,8 @@
     <MESSAGE value="Created homework 25 with political map" />
     <MESSAGE value="Updated homework 25 with user input" />
     <MESSAGE value="Improved homework 25 by Mariusz" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved homework 25 by Mariusz" />
+    <MESSAGE value="ternary operator example" />
+    <option name="LAST_COMMIT_MESSAGE" value="ternary operator example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
