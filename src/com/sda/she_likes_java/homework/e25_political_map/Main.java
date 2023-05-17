@@ -16,9 +16,14 @@ have fun
     public static void main(String[] args) {
         System.out.println("Let's learn some political geography");
 
+
+
+
+//        String capitals = Capitals.get(country);
+
         Capitals politicalMap = new Capitals();
-        politicalMap.connect("Romania");
-        politicalMap.connect("Malta");
-        politicalMap.connect("Latvia");
+        politicalMap.matchNames("Romania");
+        politicalMap.matchNames("Malta");
+        politicalMap.matchNames("Latvia");
     }
 }

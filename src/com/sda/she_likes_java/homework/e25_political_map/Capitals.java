@@ -2,26 +2,29 @@ package com.sda.she_likes_java.homework.e25_political_map;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Capitals {
-    private final Map<String, String> capitals;
+    private static final Map<String, String> capitals = new HashMap<>();
 
-    public Capitals(Map<String, String> capitals) {
-        this.capitals = capitals;
-    }
+//    public Capitals(Map<String, String> capitals) {
+//        this.capitals = capitals;
+//    }
 
     public Capitals() {
-        capitals = new HashMap<>();
-
         capitals.put("Malta", "Valetta");
         capitals.put("Lao", "Vientiane");
         capitals.put("Dominica", "Roseau");
         capitals.put("India", "Deli");
         capitals.put("Romania", "Bucharest");
 
-
+        Scanner inputReader = new Scanner(System.in);
+        System.out.println("Provide the country to connect with the capital: ");
+        String wordFromTheUser = inputReader.next();
+        Capitals.matchNames(wordFromTheUser);
     }
-    public void connect(String country){
+
+    public static void matchNames(String country){
         String capital = capitals.get(country);
         if (capital != null) {
             System.out.printf("Country: [%s] has a capital [%s]%n", country, capital);
