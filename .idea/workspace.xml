@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Updated homework 25 with user input">
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Improved homework 25 by Mariusz">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/operators/ThreeWayOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e25_political_map/Capitals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e25_political_map/Capitals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e25_political_map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e25_political_map/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e25_political_map.Main">
+  <component name="RunManager" selected="Application.TernaryOperator">
     <configuration name="DictionaryProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.collections.lists.DictionaryProgram" />
       <module name="JavaCourse" />
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.collections.maps.MapsExample" />
+    <configuration name="TernaryOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.operators.TernaryOperator" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.collections.maps.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.operators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TernaryOperator" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e25_political_map.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e24_lt_eng_dictionary.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e24_dictionary.Main" />
         <item itemvalue="Application.DictionaryProgram" />
-        <item itemvalue="Application.MapsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -145,13 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00155" summary="&lt;Little changes in airplane&gt;">
-      <created>1682349879582</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1682349879583</updated>
     </task>
     <task id="LOCAL-00156" summary="Added Mariusz airplane">
       <created>1682350034973</created>
@@ -489,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684337181080</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="Improved homework 25 by Mariusz">
+      <created>1684341305982</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1684341305982</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created classes for homework nr.22" />
     <MESSAGE value="Created shopping cart with amounts and prices" />
     <MESSAGE value="Updated shopping cart" />
     <MESSAGE value="Providing generic structure to play with collections" />
@@ -529,7 +527,8 @@
     <MESSAGE value="added getters" />
     <MESSAGE value="Created homework 25 with political map" />
     <MESSAGE value="Updated homework 25 with user input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated homework 25 with user input" />
+    <MESSAGE value="Improved homework 25 by Mariusz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved homework 25 by Mariusz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
