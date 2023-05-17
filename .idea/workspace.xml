@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="created enum examples" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="added comparison with regular class with the same references and variables">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/enumerable/DeveloperStatesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/enumerable/DeveloperStatesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/enumerable/ProgrammersStates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/enumerable/ProgrammersStates.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,11 +55,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sda.she_likes_java.enumerable" />
       <recent name="com.sda.she_likes_java.visibility.private_modifier.main" />
       <recent name="com.sda.she_likes_java.name_clash" />
       <recent name="com.sda.she_likes_java.homework" />
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
-      <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DeveloperStatesExample">
@@ -142,13 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00158" summary="Man and woman classes created">
-      <created>1682353592392</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1682353592392</updated>
     </task>
     <task id="LOCAL-00159" summary="Casting explaine more">
       <created>1682359848518</created>
@@ -486,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684347492409</updated>
     </task>
-    <option name="localTasksCounter" value="207" />
+    <task id="LOCAL-00207" summary="added comparison with regular class with the same references and variables">
+      <created>1684347702778</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1684347702778</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Providing generic structure to play with collections" />
     <MESSAGE value="list example:&#10;- ordered&#10;- can contain duplicates (according to equal() method)" />
     <MESSAGE value="Set example:&#10;- unordered&#10;- cannot contain duplicates (according to equal() method)" />
     <MESSAGE value="Map example:&#10;- contains values under the keys (value is represented by key)&#10;- any type can be type of the key&#10;- any type can be type of the value" />
@@ -526,7 +529,8 @@
     <MESSAGE value="Improved homework 25 by Mariusz" />
     <MESSAGE value="ternary operator example" />
     <MESSAGE value="created enum examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="created enum examples" />
+    <MESSAGE value="added comparison with regular class with the same references and variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="added comparison with regular class with the same references and variables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,8 +2,8 @@ package com.sda.she_likes_java.enumerable;
 
 public enum ProgrammersStates {
 
-    GOD_MODE("I can do everything"),
     EXHAUSTED("Bang the wall"),
+    GOD_MODE("I can do everything"),
     NORMAL("Yeah, it's just the life");
 
     String description;

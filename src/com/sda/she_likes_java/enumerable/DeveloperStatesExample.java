@@ -25,6 +25,11 @@ public class DeveloperStatesExample {
         }
 
         compareEnums((ProgrammersStates.GOD_MODE));
+        System.out.println("Enum methods");
+        System.out.println("name: " + ProgrammersStates.GOD_MODE.name());
+        System.out.println("ordinal: " + ProgrammersStates.GOD_MODE.ordinal());
+        ProgrammersStates[] allStates = ProgrammersStates.values();
+        System.out.println("should be NORMAL: " + allStates[0]);
     }
 
     public static void compareEnums(ProgrammersStates someState) {
