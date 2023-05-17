@@ -13,4 +13,12 @@ Create a Main class to test your class
 9:40
 have fun
      */
+    public static void main(String[] args) {
+        System.out.println("Let's learn some political geography");
+
+        Capitals politicalMap = new Capitals();
+        politicalMap.connect("Romania");
+        politicalMap.connect("Malta");
+        politicalMap.connect("Latvia");
+    }
 }

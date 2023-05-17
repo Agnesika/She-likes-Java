@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added Mariusz example of dictionary homework">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_lv_dictionary/LatvianLithuanianDictionary.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="added getters">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e25_political_map/Capitals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_eng_dictionary/Dictionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_eng_dictionary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_lv_dictionary/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_eng_dictionary/WordLT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_lv_dictionary/WordsBaltic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e25_political_map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e25_political_map/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,22 +61,9 @@
       <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e24_lt_eng_dictionary.Main">
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e25_political_map.Main">
     <configuration name="DictionaryProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.collections.lists.DictionaryProgram" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.collections.lists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListSecondExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.collections.lists.ListSecondExample" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
@@ -116,6 +101,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.sda.she_likes_java.homework.e25_political_map.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e25_political_map.Main" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.e25_political_map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e24_dictionary.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e24_dictionary.Main" />
       <module name="JavaCourse" />
@@ -131,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.sda.she_likes_java.homework.e25_political_map.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e24_lt_eng_dictionary.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e24_dictionary.Main" />
         <item itemvalue="Application.DictionaryProgram" />
         <item itemvalue="Application.MapsExample" />
-        <item itemvalue="Application.ListSecondExample" />
       </list>
     </recent_temporary>
   </component>
@@ -147,20 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00151" summary="Corrected verti comas">
-      <created>1682096743765</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1682096743765</updated>
-    </task>
-    <task id="LOCAL-00152" summary="Immutable strings">
-      <created>1682099248526</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1682099248526</updated>
     </task>
     <task id="LOCAL-00153" summary="Immutable strings explained AND Animal polymorphism created">
       <created>1682102724952</created>
@@ -491,7 +475,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683925938302</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="trying to create userInput in my little LT-LV dictionary">
+      <created>1684331919041</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1684331919041</updated>
+    </task>
+    <task id="LOCAL-00201" summary="added getters">
+      <created>1684332414325</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1684332414326</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -506,8 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed vehicle class assignment" />
-    <MESSAGE value="List example" />
     <MESSAGE value="List example updated" />
     <MESSAGE value="Added Karolinas homework sample" />
     <MESSAGE value="Created classes for homework nr.22" />
@@ -531,7 +527,9 @@
     <MESSAGE value="Custom sample with dictionaries" />
     <MESSAGE value="Custom exsample with dictionaries with user input" />
     <MESSAGE value="Added Mariusz example of dictionary homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Mariusz example of dictionary homework" />
+    <MESSAGE value="trying to create userInput in my little LT-LV dictionary" />
+    <MESSAGE value="added getters" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
