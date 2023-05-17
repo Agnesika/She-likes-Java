@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="more of enums - hidden classes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Little addition to traditional class in enums">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/e25_PoliticalMap/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,26 +60,13 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeveloperStatesExample">
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e25_PoliticalMap.Main">
     <configuration name="DeveloperStatesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.enumerable.DeveloperStatesExample" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sda.she_likes_java.enumerable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e24_lt_lv_dictionary.Main" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.e24_lt_lv_dictionary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e25_PoliticalMap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e25_PoliticalMap.Main" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e25_PoliticalMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e25_PoliticalMap.Main" />
         <item itemvalue="Application.DeveloperStatesExample" />
         <item itemvalue="Application.SeasonsExample" />
         <item itemvalue="Application.TernaryOperator" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e25_political_map.Main" />
-        <item itemvalue="Application.com.sda.she_likes_java.homework.e24_lt_eng_dictionary.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -144,13 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00160" summary="maybeWoman fixed">
-      <created>1682359885246</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1682359885247</updated>
     </task>
     <task id="LOCAL-00161" summary="Safe casting with instanceof operator">
       <created>1682362082330</created>
@@ -488,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684348752551</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary="Little addition to traditional class in enums">
+      <created>1684350417818</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1684350417818</updated>
+    </task>
+    <option name="localTasksCounter" value="210" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Set example:&#10;- unordered&#10;- cannot contain duplicates (according to equal() method)" />
     <MESSAGE value="Map example:&#10;- contains values under the keys (value is represented by key)&#10;- any type can be type of the key&#10;- any type can be type of the value" />
     <MESSAGE value="Map example - iteration" />
     <MESSAGE value="Added Mariusz's example of shopping cart" />
@@ -528,7 +527,8 @@
     <MESSAGE value="created enum examples" />
     <MESSAGE value="added comparison with regular class with the same references and variables" />
     <MESSAGE value="more of enums - hidden classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="more of enums - hidden classes" />
+    <MESSAGE value="Little addition to traditional class in enums" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little addition to traditional class in enums" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
