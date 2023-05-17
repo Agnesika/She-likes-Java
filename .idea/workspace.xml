@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Custom exsample with dictionaries with user input">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/e24_dictionary/EnglishPolishDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/other_peoples_homeworks/mariusz_examples/e24_dictionary/Main.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added Mariusz example of dictionary homework">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_lv_dictionary/LatvianLithuanianDictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_eng_dictionary/Dictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_eng_dictionary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_lv_dictionary/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_eng_dictionary/WordLT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e24_lt_lv_dictionary/WordsBaltic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <recent name="com.sda.she_likes_java.controls" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e24_dictionary.Main">
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e24_lt_eng_dictionary.Main">
     <configuration name="DictionaryProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.collections.lists.DictionaryProgram" />
       <module name="JavaCourse" />
@@ -89,11 +91,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e24_lt_eng_dictionary.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e24_lt_lv_dictionary.Main" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.e24_lt_eng_dictionary.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.e24_lt_lv_dictionary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,9 +131,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.sda.she_likes_java.homework.e24_lt_eng_dictionary.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e24_dictionary.Main" />
         <item itemvalue="Application.DictionaryProgram" />
-        <item itemvalue="Application.com.sda.she_likes_java.homework.e24_lt_eng_dictionary.Main" />
         <item itemvalue="Application.MapsExample" />
         <item itemvalue="Application.ListSecondExample" />
       </list>
@@ -145,13 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00150" summary="Created airplane package">
-      <created>1682092157111</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1682092157111</updated>
     </task>
     <task id="LOCAL-00151" summary="Corrected verti comas">
       <created>1682096743765</created>
@@ -489,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683915513852</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="Added Mariusz example of dictionary homework">
+      <created>1683925938302</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1683925938302</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Upgraded Vehicle class with exercise 21 with implementations" />
     <MESSAGE value="Changed vehicle class assignment" />
     <MESSAGE value="List example" />
     <MESSAGE value="List example updated" />
@@ -529,7 +530,8 @@
     <MESSAGE value="In process of improving homework with userInput" />
     <MESSAGE value="Custom sample with dictionaries" />
     <MESSAGE value="Custom exsample with dictionaries with user input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Custom exsample with dictionaries with user input" />
+    <MESSAGE value="Added Mariusz example of dictionary homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Mariusz example of dictionary homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
