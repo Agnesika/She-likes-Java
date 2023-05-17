@@ -7,7 +7,14 @@ public class ProgrammersStatesClass {
             new ProgrammersStatesClass("Bang the wall:(");
     public static final ProgrammersStatesClass NORMAL =
             new ProgrammersStatesClass("yeah it's just life");
+    private static ProgrammersStatesClass[] value() {
 
+        ProgrammersStatesClass[] values = new ProgrammersStatesClass[3];
+        values[0] = GOD_MODE;
+        values[1] = EXHAUSTED;
+        values[2] = NORMAL;
+        return values;
+    }
     String description;
 
     public String getDescription() {
