@@ -5,6 +5,18 @@ public class WordsBaltic {
     private String wordLV;
     private String translation;
 
+    public String getWordLT() {
+        return wordLT;
+    }
+
+    public String getWordLV() {
+        return wordLV;
+    }
+
+    public String getTranslation() {
+        return translation;
+    }
+
     public WordsBaltic(String translation) {
         this.translation = translation;
     }
