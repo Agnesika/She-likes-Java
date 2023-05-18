@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="added Mariusz's homework nr 25">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/SimpleArraySorting.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Sorting introduction">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/SortedPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/SortingPersonsMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CollectionSorting">
+  <component name="RunManager" selected="Application.SortingPersonsMain">
     <configuration name="Array100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.exercises_4_14.Array100" />
       <module name="JavaCourse" />
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeveloperStatesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.enumerable.DeveloperStatesExample" />
+    <configuration name="SortingPersonsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.sorting.SortingPersonsMain" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.enumerable.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingPersonsMain" />
         <item itemvalue="Application.CollectionSorting" />
         <item itemvalue="Application.Array100" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e25_political_map.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e25_PoliticalMap.Main" />
-        <item itemvalue="Application.DeveloperStatesExample" />
       </list>
     </recent_temporary>
   </component>
@@ -145,13 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00162" summary="Little administration of classes">
-      <created>1682510056527</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1682510056527</updated>
     </task>
     <task id="LOCAL-00163" summary="Created Vehicle for exercise 19">
       <created>1682518028347</created>
@@ -489,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684350612616</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="Sorting introduction">
+      <created>1684426253672</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1684426253672</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Map example - iteration" />
     <MESSAGE value="Added Mariusz's example of shopping cart" />
     <MESSAGE value="Created classes for exercise 23" />
     <MESSAGE value="Created homework with journal" />
@@ -529,7 +529,8 @@
     <MESSAGE value="more of enums - hidden classes" />
     <MESSAGE value="Little addition to traditional class in enums" />
     <MESSAGE value="added Mariusz's homework nr 25" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Mariusz's homework nr 25" />
+    <MESSAGE value="Sorting introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorting introduction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
