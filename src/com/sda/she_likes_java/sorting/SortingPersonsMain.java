@@ -10,12 +10,13 @@ public class SortingPersonsMain {
         SortedPerson olaf = new SortedPerson("Olaf", 22);
         SortedPerson gustaw = new SortedPerson("Gustaw", 11);
         SortedPerson zorro = new SortedPerson("Zorro", 16);
+        SortedPerson zorra = new SortedPerson("Zorra", 16);
         List<SortedPerson> persons = new ArrayList<>();
         persons.add(olaf);
         persons.add(gustaw);
         persons.add(zorro);
         persons.add(zorro);
-        persons.add(zorro);
+        persons.add(zorra);
 
         Collections.sort(persons);
         System.out.println("After sorting: " + persons);
@@ -41,6 +42,9 @@ public class SortingPersonsMain {
         System.out.println("Sorted names: " + names);
 
         Collections.sort(persons, new LexicalOrderForSortedPerson());
+        System.out.println("Persons sorted by name: " + persons);
+
+        Collections.sort(persons, new ReversedLexicalOrderForSortedPerson());
         System.out.println("Persons sorted by name: " + persons);
 
     }
