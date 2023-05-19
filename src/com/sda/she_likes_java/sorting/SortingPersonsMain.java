@@ -31,5 +31,17 @@ public class SortingPersonsMain {
 //        Comparator<SortedPerson> reversedAgeOrder = new AgedReversedOrderOfSortedPersons();
 //        Collections.sort(persons, reversedAgeOrder);
 //        System.out.println("Reversed order based on age: " + persons);
+
+        List<String> names = new ArrayList<>();
+        names.add("Ramune");
+        names.add("Lina");
+        names.add("Alma");
+        names.add("Karolina");
+        Collections.sort(names);
+        System.out.println("Sorted names: " + names);
+
+        Collections.sort(persons, new LexicalOrderForSortedPerson());
+        System.out.println("Persons sorted by name: " + persons);
+
     }
 }
