@@ -29,6 +29,10 @@ public class Main {
         ImportantEvents lastEvent = ImportantEvents.FUNERAL;
         System.out.println("My last event of my physical life: " + lastEvent);
         System.out.println("Instructions for everyone: " + lastEvent.getDescription());
+        System.out.println("---------------------------");
+        ImportantEvents eternalEvent = ImportantEvents.BIRTHDAY;
+        System.out.println("My eternal event of my physical life: " + eternalEvent);
+        System.out.println("What's going to happen? " + eternalEvent.getDescription());
         System.out.println("                            ");
         System.out.println("Enum methods");
         System.out.println("name " + ImportantEvents.GRADUATION.name());
@@ -38,6 +42,7 @@ public class Main {
         System.out.println("checking event " + allEvents[1]);
         System.out.println("checking event " + allEvents[2]);
         System.out.println("checking event " + allEvents[3]);
+        System.out.println("checking event " + allEvents[4]);
 
 
     }
