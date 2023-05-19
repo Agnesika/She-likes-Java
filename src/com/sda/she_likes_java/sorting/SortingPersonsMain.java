@@ -9,7 +9,7 @@ public class SortingPersonsMain {
     public static void main(String[] args) {
         SortedPerson olaf = new SortedPerson("Olaf", 22);
         SortedPerson gustaw = new SortedPerson("Gustaw", 11);
-        SortedPerson zorro = new SortedPerson("Zorro", 11);
+        SortedPerson zorro = new SortedPerson("Zorro", 16);
         List<SortedPerson> persons = new ArrayList<>();
         persons.add(olaf);
         persons.add(gustaw);
@@ -24,5 +24,12 @@ public class SortingPersonsMain {
         // if returns 1 that means: gustaw, olaf
 //        System.out.println("olaf.compareTo(gustaw): " + olaf.compareTo(gustaw));
 //        System.out.println("gustaw vs zorro: " + gustaw.compareTo(zorro));
+        Collections.sort(persons, new AgedReverseOrderOfSortedPersons());
+        System.out.println("Reversed order based on age: " + persons);
+
+        // example with explanation
+//        Comparator<SortedPerson> reversedAgeOrder = new AgedReversedOrderOfSortedPersons();
+//        Collections.sort(persons, reversedAgeOrder);
+//        System.out.println("Reversed order based on age: " + persons);
     }
 }

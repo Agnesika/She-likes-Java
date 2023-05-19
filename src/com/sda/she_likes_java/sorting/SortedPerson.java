@@ -60,6 +60,7 @@ public class SortedPerson implements Comparable<SortedPerson> {
         } else {
             return 0;
         }
+//        return Integer.compare(o.getAge(), age);
     }
 }
 

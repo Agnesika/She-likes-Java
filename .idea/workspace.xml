@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added examples of local date and adding years or decreasing months and checking the previous date etc">
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/time_and_date/TimeAndDateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/time_and_date/TimeAndDateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/AgedReverseOrderOfSortedPersons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/LexicalOrderForSortedPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/SortedPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/SortedPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/SortingPersonsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/SortingPersonsMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,7 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e26_Events.Main">
+  <component name="RunManager" selected="Application.SortingPersonsMain">
     <configuration name="BankExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.exceptions.BankExample" />
       <module name="JavaCourse" />
@@ -128,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingPersonsMain" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e26_Events.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e26_events.Main" />
         <item itemvalue="Application.BankExample" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SortingPersonsMain" />
       </list>
     </recent_temporary>
   </component>
@@ -144,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00173" summary="Changed vehicle class assignment">
-      <created>1682697395244</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1682697395244</updated>
     </task>
     <task id="LOCAL-00174" summary="List example">
       <created>1682706959374</created>
@@ -488,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684513227977</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="Added examples of local date and adding years or decreasing months and checking the previous date etc">
+      <created>1684513299038</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1684513299038</updated>
+    </task>
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
