@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Comparator for sorted persons based on lexical order">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/ReversedLexicalOrderForSortedPerson.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Comparator for reversed sorted persons based on alphabetical order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/AgedReverseOrderOfSortedPersons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/AgedReversedOrderOfSortedPersons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/SortingPersonsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/SortingPersonsMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,13 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00176" summary="Added Karolinas homework sample">
-      <created>1682708805798</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1682708805798</updated>
     </task>
     <task id="LOCAL-00177" summary="Created classes for homework nr.22">
       <created>1683498555869</created>
@@ -490,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684518625480</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="Comparator for reversed sorted persons based on alphabetical order">
+      <created>1684519352432</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1684519352432</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Mariusz example of dictionary homework" />
     <MESSAGE value="trying to create userInput in my little LT-LV dictionary" />
     <MESSAGE value="added getters" />
     <MESSAGE value="Created homework 25 with political map" />
@@ -530,7 +529,8 @@
     <MESSAGE value="Added examples of local date and adding years or decreasing months and checking the previous date etc" />
     <MESSAGE value="Comparator for sorted persons based on age reversed" />
     <MESSAGE value="Comparator for sorted persons based on lexical order" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comparator for sorted persons based on lexical order" />
+    <MESSAGE value="Comparator for reversed sorted persons based on alphabetical order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparator for reversed sorted persons based on alphabetical order" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
