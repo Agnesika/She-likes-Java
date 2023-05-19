@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Natural sorting for sorted person based on implementing Comparable interface">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/BankConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/BankExample.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Exception examples with corrected paste issue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,20 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00164" summary="Tried to patch deleted branch name">
-      <created>1682518070232</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1682518070232</updated>
-    </task>
-    <task id="LOCAL-00165" summary="Arranged files in packages">
-      <created>1682525547934</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1682525547934</updated>
     </task>
     <task id="LOCAL-00166" summary="Created package for exercise 20 - car brands">
       <created>1682526227571</created>
@@ -490,7 +474,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684430626348</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="Exception examples">
+      <created>1684435528576</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1684435528576</updated>
+    </task>
+    <task id="LOCAL-00214" summary="Exception examples with corrected paste issue">
+      <created>1684435597837</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1684435597838</updated>
+    </task>
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,8 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created classes for exercise 23" />
-    <MESSAGE value="Created homework with journal" />
     <MESSAGE value="Created another List example" />
     <MESSAGE value="Added list with semicolons" />
     <MESSAGE value="Adding name to existing list. List examples expanding" />
@@ -530,7 +526,9 @@
     <MESSAGE value="added Mariusz's homework nr 25" />
     <MESSAGE value="Sorting introduction" />
     <MESSAGE value="Natural sorting for sorted person based on implementing Comparable interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Natural sorting for sorted person based on implementing Comparable interface" />
+    <MESSAGE value="Exception examples" />
+    <MESSAGE value="Exception examples with corrected paste issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception examples with corrected paste issue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
