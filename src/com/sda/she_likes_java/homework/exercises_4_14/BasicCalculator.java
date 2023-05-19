@@ -1,6 +1,6 @@
 package com.sda.she_likes_java.homework.exercises_4_14;
 
-public class Main {
+public class BasicCalculator {
     public static void main(String[] args) {
         System.out.println("Hello world!");
         System.out.println("Exercise 7");
