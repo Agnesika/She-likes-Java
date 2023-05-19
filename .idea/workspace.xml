@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Exception examples with corrected paste issue">
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Just little correction of class names">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e26_Events/ImportantEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e26_Events/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,20 +62,7 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BankExample">
-    <configuration name="Array100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.exercises_4_14.Array100" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.exercises_4_14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e26_Events.Main">
     <configuration name="BankExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.exceptions.BankExample" />
       <module name="JavaCourse" />
@@ -126,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.sda.she_likes_java.homework.e26_Events.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e26_Events.Main" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.e26_Events.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.sda.she_likes_java.homework.e26_Events.Main" />
         <item itemvalue="Application.BankExample" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SortingPersonsMain" />
         <item itemvalue="Application.CollectionSorting" />
-        <item itemvalue="Application.Array100" />
       </list>
     </recent_temporary>
   </component>
@@ -144,20 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00166" summary="Created package for exercise 20 - car brands">
-      <created>1682526227571</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1682526227571</updated>
-    </task>
-    <task id="LOCAL-00167" summary="Interfaces example">
-      <created>1682531851906</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1682531851906</updated>
     </task>
     <task id="LOCAL-00168" summary="Moveable interface introduced and main class updated">
       <created>1682533757239</created>
@@ -488,7 +476,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684435597838</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="Added Mariusz's solution of homework 26">
+      <created>1684502464653</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1684502464653</updated>
+    </task>
+    <task id="LOCAL-00216" summary="Just little correction of class names">
+      <created>1684505240087</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1684505240087</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,8 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created another List example" />
-    <MESSAGE value="Added list with semicolons" />
     <MESSAGE value="Adding name to existing list. List examples expanding" />
     <MESSAGE value="Find person by name example added" />
     <MESSAGE value="Maps example with extracting valudes out of lists" />
@@ -528,7 +528,9 @@
     <MESSAGE value="Natural sorting for sorted person based on implementing Comparable interface" />
     <MESSAGE value="Exception examples" />
     <MESSAGE value="Exception examples with corrected paste issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception examples with corrected paste issue" />
+    <MESSAGE value="Added Mariusz's solution of homework 26" />
+    <MESSAGE value="Just little correction of class names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Just little correction of class names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
