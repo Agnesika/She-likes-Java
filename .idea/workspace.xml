@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added Karolinas end of the code to homework nr 26">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e26_Events/ImportantEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e26_Events/ImportantEvents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e26_Events/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e26_Events/Main.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added examples of local date and adding years or decreasing months and checking the previous date etc">
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/time_and_date/TimeAndDateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/time_and_date/TimeAndDateExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,27 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00170" summary="Reorganizing my packages for easier access">
-      <created>1682535536724</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1682535536724</updated>
-    </task>
-    <task id="LOCAL-00171" summary="Added Mariusz version of car utils">
-      <created>1682536359039</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1682536359039</updated>
-    </task>
-    <task id="LOCAL-00172" summary="Upgraded Vehicle class with exercise 21 with implementations">
-      <created>1682691406280</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1682691406280</updated>
     </task>
     <task id="LOCAL-00173" summary="Changed vehicle class assignment">
       <created>1682697395244</created>
@@ -490,7 +467,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684508210877</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <task id="LOCAL-00219" summary="Added 1 more event">
+      <created>1684508790342</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1684508790342</updated>
+    </task>
+    <task id="LOCAL-00220" summary="Added examples of local date and adding years or decreasing months and checking the previous date etc">
+      <created>1684513138289</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1684513138289</updated>
+    </task>
+    <task id="LOCAL-00221" summary="Added examples of local date and adding years or decreasing months and checking the previous date etc">
+      <created>1684513227977</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1684513227977</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,8 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created basic variation of dictionary" />
-    <MESSAGE value="In process of improving homework with userInput" />
     <MESSAGE value="Custom sample with dictionaries" />
     <MESSAGE value="Custom exsample with dictionaries with user input" />
     <MESSAGE value="Added Mariusz example of dictionary homework" />
@@ -530,7 +526,9 @@
     <MESSAGE value="Created homework nr 26" />
     <MESSAGE value="Created homework nr 26 - important Events" />
     <MESSAGE value="Added Karolinas end of the code to homework nr 26" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Karolinas end of the code to homework nr 26" />
+    <MESSAGE value="Added 1 more event" />
+    <MESSAGE value="Added examples of local date and adding years or decreasing months and checking the previous date etc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added examples of local date and adding years or decreasing months and checking the previous date etc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
