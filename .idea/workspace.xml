@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Comparator for reversed sorted persons based on alphabetical order">
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="House sorting example added">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/ComparingHouseByNumberOfFloors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/HouseComparingByCountry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/HouseProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/AgedReverseOrderOfSortedPersons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/AgedReversedOrderOfSortedPersons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/SortingPersonsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/sorting/SortingPersonsMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortingPersonsMain">
+  <component name="RunManager" selected="Application.HouseProgram">
     <configuration name="BankExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.exceptions.BankExample" />
       <module name="JavaCourse" />
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.exceptions.Main" />
+    <configuration name="HouseProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.sorting.HouseProgram" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.exceptions.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HouseProgram" />
         <item itemvalue="Application.SortingPersonsMain" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e26_Events.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.other_peoples_homeworks.mariusz_examples.e26_events.Main" />
         <item itemvalue="Application.BankExample" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -146,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00177" summary="Created classes for homework nr.22">
-      <created>1683498555869</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1683498555869</updated>
     </task>
     <task id="LOCAL-00178" summary="Created shopping cart with amounts and prices">
       <created>1683500651502</created>
@@ -490,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684519352432</updated>
     </task>
-    <option name="localTasksCounter" value="226" />
+    <task id="LOCAL-00226" summary="compund comparator with methods provided by java: reversed and then comparing">
+      <created>1684520010251</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1684520010251</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,8 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="trying to create userInput in my little LT-LV dictionary" />
-    <MESSAGE value="added getters" />
     <MESSAGE value="Created homework 25 with political map" />
     <MESSAGE value="Updated homework 25 with user input" />
     <MESSAGE value="Improved homework 25 by Mariusz" />
@@ -530,7 +530,9 @@
     <MESSAGE value="Comparator for sorted persons based on age reversed" />
     <MESSAGE value="Comparator for sorted persons based on lexical order" />
     <MESSAGE value="Comparator for reversed sorted persons based on alphabetical order" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comparator for reversed sorted persons based on alphabetical order" />
+    <MESSAGE value="compund comparator with methods provided by java: reversed and then comparing" />
+    <MESSAGE value="House sorting example added" />
+    <option name="LAST_COMMIT_MESSAGE" value="House sorting example added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
