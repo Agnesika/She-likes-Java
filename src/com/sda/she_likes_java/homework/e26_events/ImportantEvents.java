@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework.e26_Events;
+package com.sda.she_likes_java.homework.e26_events;
 
 public enum ImportantEvents {
     GRADUATION(29/02/2006, "Been there-done that, tick the box"),

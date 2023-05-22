@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework.e26_Events;
+package com.sda.she_likes_java.homework.e26_events;
 /*
  * Create an enumeration class named ImportantEvents.
  * The class should contain the following fields:
