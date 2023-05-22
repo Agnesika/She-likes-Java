@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Final classes and methods explained">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/Secret.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/SecretExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/SecretLocker.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Secret exception example">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/DecryptionIssueException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/HSMConnectionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/MyBrokenException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/SecretExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/SecretExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/SecretLocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/SecretLocker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,13 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00182" summary="Set example:&#10;- unordered&#10;- cannot contain duplicates (according to equal() method)">
-      <created>1683568144047</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1683568144047</updated>
     </task>
     <task id="LOCAL-00183" summary="Map example:&#10;- contains values under the keys (value is represented by key)&#10;- any type can be type of the key&#10;- any type can be type of the value">
       <created>1683569319228</created>
@@ -491,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684772537480</updated>
     </task>
-    <option name="localTasksCounter" value="231" />
+    <task id="LOCAL-00231" summary="Secret exception example">
+      <created>1684777545015</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1684777545015</updated>
+    </task>
+    <option name="localTasksCounter" value="232" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -506,7 +508,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created enum examples" />
     <MESSAGE value="added comparison with regular class with the same references and variables" />
     <MESSAGE value="more of enums - hidden classes" />
     <MESSAGE value="Little addition to traditional class in enums" />
@@ -531,7 +532,8 @@
     <MESSAGE value="Created classes for homework 27 and corrected name of  26th." />
     <MESSAGE value="Trying to do the homework" />
     <MESSAGE value="Final classes and methods explained" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final classes and methods explained" />
+    <MESSAGE value="Secret exception example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Secret exception example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -19,5 +19,16 @@ public class SecretExample {
             e.printStackTrace();
         }
         System.out.println("After problematic source code");
+
+        System.out.println();
+        System.out.println("Let's play again with our own exceptions");
+        try {
+            Secret stupidSecret = secretStorage.decrypt();
+        } catch (HSMConnectionException e) {
+            System.out.println("Connection issue: " + e.getMessage());
+        } catch (DecryptionIssueException e) {
+            System.out.println("Cannot decrypt enemy's secret: " + e.getMessage());
+        }
+
     }
 }
