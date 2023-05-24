@@ -9,10 +9,14 @@ public class Main {
 
         List<MyDate> myDates = new ArrayList<>();
         myDates.add(new MyDate(20, 12, 1989));
-        myDates.add(new MyDate(11, 8, 1982));
-        myDates.add(new MyDate(24, 1, 1982));
+        myDates.add(new MyDate(11, 12, 1982));
+        myDates.add(new MyDate(6, 1, 1982));
         myDates.add(new MyDate(6, 6, 2001));
         Collections.sort(myDates);
         System.out.println("Sorted by natural way " + myDates);
+//        Collections.sort(myDates,
+//                new FullDateSort().(myDates));
+//        System.out.println("Dates sorted by year and compared by month: " + myDates);
+
     }
 }

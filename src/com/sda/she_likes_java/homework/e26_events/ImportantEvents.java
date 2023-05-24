@@ -1,5 +1,7 @@
 package com.sda.she_likes_java.homework.e26_events;
 
+import java.time.LocalDate;
+
 public enum ImportantEvents {
     GRADUATION(29/02/2006, "Been there-done that, tick the box"),
     SUMMER_SOLSTICE(21/06/2023, "Yes! That's the way, aha-aha, I like it"),
@@ -8,10 +10,10 @@ public enum ImportantEvents {
     BIRTHDAY (18/05/2023, "Every year the same over and over again :D ");
 
 
-    int eventDate;
+    LocalDate eventDate;
     String description;
 
-    public int getEventDate() {
+    public LocalDate getEventDate() {
         return eventDate;
     }
 
@@ -20,7 +22,7 @@ public enum ImportantEvents {
     }
 
     ImportantEvents(int eventDate, String description) {
-        this.eventDate = eventDate;
+        this.eventDate = LocalDate.ofEpochDay(eventDate);
         this.description = description;
     }
 }

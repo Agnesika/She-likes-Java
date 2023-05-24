@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="catch all example">
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/SecretExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/SecretExample.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Generic exceptions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e26_events/ImportantEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e26_events/ImportantEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e27_my_date/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e27_my_date/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e27_my_date/MyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e27_my_date/MyDate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SecretExample">
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e27_my_date.Main">
     <configuration name="HouseProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.sorting.HouseProgram" />
       <module name="JavaCourse" />
@@ -128,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SecretExample" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e27_my_date.Main" />
+        <item itemvalue="Application.com.sda.she_likes_java.homework.e26_Events.Main" />
+        <item itemvalue="Application.SecretExample" />
         <item itemvalue="Application.HouseProgram" />
         <item itemvalue="Application.SortingPersonsMain" />
-        <item itemvalue="Application.com.sda.she_likes_java.homework.e26_Events.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -144,13 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00185" summary="Added Mariusz's example of shopping cart">
-      <created>1683578497127</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1683578497127</updated>
     </task>
     <task id="LOCAL-00186" summary="Created classes for exercise 23">
       <created>1683667081811</created>
@@ -488,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684779946039</updated>
     </task>
-    <option name="localTasksCounter" value="234" />
+    <task id="LOCAL-00234" summary="Generic exceptions">
+      <created>1684780417033</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1684780417034</updated>
+    </task>
+    <option name="localTasksCounter" value="235" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Little addition to traditional class in enums" />
     <MESSAGE value="added Mariusz's homework nr 25" />
     <MESSAGE value="Sorting introduction" />
     <MESSAGE value="Natural sorting for sorted person based on implementing Comparable interface" />
@@ -528,7 +530,8 @@
     <MESSAGE value="Secret exception example" />
     <MESSAGE value="examples with custom exceptions" />
     <MESSAGE value="catch all example" />
-    <option name="LAST_COMMIT_MESSAGE" value="catch all example" />
+    <MESSAGE value="Generic exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generic exceptions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -550,7 +553,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/SecretExample.java</url>
           <line>14</line>
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
