@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Updated event homework with local date and kind a improved homework Nr. 27.">
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Mariusz example of  homework 29 with postal codes added">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/DatabaseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +47,17 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sda.she_likes_java.enumerable" />
@@ -60,7 +67,7 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e27_my_date.Main">
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.database.Main">
     <configuration name="HouseProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.sorting.HouseProgram" />
       <module name="JavaCourse" />
@@ -100,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingPersonsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.sorting.SortingPersonsMain" />
+    <configuration name="com.sda.she_likes_java.database.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.database.Main" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.sorting.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.database.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.sda.she_likes_java.database.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e27_my_date.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e26_Events.Main" />
         <item itemvalue="Application.SecretExample" />
         <item itemvalue="Application.HouseProgram" />
-        <item itemvalue="Application.SortingPersonsMain" />
       </list>
     </recent_temporary>
   </component>
@@ -144,13 +151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00187" summary="Created homework with journal">
-      <created>1683736102849</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1683736102849</updated>
     </task>
     <task id="LOCAL-00188" summary="Created another List example">
       <created>1683737020359</created>
@@ -488,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684941787603</updated>
     </task>
-    <option name="localTasksCounter" value="236" />
+    <task id="LOCAL-00236" summary="Mariusz example of  homework 29 with postal codes added">
+      <created>1684946814239</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1684946814239</updated>
+    </task>
+    <option name="localTasksCounter" value="237" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +510,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sorting introduction" />
     <MESSAGE value="Natural sorting for sorted person based on implementing Comparable interface" />
     <MESSAGE value="Exception examples" />
     <MESSAGE value="Exception examples with corrected paste issue" />
@@ -528,7 +534,8 @@
     <MESSAGE value="catch all example" />
     <MESSAGE value="Generic exceptions" />
     <MESSAGE value="Updated event homework with local date and kind a improved homework Nr. 27." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated event homework with local date and kind a improved homework Nr. 27." />
+    <MESSAGE value="Mariusz example of  homework 29 with postal codes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mariusz example of  homework 29 with postal codes added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
