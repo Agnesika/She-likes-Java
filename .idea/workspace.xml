@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="trying to make it work with external Comparator">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/TestRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/TestRecordProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/TestRecordRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/DatabaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/DatabaseUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e27_my_date/ComparingMyDateByMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e27_my_date/ComparingMyDateByMonth.java" afterDir="false" />
-    </list>
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="App for getting data from test DB - almost working" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,9 +43,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -152,13 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00192" summary="Adding name to existing list. List examples expanding">
-      <created>1683739772240</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1683739772240</updated>
     </task>
     <task id="LOCAL-00193" summary="Find person by name example added">
       <created>1683741806518</created>
@@ -496,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685114422577</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="App for getting data from test DB - almost working">
+      <created>1685126021644</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1685126021644</updated>
+    </task>
+    <option name="localTasksCounter" value="242" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +508,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Just little correction of class names" />
     <MESSAGE value="Created homework nr 26" />
     <MESSAGE value="Created homework nr 26 - important Events" />
     <MESSAGE value="Added Karolinas end of the code to homework nr 26" />
@@ -536,7 +532,8 @@
     <MESSAGE value="created homework Nr. 28 - sorting by name length" />
     <MESSAGE value="created homework Nr. 28 - sorting by name length, it's working with the help of chatGPT" />
     <MESSAGE value="trying to make it work with external Comparator" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to make it work with external Comparator" />
+    <MESSAGE value="App for getting data from test DB - almost working" />
+    <option name="LAST_COMMIT_MESSAGE" value="App for getting data from test DB - almost working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
