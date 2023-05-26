@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="created homework Nr. 28 - sorting by name length">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/NameLength.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="created homework Nr. 28 - sorting by name length, it's working with the help of chatGPT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/ShoppingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/ShoppingList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/NameLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/NameLength.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,13 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00190" summary="Created another List example">
-      <created>1683737135370</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1683737135370</updated>
     </task>
     <task id="LOCAL-00191" summary="Added list with semicolons">
       <created>1683738426110</created>
@@ -494,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685109436314</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="created homework Nr. 28 - sorting by name length, it's working with the help of chatGPT">
+      <created>1685112635567</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1685112635567</updated>
+    </task>
+    <option name="localTasksCounter" value="240" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,7 +508,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exception examples with corrected paste issue" />
     <MESSAGE value="Added Mariusz's solution of homework 26" />
     <MESSAGE value="Just little correction of class names" />
     <MESSAGE value="Created homework nr 26" />
@@ -534,7 +532,8 @@
     <MESSAGE value="Mariusz example of  homework 29 with postal codes added" />
     <MESSAGE value="SQL databases explained and sampled the codes" />
     <MESSAGE value="created homework Nr. 28 - sorting by name length" />
-    <option name="LAST_COMMIT_MESSAGE" value="created homework Nr. 28 - sorting by name length" />
+    <MESSAGE value="created homework Nr. 28 - sorting by name length, it's working with the help of chatGPT" />
+    <option name="LAST_COMMIT_MESSAGE" value="created homework Nr. 28 - sorting by name length, it's working with the help of chatGPT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
