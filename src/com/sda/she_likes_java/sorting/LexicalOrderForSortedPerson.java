@@ -8,7 +8,7 @@ public class LexicalOrderForSortedPerson implements Comparator<SortedPerson> {
         String name1 = o1.getName();
         String name2 = o2.getName();
 //        return o1.getName().compareTo(o2.getName());
-        //reusing natural order of sortin
+        //reusing natural order of sorting
         return name1.compareTo(name2);
     }
 }
