@@ -9,7 +9,7 @@ public class ShoppingList {
         this.products = products;
     }
 
-    public String getProducts() {
+    public String getProducts(String s) {
         return products;
     }
 
