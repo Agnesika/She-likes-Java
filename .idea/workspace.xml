@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added student database">
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added student database file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/DatabaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/DatabaseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/TestRecordProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/TestRecordProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/TestRecordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/TestRecordRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00195" summary="Created basic variation of dictionary">
-      <created>1683904480421</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1683904480422</updated>
     </task>
     <task id="LOCAL-00196" summary="In process of improving homework with userInput">
       <created>1683909397381</created>
@@ -499,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685379784327</updated>
     </task>
-    <option name="localTasksCounter" value="244" />
+    <task id="LOCAL-00244" summary="Added student database file">
+      <created>1685382367903</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1685382367903</updated>
+    </task>
+    <option name="localTasksCounter" value="245" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -514,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Karolinas end of the code to homework nr 26" />
     <MESSAGE value="Added 1 more event" />
     <MESSAGE value="Added examples of local date and adding years or decreasing months and checking the previous date etc" />
     <MESSAGE value="Comparator for sorted persons based on age reversed" />
@@ -539,7 +539,8 @@
     <MESSAGE value="App for getting data from test DB - almost working" />
     <MESSAGE value="Adding H2 Jar" />
     <MESSAGE value="Added student database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added student database" />
+    <MESSAGE value="Added student database file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added student database file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
