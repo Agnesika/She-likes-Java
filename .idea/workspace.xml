@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added student database">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e30_database_entry/student.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/NameLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/NameLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/ShoppingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/DatabaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/DatabaseUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +71,7 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e28_shopping_list.Main">
+  <component name="RunManager" selected="Application.TestRecordProgram">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e28_shopping_list.Main" />
       <module name="JavaCourse" />
@@ -142,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.sda.she_likes_java.homework.e28_shopping_list.Main" />
         <item itemvalue="Application.TestRecordProgram" />
+        <item itemvalue="Application.com.sda.she_likes_java.homework.e28_shopping_list.Main" />
         <item itemvalue="Application.SimpleArraySorting" />
         <item itemvalue="Application.com.sda.she_likes_java.database.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e27_my_date.Main" />
@@ -158,13 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00194" summary="Maps example with extracting valudes out of lists">
-      <created>1683744003123</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1683744003123</updated>
     </task>
     <task id="LOCAL-00195" summary="Created basic variation of dictionary">
       <created>1683904480421</created>
@@ -502,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685126428450</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <task id="LOCAL-00243" summary="Added student database">
+      <created>1685379784327</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1685379784327</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
