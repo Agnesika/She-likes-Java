@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="App for getting data from test DB - almost working" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Added student database">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e30_database_entry/student.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/NameLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/NameLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/ShoppingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/Product.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +63,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.sda.she_likes_java.homework.e28_shopping_list" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sda.she_likes_java.enumerable" />
       <recent name="com.sda.she_likes_java.visibility.private_modifier.main" />
@@ -65,7 +74,20 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestRecordProgram">
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e28_shopping_list.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e28_shopping_list.Main" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.e28_shopping_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleArraySorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.sorting.SimpleArraySorting" />
       <module name="JavaCourse" />
@@ -118,23 +140,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.sda.she_likes_java.homework.e28_shopping_list.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e28_shopping_list.Main" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.e28_shopping_list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestRecordProgram" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e28_shopping_list.Main" />
+        <item itemvalue="Application.TestRecordProgram" />
         <item itemvalue="Application.SimpleArraySorting" />
         <item itemvalue="Application.com.sda.she_likes_java.database.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e27_my_date.Main" />
@@ -149,13 +158,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00193" summary="Find person by name example added">
-      <created>1683741806518</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1683741806518</updated>
     </task>
     <task id="LOCAL-00194" summary="Maps example with extracting valudes out of lists">
       <created>1683744003123</created>
@@ -493,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685126021644</updated>
     </task>
-    <option name="localTasksCounter" value="242" />
+    <task id="LOCAL-00242" summary="Adding H2 Jar">
+      <created>1685126428450</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1685126428450</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,8 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created homework nr 26" />
-    <MESSAGE value="Created homework nr 26 - important Events" />
     <MESSAGE value="Added Karolinas end of the code to homework nr 26" />
     <MESSAGE value="Added 1 more event" />
     <MESSAGE value="Added examples of local date and adding years or decreasing months and checking the previous date etc" />
@@ -533,7 +540,9 @@
     <MESSAGE value="created homework Nr. 28 - sorting by name length, it's working with the help of chatGPT" />
     <MESSAGE value="trying to make it work with external Comparator" />
     <MESSAGE value="App for getting data from test DB - almost working" />
-    <option name="LAST_COMMIT_MESSAGE" value="App for getting data from test DB - almost working" />
+    <MESSAGE value="Adding H2 Jar" />
+    <MESSAGE value="Added student database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added student database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

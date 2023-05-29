@@ -1,10 +1,8 @@
 package com.sda.she_likes_java.homework.e28_shopping_list;
 
-import java.util.Comparator;
-
 //import static com.sun.tools.classfile.Module_attribute.ProvidesEntry.length;
 
-public class NameLength implements Comparator<ShoppingList> {
+//public class NameLength implements Comparator<Product> {
 
 
     //    @Override
@@ -16,12 +14,31 @@ public class NameLength implements Comparator<ShoppingList> {
 
 //        }
 
-        @Override
-        public int compare (ShoppingList o1, ShoppingList o2){
-            boolean length = false;
-            String products1 = o1.getProducts(String.valueOf(length));
-            String products2 = o2.getProducts(String.valueOf(length));
-            return Integer.compare(products1.length(), products2.length());
-        }
-    }
+//        @Override
+//        public int compare (ShoppingList o1, ShoppingList o2){
+//            boolean length = false;
+//            String products1 = o1.getProducts(String.valueOf(length));
+//            String products2 = o2.getProducts(String.valueOf(length));
+//            return Integer.compare(products1.length(), products2.length());
+//        }
+
+//    @Override
+//    public int compare(Product o1, Product o2) {
+//        boolean length = false;
+
+//        String product1 = o1.getProduct();
+//        String product2 = o2.getProduct();
+//        return Integer.compare(product1.length(), product2.length());
+
+//    @Override
+//    public int compare(Product o1, Product o2) {
+//        return 0;
+//    }
+//    }
+
+
+
+
+//}
+
 

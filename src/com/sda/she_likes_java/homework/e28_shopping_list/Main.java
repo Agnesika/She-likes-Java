@@ -2,7 +2,6 @@ package com.sda.she_likes_java.homework.e28_shopping_list;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -15,7 +14,10 @@ public class Main {
         products.add("coffee");
         products.add("chocolate");
         products.add("detergent");
-        Collections.sort(products, Comparator.comparingInt(String::length));
+        products.add("egg");
+        products.add("candle");
+        //, Comparator.comparingInt(String::length)
+        Collections.sort(products);
         System.out.println("Sorted names: " + products);
 
     }
