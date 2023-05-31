@@ -24,20 +24,19 @@ package com.sda.she_likes_java.homework.e28_shopping_list;
 
 //    @Override
 //    public int compare(Product o1, Product o2) {
-//        boolean length = false;
-
+////        boolean length = false;
+//
 //        String product1 = o1.getProduct();
 //        String product2 = o2.getProduct();
 //        return Integer.compare(product1.length(), product2.length());
+//        return product1.length().compareTo(product2.length());
+//        return product1; Comparator.comparingInt(String::length);
 
 //    @Override
 //    public int compare(Product o1, Product o2) {
 //        return 0;
 //    }
 //    }
-
-
-
 
 //}
 
