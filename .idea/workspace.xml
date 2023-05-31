@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Trial of homework 28">
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="sql script modification - autoincrement for id column">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/AccentureStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database_in_memory/DbConnectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database_in_memory/DbCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database_in_memory/DbInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database_in_memory/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/DatabaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/DatabaseUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e30_database_entry/student.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e30_database_entry/student.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +75,7 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.com.sda.she_likes_java.database_in_memory.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e28_shopping_list.Main" />
       <module name="JavaCourse" />
@@ -104,7 +107,7 @@
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.database.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.database_in_memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,7 +120,7 @@
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.database.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.database_in_memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.sda.she_likes_java.homework.e27_my_date.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e27_my_date.Main" />
+    <configuration name="com.sda.she_likes_java.database_in_memory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.database_in_memory.Main" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.e27_my_date.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.database_in_memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.sda.she_likes_java.database_in_memory.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestRecordProgram" />
         <item itemvalue="Application.SimpleArraySorting" />
         <item itemvalue="Application.com.sda.she_likes_java.database.Main" />
-        <item itemvalue="Application.com.sda.she_likes_java.homework.e27_my_date.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -156,13 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00200" summary="trying to create userInput in my little LT-LV dictionary">
-      <created>1684331919041</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1684331919041</updated>
     </task>
     <task id="LOCAL-00201" summary="added getters">
       <created>1684332414325</created>
@@ -500,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685548050072</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="sql script modification - autoincrement for id column">
+      <created>1685550826109</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1685550826109</updated>
+    </task>
+    <option name="localTasksCounter" value="250" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Comparator for reversed sorted persons based on alphabetical order" />
     <MESSAGE value="compund comparator with methods provided by java: reversed and then comparing" />
     <MESSAGE value="House sorting example added" />
     <MESSAGE value="House sorting example added1" />
@@ -540,7 +542,8 @@
     <MESSAGE value="Updated test database with connecting to sql from Java" />
     <MESSAGE value="Updated test database with connecting to sql from Java1" />
     <MESSAGE value="Trial of homework 28" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trial of homework 28" />
+    <MESSAGE value="sql script modification - autoincrement for id column" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql script modification - autoincrement for id column" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
