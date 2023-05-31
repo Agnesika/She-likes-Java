@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Updated test database with connecting to sql">
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Updated test database with connecting to sql from Java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/TestRecordProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database/TestRecordProgram.java" afterDir="false" />
     </list>
@@ -155,13 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00197" summary="Custom sample with dictionaries">
-      <created>1683913669543</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1683913669544</updated>
     </task>
     <task id="LOCAL-00198" summary="Custom exsample with dictionaries with user input">
       <created>1683915513852</created>
@@ -499,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685384136446</updated>
     </task>
-    <option name="localTasksCounter" value="246" />
+    <task id="LOCAL-00246" summary="Updated test database with connecting to sql from Java">
+      <created>1685384943102</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1685384943102</updated>
+    </task>
+    <option name="localTasksCounter" value="247" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -514,7 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added examples of local date and adding years or decreasing months and checking the previous date etc" />
     <MESSAGE value="Comparator for sorted persons based on age reversed" />
     <MESSAGE value="Comparator for sorted persons based on lexical order" />
     <MESSAGE value="Comparator for reversed sorted persons based on alphabetical order" />
@@ -539,7 +538,8 @@
     <MESSAGE value="Added student database" />
     <MESSAGE value="Added student database file" />
     <MESSAGE value="Updated test database with connecting to sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated test database with connecting to sql" />
+    <MESSAGE value="Updated test database with connecting to sql from Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated test database with connecting to sql from Java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
