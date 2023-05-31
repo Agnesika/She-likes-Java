@@ -29,6 +29,8 @@ public class DatabaseUtils {
      * FROM TEST
      * WHERE ID=4
      *
+     * select * from STUDENTS
+     *
      */
 
     // handle internally
