@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.database;
+package com.sda.she_likes_java.database_in_memory;
 
 public class AccentureStudent {
 
