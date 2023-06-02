@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Read all students implemented">
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Finished homework 27 with looking at Mariusz example, still confused with 28th.">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/TryWithFinally.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e27_my_date/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e27_my_date/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e27_my_date/MyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e27_my_date/MyDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/NameLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/homework/e28_shopping_list/NameLength.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.sda.she_likes_java.homework.e27_my_date.Main">
+  <component name="RunManager" selected="Application.TryWithFinally">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e28_shopping_list.Main" />
       <module name="JavaCourse" />
@@ -93,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleArraySorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.sorting.SimpleArraySorting" />
+    <configuration name="TestRecordProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.database.TestRecordProgram" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.sorting.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.database_in_memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRecordProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.database.TestRecordProgram" />
+    <configuration name="TryWithFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.exceptions.TryWithFinally" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.database_in_memory.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TryWithFinally" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e27_my_date.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.database_in_memory.Main" />
         <item itemvalue="Application.TestRecordProgram" />
-        <item itemvalue="Application.SimpleArraySorting" />
       </list>
     </recent_temporary>
   </component>
@@ -163,13 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00204" summary="Improved homework 25 by Mariusz">
-      <created>1684341305982</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1684341305982</updated>
     </task>
     <task id="LOCAL-00205" summary="ternary operator example">
       <created>1684343345074</created>
@@ -507,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685558047262</updated>
     </task>
-    <option name="localTasksCounter" value="253" />
+    <task id="LOCAL-00253" summary="Finished homework 27 with looking at Mariusz example, still confused with 28th.">
+      <created>1685717429295</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1685717429295</updated>
+    </task>
+    <option name="localTasksCounter" value="254" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,7 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created classes for homework 27 and corrected name of  26th." />
     <MESSAGE value="Trying to do the homework" />
     <MESSAGE value="Final classes and methods explained" />
     <MESSAGE value="Secret exception example" />
@@ -547,7 +543,8 @@
     <MESSAGE value="h2 in memory - example started" />
     <MESSAGE value="CRUD repository for AccentureStudent" />
     <MESSAGE value="Read all students implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Read all students implemented" />
+    <MESSAGE value="Finished homework 27 with looking at Mariusz example, still confused with 28th." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished homework 27 with looking at Mariusz example, still confused with 28th." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
