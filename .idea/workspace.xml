@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Trying to close connection ugly way">
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Try with resources example">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/MyRuntimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/RuntimeExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/database_in_memory/ClosingDbConnectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database_in_memory/ClosingDbConnectionExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -76,7 +77,7 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClosingDbConnectionExample">
+  <component name="RunManager" selected="Application.RuntimeExample">
     <configuration name="ClosingDbConnectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.database_in_memory.ClosingDbConnectionExample" />
       <module name="JavaCourse" />
@@ -103,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryWithFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.exceptions.TryWithFinally" />
+    <configuration name="RuntimeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.exceptions.RuntimeExample" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
@@ -116,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.sda.she_likes_java.database_in_memory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.database_in_memory.Main" />
+    <configuration name="TryWithFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.exceptions.TryWithFinally" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.database_in_memory.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RuntimeExample" />
         <item itemvalue="Application.ClosingDbConnectionExample" />
         <item itemvalue="Application.TryWithFinally" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e27_my_date.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.sda.she_likes_java.database_in_memory.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -160,13 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00207" summary="added comparison with regular class with the same references and variables">
-      <created>1684347702778</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1684347702778</updated>
     </task>
     <task id="LOCAL-00208" summary="more of enums - hidden classes">
       <created>1684348752551</created>
@@ -504,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685723496789</updated>
     </task>
-    <option name="localTasksCounter" value="256" />
+    <task id="LOCAL-00256" summary="Try with resources example">
+      <created>1685725064415</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1685725064415</updated>
+    </task>
+    <option name="localTasksCounter" value="257" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Secret exception example" />
     <MESSAGE value="examples with custom exceptions" />
     <MESSAGE value="catch all example" />
     <MESSAGE value="Generic exceptions" />
@@ -544,7 +544,8 @@
     <MESSAGE value="Finished homework 27 with looking at Mariusz example, still confused with 28th." />
     <MESSAGE value="Try-catch-finally explained" />
     <MESSAGE value="Trying to close connection ugly way" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to close connection ugly way" />
+    <MESSAGE value="Try with resources example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try with resources example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
