@@ -14,13 +14,18 @@ package com.sda.she_likes_java.homework.e28_shopping_list;
 
 //        }
 
-//        @Override
+    //        @Override
 //        public int compare (ShoppingList o1, ShoppingList o2){
 //            boolean length = false;
 //            String products1 = o1.getProducts(String.valueOf(length));
 //            String products2 = o2.getProducts(String.valueOf(length));
 //            return Integer.compare(products1.length(), products2.length());
 //        }
+//    @Override
+//    public int compare(String o1, String o2) {
+//        return o1.length() - o2.length();
+//    }
+
 
 //    @Override
 //    public int compare(Product o1, Product o2) {
@@ -36,7 +41,7 @@ package com.sda.she_likes_java.homework.e28_shopping_list;
 //    public int compare(Product o1, Product o2) {
 //        return 0;
 //    }
-//    }
+//}
 
 //}
 

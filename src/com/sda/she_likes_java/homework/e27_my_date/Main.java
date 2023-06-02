@@ -8,10 +8,10 @@ public class Main {
     public static void main(String[] args) {
 
         List<MyDate> myDates = new ArrayList<>();
-        myDates.add(new MyDate(20, 12, 1989));
-        myDates.add(new MyDate(11, 12, 1982));
-        myDates.add(new MyDate(6, 1, 1982));
-        myDates.add(new MyDate(6, 6, 2001));
+        myDates.add(new MyDate(1989, 12, 20));
+        myDates.add(new MyDate(1982, 12, 11));
+        myDates.add(new MyDate(1982, 1, 6));
+        myDates.add(new MyDate(2001, 6, 6));
         Collections.sort(myDates);
         System.out.println("Sorted by natural way " + myDates);
 //        Collections.sort(myDates,

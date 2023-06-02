@@ -17,7 +17,7 @@ public class MyDate implements Comparable<MyDate> {
     private int month;
     private int date;
 
-    public MyDate(int date, int month, int year) {
+    public MyDate(int year, int month, int date) {
         this.year = year;
         this.month = month;
         this.date = date;
@@ -48,13 +48,15 @@ public class MyDate implements Comparable<MyDate> {
         return Objects.hash(year, month, date);
     }
 
-    @Override
+//    @Override
     public int compareTo(MyDate o) {
         System.out.println("Called by Java");
-        if (year < o.getYear() && month < o.getMonth()) {
-            return -1;
-        } else if (year > o.getYear() && month < o.getMonth()) {
-            return 1;
+        if (year != o.getYear()) {
+            return Integer.compare(year, o.year);
+        } else if (month != o.getMonth()) {
+            return Integer.compare(month, o.month);
+        } else if (date != o.getDate()) {
+            return Integer.compare(date, o.date);
         } else {
             return 0;
         }
