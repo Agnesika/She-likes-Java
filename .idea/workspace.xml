@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Finished homework 27 with looking at Mariusz example, still confused with 28th.">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/TryWithFinally.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Try-catch-finally explained">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database_in_memory/ClosingDbConnectionExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/database_in_memory/DbConnectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/database_in_memory/DbConnectionUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +77,13 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TryWithFinally">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e28_shopping_list.Main" />
+  <component name="RunManager" selected="Application.ClosingDbConnectionExample">
+    <configuration name="ClosingDbConnectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.database_in_memory.ClosingDbConnectionExample" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.e28_shopping_list.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.database_in_memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRecordProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.database.TestRecordProgram" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e28_shopping_list.Main" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.database_in_memory.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.homework.e28_shopping_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClosingDbConnectionExample" />
         <item itemvalue="Application.TryWithFinally" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e27_my_date.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.sda.she_likes_java.database_in_memory.Main" />
-        <item itemvalue="Application.TestRecordProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -160,13 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00205" summary="ternary operator example">
-      <created>1684343345074</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1684343345074</updated>
     </task>
     <task id="LOCAL-00206" summary="created enum examples">
       <created>1684347492408</created>
@@ -504,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685717429295</updated>
     </task>
-    <option name="localTasksCounter" value="254" />
+    <task id="LOCAL-00254" summary="Try-catch-finally explained">
+      <created>1685721764495</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1685721764495</updated>
+    </task>
+    <option name="localTasksCounter" value="255" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Trying to do the homework" />
     <MESSAGE value="Final classes and methods explained" />
     <MESSAGE value="Secret exception example" />
     <MESSAGE value="examples with custom exceptions" />
@@ -544,7 +544,8 @@
     <MESSAGE value="CRUD repository for AccentureStudent" />
     <MESSAGE value="Read all students implemented" />
     <MESSAGE value="Finished homework 27 with looking at Mariusz example, still confused with 28th." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished homework 27 with looking at Mariusz example, still confused with 28th." />
+    <MESSAGE value="Try-catch-finally explained" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try-catch-finally explained" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
