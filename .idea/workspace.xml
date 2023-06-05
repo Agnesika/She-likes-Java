@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Lambda - default methods">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/Walker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/LambdaExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/LambdaExercises.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Lambda - with many parameters  - examples + Comparator">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/optional/OptionalExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,7 +76,7 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaExercises">
+  <component name="RunManager" selected="Application.OptionalExample">
     <configuration name="ClosingDbConnectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.database_in_memory.ClosingDbConnectionExample" />
       <module name="JavaCourse" />
@@ -97,6 +96,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sda.she_likes_java.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.optional.OptionalExample" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sda.she_likes_java.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,26 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.sda.she_likes_java.homework.e27_my_date.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e27_my_date.Main" />
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.e27_my_date.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptionalExample" />
         <item itemvalue="Application.LambdaExercises" />
         <item itemvalue="Application.RuntimeExample" />
         <item itemvalue="Application.ClosingDbConnectionExample" />
         <item itemvalue="Application.TryWithFinally" />
-        <item itemvalue="Application.com.sda.she_likes_java.homework.e27_my_date.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -161,13 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00213" summary="Exception examples">
-      <created>1684435528576</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1684435528576</updated>
     </task>
     <task id="LOCAL-00214" summary="Exception examples with corrected paste issue">
       <created>1684435597837</created>
@@ -505,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685985245019</updated>
     </task>
-    <option name="localTasksCounter" value="262" />
+    <task id="LOCAL-00262" summary="Lambda - with many parameters  - examples + Comparator">
+      <created>1685988603992</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1685988603992</updated>
+    </task>
+    <option name="localTasksCounter" value="263" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SQL databases explained and sampled the codes" />
     <MESSAGE value="created homework Nr. 28 - sorting by name length" />
     <MESSAGE value="created homework Nr. 28 - sorting by name length, it's working with the help of chatGPT" />
     <MESSAGE value="trying to make it work with external Comparator" />
@@ -545,7 +543,8 @@
     <MESSAGE value="Insert or student almost completed" />
     <MESSAGE value="Lambda - introduction" />
     <MESSAGE value="Lambda - default methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda - default methods" />
+    <MESSAGE value="Lambda - with many parameters  - examples + Comparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda - with many parameters  - examples + Comparator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
