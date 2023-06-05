@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Lambda - introduction">
-      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/Jogging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/Jogging.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Lambda - default methods">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/Walker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/LambdaExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/LambdaExercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -159,13 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00212" summary="Natural sorting for sorted person based on implementing Comparable interface">
-      <created>1684430626348</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1684430626348</updated>
     </task>
     <task id="LOCAL-00213" summary="Exception examples">
       <created>1684435528576</created>
@@ -503,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685984199647</updated>
     </task>
-    <option name="localTasksCounter" value="261" />
+    <task id="LOCAL-00261" summary="Lambda - default methods">
+      <created>1685985245019</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1685985245019</updated>
+    </task>
+    <option name="localTasksCounter" value="262" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -518,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Mariusz example of  homework 29 with postal codes added" />
     <MESSAGE value="SQL databases explained and sampled the codes" />
     <MESSAGE value="created homework Nr. 28 - sorting by name length" />
     <MESSAGE value="created homework Nr. 28 - sorting by name length, it's working with the help of chatGPT" />
@@ -543,7 +544,8 @@
     <MESSAGE value="Database transactions explained" />
     <MESSAGE value="Insert or student almost completed" />
     <MESSAGE value="Lambda - introduction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda - introduction" />
+    <MESSAGE value="Lambda - default methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda - default methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
