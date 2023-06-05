@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Try with resources example">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/MyRuntimeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/exceptions/RuntimeExample.java" afterDir="false" />
+    <list default="true" id="7a5cbf48-97c6-47ed-aa58-19fd7a152a48" name="Changes" comment="Insert or student almost completed">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/FastRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/Jogging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/LambdaExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/she_likes_java/lambda/SlowRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +79,7 @@
       <recent name="com.sda.she_likes_java.homework.other_peoples_homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RuntimeExample">
+  <component name="RunManager" selected="Application.LambdaExercises">
     <configuration name="ClosingDbConnectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.database_in_memory.ClosingDbConnectionExample" />
       <module name="JavaCourse" />
@@ -91,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.homework.e28_shopping_list.Main" />
+    <configuration name="LambdaExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sda.she_likes_java.lambda.LambdaExercises" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sda.she_likes_java.homework.e28_shopping_list.*" />
+          <option name="PATTERN" value="com.sda.she_likes_java.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaExercises" />
         <item itemvalue="Application.RuntimeExample" />
         <item itemvalue="Application.ClosingDbConnectionExample" />
         <item itemvalue="Application.TryWithFinally" />
         <item itemvalue="Application.com.sda.she_likes_java.homework.e27_my_date.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -161,27 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678114667647</updated>
-    </task>
-    <task id="LOCAL-00208" summary="more of enums - hidden classes">
-      <created>1684348752551</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1684348752551</updated>
-    </task>
-    <task id="LOCAL-00209" summary="Little addition to traditional class in enums">
-      <created>1684350417818</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1684350417818</updated>
-    </task>
-    <task id="LOCAL-00210" summary="added Mariusz's homework nr 25">
-      <created>1684350612616</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1684350612616</updated>
     </task>
     <task id="LOCAL-00211" summary="Sorting introduction">
       <created>1684426253672</created>
@@ -505,7 +486,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685725064415</updated>
     </task>
-    <option name="localTasksCounter" value="257" />
+    <task id="LOCAL-00257" summary="Runtime exceptions (unchecked) vs checked ones">
+      <created>1685727717118</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1685727717118</updated>
+    </task>
+    <task id="LOCAL-00258" summary="Database transactions explained">
+      <created>1685728820971</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1685728820971</updated>
+    </task>
+    <task id="LOCAL-00259" summary="Insert or student almost completed">
+      <created>1685730857788</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1685730857788</updated>
+    </task>
+    <option name="localTasksCounter" value="260" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,9 +522,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="examples with custom exceptions" />
-    <MESSAGE value="catch all example" />
-    <MESSAGE value="Generic exceptions" />
     <MESSAGE value="Updated event homework with local date and kind a improved homework Nr. 27." />
     <MESSAGE value="Mariusz example of  homework 29 with postal codes added" />
     <MESSAGE value="SQL databases explained and sampled the codes" />
@@ -545,7 +544,10 @@
     <MESSAGE value="Try-catch-finally explained" />
     <MESSAGE value="Trying to close connection ugly way" />
     <MESSAGE value="Try with resources example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Try with resources example" />
+    <MESSAGE value="Runtime exceptions (unchecked) vs checked ones" />
+    <MESSAGE value="Database transactions explained" />
+    <MESSAGE value="Insert or student almost completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insert or student almost completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
