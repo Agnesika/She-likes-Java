@@ -37,6 +37,21 @@ public class Product {
                 '}';
     }
 
+//    @Override
+//    public int compareTo(Product o) {
+//        String product1 = o1.getProduct();
+//        String product2 = o2.getProduct();
+//        if (product < o.getProducts(String)) {
+//            return -1;
+//        } else if (product > o.getProducts(String)) {
+//            return 1;
+//        } else {
+//            return 0;
+//        }
+    }
+
+
+
 //    public String getProduct() {
 //    return product;
 //    }
@@ -44,4 +59,4 @@ public class Product {
 //    public <T> Comparable<T> product() {
 //    return product;
 //    }
-}
+//}
