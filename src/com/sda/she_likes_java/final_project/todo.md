@@ -1,5 +1,5 @@
 ### Car lease
-Words highlighted _like this_ are classes and **like this** are methods
+// Words formatted _like this_ are classes and **like this** are methods
 - See all _cars_
 - See available cars
 - See rental cars
