@@ -3,8 +3,8 @@
 - See all _cars_
 - See available cars
 - See rental cars
-- Register new user
-  - limiting access if user is not experienced driver
+- X Register new user
+  - X limiting access if user is not experienced driver
 - Renting car feature
   - filtering **based** on _user_ input
 - _Calendar_ with all events
