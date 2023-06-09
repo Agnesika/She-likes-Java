@@ -13,9 +13,5 @@ public class BookingApplication {
 
     }
 
-    public void bookCar() {
-        System.out.println("New car booking");
 
-
-    }
 }
